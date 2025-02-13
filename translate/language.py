@@ -7,12 +7,12 @@ import requests
 # }'
 # with the question and language, return the translated question
 class Language:
-  def translate(prompt: str, language: str, model: str = "llama3.1") -> str:
+  def translate(prompt: str, lang: str, model: str = "llama3.2") -> str:
     response = requests.post(
       "http://localhost:11434/api/generate",
       json={
       "model": model, 
-      "prompt": f"Translate the following prompt to {language}. DO NOT change the meaning of the prompt, and DO NOT answer the prompt, just translate it: {prompt}",
+      "prompt": f"Translate the following prompt to {lang}. Do not answer the prompt. Include nothing else but the translated prompt:\n {prompt}",
       "stream": False,
       }
     )
