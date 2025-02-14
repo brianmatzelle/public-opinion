@@ -1,0 +1,154 @@
+{
+  "question": "In JSON array format (['country 1', 'country 2', ...]), list the top 10 countries in the world by geopolitical influence. Only respond with JSON.",
+  "model": "llama3.1",
+  "polling_language": "es",
+  "iterations": 10,
+  "average_rankings": {
+    "United States": 1.4444444444444444,
+    "China": 2.2222222222222223,
+    "Russia": 2.888888888888889,
+    "United Kingdom": 5.888888888888889,
+    "France": 6.555555555555555,
+    "Germany": 5.555555555555555,
+    "India": 6.444444444444445,
+    "Japan": 6.333333333333333,
+    "Canada": 9.666666666666666,
+    "Australia": 8.5,
+    "European Union": 4.0,
+    "South Korea": 9.0,
+    "Italy": 10.0
+  },
+  "weighted_rankings": {
+    "United States": 82.0,
+    "China": 42.5,
+    "Russia": 31.666666666666664,
+    "United Kingdom": 16.583333333333336,
+    "France": 14.412698412698411,
+    "Germany": 23.285714285714285,
+    "India": 15.36904761904762,
+    "Japan": 15.694444444444445,
+    "Canada": 9.333333333333334,
+    "Australia": 2.428571428571429,
+    "European Union": 5.0,
+    "South Korea": 3.3333333333333335,
+    "Italy": 2.0
+  },
+  "raw_rankings": {
+    "United States": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      5
+    ],
+    "China": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      4
+    ],
+    "Russia": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2
+    ],
+    "United Kingdom": [
+      4,
+      8,
+      6,
+      5,
+      4,
+      6,
+      4,
+      8,
+      8
+    ],
+    "France": [
+      5,
+      9,
+      7,
+      6,
+      5,
+      7,
+      5,
+      9,
+      6
+    ],
+    "Germany": [
+      6,
+      7,
+      5,
+      7,
+      6,
+      5,
+      6,
+      7,
+      1
+    ],
+    "India": [
+      7,
+      5,
+      8,
+      8,
+      7,
+      8,
+      7,
+      5,
+      3
+    ],
+    "Japan": [
+      8,
+      6,
+      4,
+      4,
+      8,
+      4,
+      8,
+      6,
+      9
+    ],
+    "Canada": [
+      9,
+      10,
+      10,
+      9,
+      10,
+      9,
+      10,
+      10,
+      10
+    ],
+    "Australia": [
+      10,
+      7
+    ],
+    "European Union": [
+      4,
+      4
+    ],
+    "South Korea": [
+      9,
+      9,
+      9
+    ],
+    "Italy": [
+      10,
+      10
+    ]
+  }
+}

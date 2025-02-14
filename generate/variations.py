@@ -1,3 +1,5 @@
+# This module is currently not used
+
 import requests
 
 def generate(question: str, lang: str, variations: int = 5, model: str = "llama3.2") -> str:
