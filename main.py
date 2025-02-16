@@ -7,6 +7,8 @@ from collections import defaultdict
 import json
 from pathlib import Path
 from pprint import pprint
+import argparse
+
 async def analyze_and_visualize_responses(question: str, original_language: str, polling_language: str, model: str, iterations: int):
     # Store rankings for each country
     country_rankings = defaultdict(list)
@@ -70,6 +72,50 @@ async def analyze_and_visualize_responses(question: str, original_language: str,
     
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
+
+def get_existing_iterations(model: str, language: str) -> list[str]:
+    """Get existing iteration counts from JSON files."""
+    output_dir = Path(f"data/{model}")
+    if not output_dir.exists():
+        return []
+    
+    # Find all JSON files matching the pattern {language}_*.json
+    existing_files = output_dir.glob(f"{language}_*.json")
+    iterations = []
+    for file in existing_files:
+        # Extract iteration number from filename (language_iterations.json)
+        try:
+            iterations.append(file.stem.split('_')[1])
+        except IndexError:
+            continue
+    return sorted(iterations)
+
+class IterationsCompleter:
+    def __init__(self, model: str, language: str):
+        self.model = model
+        self.language = language
+
+    def __call__(self, prefix, **kwargs):
+        return [i for i in get_existing_iterations(self.model, self.language) 
+                if i.startswith(prefix)]
+
+def parse_arguments():
+    parser = argparse.ArgumentParser(description='Analyze and visualize responses.')
+    parser.add_argument('-m', '--model', type=str, required=True, 
+                        help='Model name (e.g., llama3.2)')
+    parser.add_argument('-l', '--language', type=str, required=True,
+                        help='Language code (e.g., es)')
+    parser.add_argument('-i', '--iterations', type=str, required=True,
+                        help='Number of iterations').completer = IterationsCompleter
+    
+    # Enable tab completion
+    try:
+        import argcomplete
+        argcomplete.autocomplete(parser)
+    except ImportError:
+        pass
+    
+    return parser.parse_args()
 
 if __name__ == "__main__":
     question = "In JSON array format (['country 1', 'country 2', ...]), list the top 10 countries in the world by geopolitical influence. Only respond with JSON."

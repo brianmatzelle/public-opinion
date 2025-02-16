@@ -3,3 +3,4 @@ asyncio
 googletrans
 tqdm
 matplotlib
+argcomplete

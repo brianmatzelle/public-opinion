@@ -1,6 +1,16 @@
+import argparse
 from matplotlib import pyplot as plt
 import json
 from pprint import pprint
+
+def parse_arguments():
+    parser = argparse.ArgumentParser(description='Visualize influence rankings for different countries.')
+    parser.add_argument('-m', '--model', type=str, required=True, help='Model name (e.g., llama3.2)')
+    parser.add_argument('-l', '--language', type=str, required=True, help='Language code (e.g., es)')
+    parser.add_argument('-i', '--iterations', type=int, required=True, help='Number of iterations')
+    parser.add_argument('-t', '--type', choices=['average', 'weighted'], required=True, 
+                       help='Type of visualization: average or weighted rankings')
+    return parser.parse_args()
 
 model = "llama3.2"
 language = "es"
@@ -11,7 +21,7 @@ with open(f"data/{model}/{language}_{iterations}.json", "r") as f:
 
 # pprint(data)
 
-def visualize_average_rankings():
+def visualize_average_rankings(language):
     # Extract rankings and countries
     rankings = data["average_rankings"]
     countries = list(rankings.keys())
@@ -28,7 +38,7 @@ def visualize_average_rankings():
     plt.tight_layout()
     plt.show()
 
-def visualize_weighted_rankings():
+def visualize_weighted_rankings(language):
     rankings = data["weighted_rankings"]
     countries = list(rankings.keys())
 
@@ -44,5 +54,19 @@ def visualize_weighted_rankings():
     plt.tight_layout()
     plt.show()
 
-# visualize_average_rankings()
-visualize_weighted_rankings()
+def main():
+    args = parse_arguments()
+    
+    # Load data
+    with open(f"data/{args.model}/{args.language}_{args.iterations}.json", "r") as f:
+        global data
+        data = json.load(f)
+    
+    # Run visualization based on type argument
+    if args.type == 'average':
+        visualize_average_rankings(args.language)
+    else:
+        visualize_weighted_rankings(args.language)
+
+if __name__ == "__main__":
+    main()
