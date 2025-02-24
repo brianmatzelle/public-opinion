@@ -11,3 +11,8 @@ Listed are different steps -- each step is a folder in the repository.
 3. Module - Using a JSON generation LLM specific to each language, generate N variations for the question(s) in each language, respectively.
 4. Module - Translate results of the JSON generation LLM back to English.
 5. Module - For now, create matplotlib graphs for each question in each language (later we'll consolidate the data and create a single graph).
+
+
+## Demo
+1. `python main.py -m llama3.2 -l es -i 10`
+2. `python visualize.py -m mistral -l es -i 10 -t weighted`

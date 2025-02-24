@@ -104,10 +104,13 @@ def parse_arguments():
     parser.add_argument('-m', '--model', type=str, required=True, 
                         help='Model name (e.g., llama3.2)')
     parser.add_argument('-l', '--language', type=str, required=True,
-                        help='Language code (e.g., es)')
+                        help='Language code you wish to poll (e.g., es)')
     parser.add_argument('-i', '--iterations', type=int, required=True,
                         help='Number of iterations')
-    
+    parser.add_argument('-q', '--question', type=str, required=False,
+                        help='Question you wish to poll')
+    parser.add_argument('-o', '--original_language', type=str, required=False,
+                        help='Language code you wish to poll from (e.g., en)')
     # Enable tab completion
     try:
         import argcomplete
@@ -119,12 +122,19 @@ def parse_arguments():
 
 if __name__ == "__main__":
     args = parse_arguments()
-    question = "In JSON array format (['country 1', 'country 2', ...]), list the top 10 countries in the world by geopolitical influence. Only respond with JSON."
-    original_language = "en"
+
+    DEFAULT_ARGS = {
+        "original_language": "en",
+        "question": "In JSON array format (['country 1', 'country 2', ...]), list the top 10 countries in the world by geopolitical influence. Only respond with JSON."
+    }
     
+    for key, value in DEFAULT_ARGS.items():
+        if getattr(args, key) is None:
+            setattr(args, key, value)
+
     asyncio.run(analyze_and_visualize_responses(
-        question=question,
-        original_language=original_language,
+        question=args.question,
+        original_language=args.original_language,
         polling_language=args.language,
         model=args.model,
         iterations=int(args.iterations)  # Convert to int since we defined it as str in argparse
