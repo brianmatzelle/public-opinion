@@ -10,6 +10,9 @@ from pprint import pprint
 import argparse
 
 async def analyze_and_visualize_responses(question: str, original_language: str, polling_language: str, model: str, iterations: int):
+    # Parse model name and size if specified (e.g., "qwen2.5:3b" -> "qwen2.5/3b")
+    model_path = model.replace(":", "/")
+    
     # Store rankings for each country
     country_rankings = defaultdict(list)
     
@@ -55,8 +58,8 @@ async def analyze_and_visualize_responses(question: str, original_language: str,
             weighted_ranking += iterations / rank
         weighted_rankings[country] = weighted_ranking
 
-    # Save results to JSON file in data/{model}/{polling_language}_{iterations}.json
-    output_dir = Path(f"data/{model}")
+    # Save results to JSON file in data/{model_path}/{polling_language}_{iterations}.json
+    output_dir = Path(f"data/{model_path}")
     output_dir.mkdir(exist_ok=True, parents=True)
     output_file = output_dir / f"{polling_language}_{iterations}.json"
     
@@ -75,7 +78,9 @@ async def analyze_and_visualize_responses(question: str, original_language: str,
 
 def get_existing_iterations(model: str, language: str) -> list[str]:
     """Get existing iteration counts from JSON files."""
-    output_dir = Path(f"data/{model}")
+    # Parse model name and size if specified
+    model_path = model.replace(":", "/")
+    output_dir = Path(f"data/{model_path}")
     if not output_dir.exists():
         return []
     

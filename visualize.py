@@ -39,7 +39,9 @@ class RankingVisualizer:
 
     def _load_data(self) -> Dict:
         """Load ranking data from JSON file."""
-        file_path = Path("data") / self.config.model / f"{self.config.language}_{self.config.iterations}.json"
+        # Convert model name with colon to path structure (e.g., "qwen2.5:3b" -> "qwen2.5/3b")
+        model_path = self.config.model.replace(":", "/")
+        file_path = Path("data") / model_path / f"{self.config.language}_{self.config.iterations}.json"
         try:
             with open(file_path, "r") as f:
                 return json.load(f)

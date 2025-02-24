@@ -1,0 +1,164 @@
+{
+  "question": "In JSON array format (['country 1', 'country 2', ...]), list the top 10 countries in the world by geopolitical influence. Only respond with JSON.",
+  "model": "qwen2.5:3b",
+  "polling_language": "es",
+  "iterations": 10,
+  "average_rankings": {
+    "United States": 1.1,
+    "China": 1.9,
+    "Russia": 3.0,
+    "India": 4.777777777777778,
+    "France": 5.2,
+    "United Kingdom": 5.6,
+    "Germany": 7.5,
+    "Brazil": 8.4,
+    "Japan": 8.5,
+    "Canada": 8.857142857142858,
+    "United Europe": 4.0,
+    "Indonesia": 9.5,
+    "South Korea": 10.0
+  },
+  "weighted_rankings": {
+    "United States": 95.0,
+    "China": 55.0,
+    "Russia": 33.33333333333333,
+    "India": 19.5,
+    "France": 19.5,
+    "United Kingdom": 19.166666666666668,
+    "Germany": 13.432539682539684,
+    "Brazil": 12.079365079365079,
+    "Japan": 11.845238095238095,
+    "Canada": 8.428571428571429,
+    "United Europe": 2.5,
+    "Indonesia": 2.111111111111111,
+    "South Korea": 1.0
+  },
+  "raw_rankings": {
+    "United States": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      1,
+      1
+    ],
+    "China": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2
+    ],
+    "Russia": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "India": [
+      4,
+      5,
+      4,
+      4,
+      6,
+      6,
+      4,
+      4,
+      6
+    ],
+    "France": [
+      5,
+      6,
+      6,
+      6,
+      5,
+      4,
+      5,
+      5,
+      5,
+      5
+    ],
+    "United Kingdom": [
+      6,
+      4,
+      5,
+      10,
+      6,
+      5,
+      4,
+      6,
+      6,
+      4
+    ],
+    "Germany": [
+      7,
+      7,
+      8,
+      8,
+      7,
+      7,
+      9,
+      7,
+      7,
+      8
+    ],
+    "Brazil": [
+      8,
+      9,
+      7,
+      9,
+      8,
+      10,
+      10,
+      8,
+      8,
+      7
+    ],
+    "Japan": [
+      9,
+      8,
+      9,
+      7,
+      9,
+      8,
+      8,
+      9,
+      9,
+      9
+    ],
+    "Canada": [
+      10,
+      10,
+      10,
+      5,
+      10,
+      7,
+      10
+    ],
+    "United Europe": [
+      4
+    ],
+    "Indonesia": [
+      9,
+      10
+    ],
+    "South Korea": [
+      10
+    ]
+  }
+}
