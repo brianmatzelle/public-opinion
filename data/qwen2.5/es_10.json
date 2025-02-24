@@ -1,0 +1,156 @@
+{
+  "question": "In JSON array format (['country 1', 'country 2', ...]), list the top 10 countries in the world by geopolitical influence. Only respond with JSON.",
+  "model": "qwen2.5",
+  "polling_language": "es",
+  "iterations": 10,
+  "average_rankings": {
+    "United States": 1.0,
+    "China": 2.0,
+    "Russia": 3.0,
+    "United Kingdom": 4.6,
+    "France": 5.0,
+    "Germany": 7.0,
+    "India": 6.2,
+    "Japan": 8.3,
+    "Brazil": 9.666666666666666,
+    "Canada": 9.333333333333334,
+    "Netherlands": 4.0
+  },
+  "weighted_rankings": {
+    "United States": 100.0,
+    "China": 50.0,
+    "Russia": 33.33333333333333,
+    "United Kingdom": 22.5,
+    "France": 20.0,
+    "Germany": 14.345238095238097,
+    "India": 16.607142857142854,
+    "Japan": 12.11111111111111,
+    "Brazil": 9.333333333333332,
+    "Canada": 9.666666666666666,
+    "Netherlands": 5.0
+  },
+  "raw_rankings": {
+    "United States": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "China": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "Russia": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "United Kingdom": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      6,
+      6,
+      4,
+      4,
+      6
+    ],
+    "France": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "Germany": [
+      6,
+      7,
+      7,
+      7,
+      7,
+      8,
+      7,
+      7,
+      7,
+      7
+    ],
+    "India": [
+      7,
+      6,
+      6,
+      6,
+      6,
+      7,
+      8,
+      6,
+      6,
+      4
+    ],
+    "Japan": [
+      8,
+      8,
+      8,
+      8,
+      8,
+      10,
+      9,
+      8,
+      8,
+      8
+    ],
+    "Brazil": [
+      9,
+      10,
+      10,
+      10,
+      9,
+      10,
+      10,
+      9,
+      10
+    ],
+    "Canada": [
+      10,
+      9,
+      9,
+      9,
+      10,
+      9,
+      9,
+      10,
+      9
+    ],
+    "Netherlands": [
+      4,
+      4
+    ]
+  }
+}
