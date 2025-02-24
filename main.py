@@ -105,8 +105,8 @@ def parse_arguments():
                         help='Model name (e.g., llama3.2)')
     parser.add_argument('-l', '--language', type=str, required=True,
                         help='Language code (e.g., es)')
-    parser.add_argument('-i', '--iterations', type=str, required=True,
-                        help='Number of iterations').completer = IterationsCompleter
+    parser.add_argument('-i', '--iterations', type=int, required=True,
+                        help='Number of iterations')
     
     # Enable tab completion
     try:
@@ -118,10 +118,14 @@ def parse_arguments():
     return parser.parse_args()
 
 if __name__ == "__main__":
+    args = parse_arguments()
     question = "In JSON array format (['country 1', 'country 2', ...]), list the top 10 countries in the world by geopolitical influence. Only respond with JSON."
     original_language = "en"
-    polling_language = "es"
-    model = "llama3.2"
-    iterations = 50
     
-    asyncio.run(analyze_and_visualize_responses(question, original_language, polling_language, model, iterations))
+    asyncio.run(analyze_and_visualize_responses(
+        question=question,
+        original_language=original_language,
+        polling_language=args.language,
+        model=args.model,
+        iterations=int(args.iterations)  # Convert to int since we defined it as str in argparse
+    ))
