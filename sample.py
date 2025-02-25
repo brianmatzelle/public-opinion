@@ -9,7 +9,7 @@ from pathlib import Path
 from pprint import pprint
 import argparse
 
-async def analyze_and_visualize_responses(question: str, original_language: str, polling_language: str, model: str, iterations: int):
+async def analyze_and_visualize_responses(question: str, source: str, destination: str, model: str, iterations: int):
     # Parse model name and size if specified (e.g., "qwen2.5:3b" -> "qwen2.5/3b")
     model_path = model.replace(":", "/")
     
@@ -17,14 +17,14 @@ async def analyze_and_visualize_responses(question: str, original_language: str,
     country_rankings = defaultdict(list)
     
     # Translate question to polling language
-    translated_question: str = await translate_text(text=question, dest=polling_language)
+    translated_question: str = await translate_text(text=question, dest=destination)
     
     # Collect responses
     final_answers = []
     for i in tqdm(range(iterations), desc="Collecting responses"):
         final_answers.append(execute_prompt(translated_question, model))
 
-    translated_answers = await bulk_translate_text(texts=final_answers, dest=original_language)
+    translated_answers = await bulk_translate_text(texts=final_answers, dest=source)
 
     # Process each answer
     for answer in tqdm(translated_answers, desc="Processing answers"):
@@ -58,15 +58,18 @@ async def analyze_and_visualize_responses(question: str, original_language: str,
             weighted_ranking += iterations / rank
         weighted_rankings[country] = weighted_ranking
 
-    # Save results to JSON file in data/{model_path}/{polling_language}_{iterations}.json
-    output_dir = Path(f"data/{model_path}")
-    output_dir.mkdir(exist_ok=True, parents=True)
-    output_file = output_dir / f"{polling_language}_{iterations}.json"
+    # Create base directory for this run
+    base_dir = Path(f"data/{model_path}/{destination}_{iterations}")
+    base_dir.mkdir(exist_ok=True, parents=True)
+    
+    # Save results to JSON file
+    output_file = base_dir / "results.json"
     
     results = {
         "question": question,
         "model": model,
-        "polling_language": polling_language,
+        "destination_language": destination,
+        "source_language": source,
         "iterations": iterations,
         "average_rankings": avg_rankings,
         "weighted_rankings": weighted_rankings,
@@ -76,21 +79,22 @@ async def analyze_and_visualize_responses(question: str, original_language: str,
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
 
-def get_existing_iterations(model: str, language: str) -> list[str]:
-    """Get existing iteration counts from JSON files."""
+def get_existing_iterations(model: str, destination: str) -> list[str]:
+    """Get existing iteration counts from directories."""
     # Parse model name and size if specified
     model_path = model.replace(":", "/")
     output_dir = Path(f"data/{model_path}")
     if not output_dir.exists():
         return []
     
-    # Find all JSON files matching the pattern {language}_*.json
-    existing_files = output_dir.glob(f"{language}_*.json")
+    # Find all directories matching the pattern {language}_{iterations}
+    existing_dirs = [d for d in output_dir.iterdir() if d.is_dir()]
     iterations = []
-    for file in existing_files:
-        # Extract iteration number from filename (language_iterations.json)
+    for dir in existing_dirs:
         try:
-            iterations.append(file.stem.split('_')[1])
+            # Extract iteration number from directory name (language_iterations)
+            if dir.name.startswith(f"{destination}_"):
+                iterations.append(dir.name.split('_')[1])
         except IndexError:
             continue
     return sorted(iterations)
@@ -129,7 +133,7 @@ if __name__ == "__main__":
     args = parse_arguments()
 
     DEFAULT_ARGS = {
-        "original_language": "en",
+        "source": "en",
         "question": "In JSON array format (['country 1', 'country 2', ...]), list the top 10 countries in the world by geopolitical influence. Only respond with JSON."
     }
     
@@ -139,8 +143,8 @@ if __name__ == "__main__":
 
     asyncio.run(analyze_and_visualize_responses(
         question=args.question,
-        original_language=args.original_language,
-        polling_language=args.language,
+        source=args.source,
+        destination=args.destination,
         model=args.model,
         iterations=int(args.iterations)  # Convert to int since we defined it as str in argparse
     ))

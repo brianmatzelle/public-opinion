@@ -1,9 +1,0 @@
-{
-  "question": "In JSON array format (['country 1', 'country 2', ...]), list the top 10 countries in the world by geopolitical influence. Only respond with JSON.",
-  "model": "llama3.1",
-  "polling_language": "es",
-  "iterations": 10,
-  "average_rankings": {},
-  "weighted_rankings": {},
-  "raw_rankings": {}
-}
