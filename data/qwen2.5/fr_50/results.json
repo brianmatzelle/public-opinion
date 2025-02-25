@@ -1,0 +1,349 @@
+{
+  "question": "Create one top 10 list for this question. Only respond with the list in JSON array format, with each entry on the list being a string.\n\nQuestion: Historically, what civilations have been the most dominant and influencial of all time?",
+  "model": "qwen2.5",
+  "destination_language": "fr",
+  "source_language": "en",
+  "iterations": 50,
+  "average_rankings": {
+    "Roman Empire": 1.0,
+    "Romans": 1.0,
+    "Ancient Rome": 1.0,
+    "Empress Wu Zetian": 1.0,
+    "Mongolian Empire": 2.0,
+    "Chinese Empire": 2.0,
+    "Greeks": 2.0,
+    "Alexandre le Grand": 2.0,
+    "Ottoman Empire": 2.6666666666666665,
+    "Maouyé dynasty": 3.0,
+    "Byzantine Empire": 3.0,
+    "Viking": 3.0,
+    "Arab": 3.0,
+    "Chinese Civilization of Qin and Han": 3.0,
+    "Ancient China": 3.0,
+    "Cleopatre": 3.0,
+    "Mughal Empire": 4.0,
+    "Three major Chinese dynasties (Qin, Tang, Qing)": 4.0,
+    "Carthage": 4.0,
+    "Chinese": 4.0,
+    "Vinci and Italian Renaissance": 4.0,
+    "Genghis Khan": 4.0,
+    "Grand Chinese Empire": 4.0,
+    "China of unified dynasties": 5.0,
+    "Moghol": 5.0,
+    "Persians": 5.0,
+    "Persian civilization of the Achaemenids": 5.0,
+    "Arab Middle Ages": 5.0,
+    "Auguste": 5.0,
+    "Republic of Venice": 5.5,
+    "Seleucid Imperium": 6.0,
+    "Indians": 6.0,
+    "Indus old": 6.0,
+    "Azteque mesoameric": 6.0,
+    "Napoleon Bonaparte": 6.0,
+    "Mycene and Cité d'Agède": 6.0,
+    "Pharaonic Egypt": 6.5,
+    "Greek Egypt": 7.0,
+    "Republic of the Pyrenees": 7.0,
+    "Egyptians": 7.0,
+    "Maya": 7.0,
+    "India Maurya": 7.0,
+    "Attila l'Hun": 7.0,
+    "Empire Achemenid": 7.0,
+    "Byzantium": 7.5,
+    "Dutch of the United Nations": 8.0,
+    " ": 8.0,
+    "Aztecs": 8.0,
+    "Mayas": 8.0,
+    "Classic Greek": 8.0,
+    "Saladin": 8.0,
+    "Incas": 8.333333333333334,
+    "Ancient Egypt": 8.5,
+    " Empire of Mexico under the Aztecs ": 9.0,
+    "Isis Ibn Al-Mahdi": 9.0,
+    "Scandinavian warriors ": 9.0,
+    "Roman Republic": 10.0,
+    " Empire Maurya ": 10.0,
+    "Ancient Greece": 10.0,
+    "Mongols": 10.0,
+    " Ancient Greece ": 10.0,
+    "Achaemenid Persian": 10.0,
+    "Charlemagne": 10.0,
+    " Roman Republic ": 10.0
+  },
+  "weighted_rankings": {
+    "Roman Empire": 200.0,
+    "Ancient Rome": 100.0,
+    "Byzantine Empire": 60.0,
+    "Ottoman Empire": 58.33333333333334,
+    "Mongolian Empire": 50.0,
+    "Romans": 50.0,
+    "Empress Wu Zetian": 50.0,
+    "Chinese Empire": 25.0,
+    "Greeks": 25.0,
+    "Alexandre le Grand": 25.0,
+    "Republic of Venice": 18.333333333333336,
+    "Incas": 18.253968253968253,
+    "Pharaonic Egypt": 18.055555555555557,
+    "Maouyé dynasty": 16.666666666666668,
+    "Viking": 16.666666666666668,
+    "Arab": 16.666666666666668,
+    "Chinese Civilization of Qin and Han": 16.666666666666668,
+    "Ancient China": 16.666666666666668,
+    "Cleopatre": 16.666666666666668,
+    "Byzantium": 13.88888888888889,
+    "Mughal Empire": 12.5,
+    "Three major Chinese dynasties (Qin, Tang, Qing)": 12.5,
+    "Carthage": 12.5,
+    "Aztecs": 12.5,
+    "Chinese": 12.5,
+    "Vinci and Italian Renaissance": 12.5,
+    "Genghis Khan": 12.5,
+    "Grand Chinese Empire": 12.5,
+    "Ancient Egypt": 11.805555555555555,
+    "China of unified dynasties": 10.0,
+    "Moghol": 10.0,
+    "Persians": 10.0,
+    "Persian civilization of the Achaemenids": 10.0,
+    "Arab Middle Ages": 10.0,
+    "Auguste": 10.0,
+    "Seleucid Imperium": 8.333333333333334,
+    "Indians": 8.333333333333334,
+    "Indus old": 8.333333333333334,
+    "Azteque mesoameric": 8.333333333333334,
+    "Napoleon Bonaparte": 8.333333333333334,
+    "Mycene and Cité d'Agède": 8.333333333333334,
+    "Greek Egypt": 7.142857142857143,
+    "Republic of the Pyrenees": 7.142857142857143,
+    "Egyptians": 7.142857142857143,
+    "Maya": 7.142857142857143,
+    "India Maurya": 7.142857142857143,
+    "Attila l'Hun": 7.142857142857143,
+    "Empire Achemenid": 7.142857142857143,
+    "Dutch of the United Nations": 6.25,
+    " ": 6.25,
+    "Mayas": 6.25,
+    "Classic Greek": 6.25,
+    "Saladin": 6.25,
+    " Empire of Mexico under the Aztecs ": 5.555555555555555,
+    "Isis Ibn Al-Mahdi": 5.555555555555555,
+    "Scandinavian warriors ": 5.555555555555555,
+    "Roman Republic": 5.0,
+    " Empire Maurya ": 5.0,
+    "Ancient Greece": 5.0,
+    "Mongols": 5.0,
+    " Ancient Greece ": 5.0,
+    "Achaemenid Persian": 5.0,
+    "Charlemagne": 5.0,
+    " Roman Republic ": 5.0
+  },
+  "raw_rankings": {
+    "Roman Empire": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "Ottoman Empire": [
+      2,
+      3,
+      3
+    ],
+    "Maouyé dynasty": [
+      3
+    ],
+    "Mughal Empire": [
+      4
+    ],
+    "China of unified dynasties": [
+      5
+    ],
+    "Seleucid Imperium": [
+      6
+    ],
+    "Greek Egypt": [
+      7
+    ],
+    "Dutch of the United Nations": [
+      8
+    ],
+    "Byzantium": [
+      9,
+      6
+    ],
+    "Roman Republic": [
+      10
+    ],
+    "Mongolian Empire": [
+      2,
+      2
+    ],
+    "Three major Chinese dynasties (Qin, Tang, Qing)": [
+      4
+    ],
+    "Byzantine Empire": [
+      5,
+      2,
+      2
+    ],
+    "Republic of Venice": [
+      6,
+      5
+    ],
+    "Republic of the Pyrenees": [
+      7
+    ],
+    " ": [
+      8
+    ],
+    " Empire of Mexico under the Aztecs ": [
+      9
+    ],
+    " Empire Maurya ": [
+      10
+    ],
+    "Chinese Empire": [
+      2
+    ],
+    "Viking": [
+      3
+    ],
+    "Carthage": [
+      4
+    ],
+    "Moghol": [
+      5
+    ],
+    "Incas": [
+      7,
+      9,
+      9
+    ],
+    "Aztecs": [
+      8,
+      8
+    ],
+    "Pharaonic Egypt": [
+      9,
+      4
+    ],
+    "Ancient Greece": [
+      10
+    ],
+    "Romans": [
+      1
+    ],
+    "Greeks": [
+      2
+    ],
+    "Arab": [
+      3
+    ],
+    "Chinese": [
+      4
+    ],
+    "Persians": [
+      5
+    ],
+    "Indians": [
+      6
+    ],
+    "Egyptians": [
+      7
+    ],
+    "Mayas": [
+      8
+    ],
+    "Mongols": [
+      10
+    ],
+    "Ancient Rome": [
+      1,
+      1
+    ],
+    "Chinese Civilization of Qin and Han": [
+      3
+    ],
+    "Persian civilization of the Achaemenids": [
+      5
+    ],
+    "Indus old": [
+      6
+    ],
+    "Maya": [
+      7
+    ],
+    " Ancient Greece ": [
+      10
+    ],
+    "Ancient China": [
+      3
+    ],
+    "Vinci and Italian Renaissance": [
+      4
+    ],
+    "Arab Middle Ages": [
+      5
+    ],
+    "Azteque mesoameric": [
+      6
+    ],
+    "India Maurya": [
+      7
+    ],
+    "Classic Greek": [
+      8
+    ],
+    "Ancient Egypt": [
+      9,
+      8
+    ],
+    "Achaemenid Persian": [
+      10
+    ],
+    "Empress Wu Zetian": [
+      1
+    ],
+    "Alexandre le Grand": [
+      2
+    ],
+    "Cleopatre": [
+      3
+    ],
+    "Genghis Khan": [
+      4
+    ],
+    "Auguste": [
+      5
+    ],
+    "Napoleon Bonaparte": [
+      6
+    ],
+    "Attila l'Hun": [
+      7
+    ],
+    "Saladin": [
+      8
+    ],
+    "Isis Ibn Al-Mahdi": [
+      9
+    ],
+    "Charlemagne": [
+      10
+    ],
+    "Grand Chinese Empire": [
+      4
+    ],
+    "Mycene and Cité d'Agède": [
+      6
+    ],
+    "Empire Achemenid": [
+      7
+    ],
+    "Scandinavian warriors ": [
+      9
+    ],
+    " Roman Republic ": [
+      10
+    ]
+  }
+}

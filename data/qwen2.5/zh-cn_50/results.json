@@ -1,0 +1,10 @@
+{
+  "question": "Create one top 10 list for this question. Only respond with the list in JSON array format, with each entry on the list being a string.\n\nQuestion: Historically, what civilations have been the most dominant and influencial of all time?",
+  "model": "qwen2.5",
+  "destination_language": "zh-cn",
+  "source_language": "en",
+  "iterations": 50,
+  "average_rankings": {},
+  "weighted_rankings": {},
+  "raw_rankings": {}
+}

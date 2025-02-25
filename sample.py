@@ -175,9 +175,7 @@ if __name__ == "__main__":
 
     if args.question is None and args.file is None:
         raise ValueError("Either question or file must be provided")
-    
-    print(args.question)
-    
+        
     asyncio.run(analyze_and_visualize_responses(
         question=args.question,
         source=args.source,

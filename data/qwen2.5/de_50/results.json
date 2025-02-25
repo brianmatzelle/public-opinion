@@ -1,0 +1,1863 @@
+{
+  "question": "Create one top 10 list for this question. Only respond with the list in JSON array format, with each entry on the list being a string.\n\nQuestion: Historically, what civilations have been the most dominant and influencial of all time?",
+  "model": "qwen2.5",
+  "destination_language": "de",
+  "source_language": "en",
+  "iterations": 50,
+  "average_rankings": {
+    "Mediterranean kingdom (e.g. Egyptian Empire, Greek world, Roman Empire)": 1.0,
+    "Ancient Greeks": 1.0,
+    "Maan Civilization": 1.0,
+    "Ancient Hochz Civilization": 1.0,
+    "Mehrdad dynasty": 1.0,
+    "China": 1.0,
+    "Macedonian rule under Alexander the Great": 1.0,
+    "Old Egyptian z civilization": 1.0,
+    "Mediterranean imperies (Romans, Greeks)": 1.0,
+    "Ancient Egyptians": 1.0,
+    "Manchu culture": 1.0,
+    "Mediterranean culture": 1.0,
+    "Ancient Greek Culture": 1.0,
+    "Ancient Egyptian z civilization": 1.0,
+    "Old Egypt": 1.0,
+    "Mehrdosch": 1.0,
+    "Mediterranean cultures (e.g. Greeks, Romans)": 1.0,
+    "Ancient Hellas": 1.0,
+    "Mediterranean cultures": 1.0,
+    "Ancient Egyptian culture": 1.0,
+    "Ancient Mediterranean cultures (Greece, Romans)": 1.0,
+    "Old Egyptian civilization": 1.0,
+    "Antique Egyptian Civilization": 2.0,
+    "Romans": 2.0,
+    "Antique Romance Plain": 2.0,
+    "Roman Reich": 2.0,
+    "Römerreich": 2.0,
+    "Ancient Romans": 2.0,
+    "Antique Romans": 2.0,
+    "Habsburg dynasty": 2.0,
+    "Mediterranean civilizations (Greece, Romans)": 2.0,
+    "Hittiter civilization": 2.0,
+    "Chinese Dynastien (Zhou, Tang, Ming)": 2.0,
+    "ancient Egyptian culture": 2.0,
+    "Akkadian culture": 2.0,
+    "Ancient Roman Culture": 2.0,
+    "Assyrian-Babylonian Z civilization": 2.0,
+    "Dreicaiserreich (China)": 2.0,
+    "Roman Cultural Education": 2.0,
+    "Chinese Dynasties": 2.0,
+    "Mediterranean cultures (e.g. Greek, Roman)": 2.0,
+    "Ancient Greek": 2.0,
+    "China of the Dynasties time": 2.0,
+    "Assyrian-Babylonian civilization": 2.0,
+    "Hellenistic culture": 2.5,
+    "Assyrian-Babylonian culture": 2.5,
+    "Roman Empire": 2.5454545454545454,
+    "Akkadische Empire": 3.0,
+    "Assyrian and Babelische Empire": 3.0,
+    "China in the age of the dynasties": 3.0,
+    "Assyrian-Babylonian Civilization": 3.0,
+    "Chinese Dynasties (e.g. Zhou, Han)": 3.0,
+    "Chinese Dynasty": 3.0,
+    "Dynasty of the Chinese ruler": 3.0,
+    "Sumerer": 3.0,
+    "Triale Confederation (Chinese Dynastien)": 3.0,
+    "Chinese Dynasties (e.g. Han, Tang)": 3.0,
+    "Ming Dynasty China": 3.0,
+    "Indus-Valley-Zivilization": 3.0,
+    "Chinese Dynasties (e.g. Tang, Yuan)": 3.0,
+    "Chinese Dynastien (e.g. Han, Tang)": 3.0,
+    "Assyrian civilization": 3.0,
+    "Sassanids and Sasanids": 3.0,
+    "Chinical Dynasties (e.g. Zhou, Han, Tang)": 3.0,
+    "Islamic rulers (Abbasids, Ottomans)": 3.0,
+    "Chinese Dynastien (Zhou, Han, Tang)": 3.0,
+    "Chinese Dynasties (e.g. Tang, Qing)": 3.0,
+    "Assyrian culture": 3.0,
+    "South Asian Indus Culture": 3.0,
+    "Pre -state high cultures (Toltec, Maya)": 3.0,
+    "Chinese Dynastien (e.g. Tang, Yuan)": 3.0,
+    "Roman Empire (until 476 AD)": 3.0,
+    "Corcadian and Assyrian": 3.0,
+    "Corcadian King's Age": 3.0,
+    "Chinastate (e.g. Zhou, Qin)": 3.0,
+    "Mogulreich India": 3.0,
+    "Greek antiquity": 3.0,
+    "Akkadische Königen": 3.5,
+    "Assyrier": 3.7142857142857144,
+    "Persian Achämenidenreich": 4.0,
+    "Roman imperial era": 4.0,
+    "Greek Civilization": 4.0,
+    "Akkadiker": 4.0,
+    "Macedonian hegemony (under Alexander the Great)": 4.0,
+    "Aztec Rich": 4.0,
+    "Greek Antiquity": 4.0,
+    "Akkadische Kaiserreich": 4.0,
+    "Zhou dynasty China": 4.0,
+    "Han-Dynasty": 4.0,
+    "Medieval Muslim States (e.g. Abessinier, Fatimidids, Aglabid)": 4.0,
+    "Mediterranean-rich (Greeks, Phoenizier)": 4.0,
+    "Babylonian civilization": 4.0,
+    "Maurya and Gupa period in India": 4.0,
+    "Aztec and Inkarempire": 4.0,
+    "Medieval European Hohenstaufen": 4.0,
+    "Notten-Asian civilization": 4.0,
+    "Islamic cultures": 4.0,
+    "Babylonian culture": 4.0,
+    "Chinese Dynasties (e.g. Zhou, Tang, Qing)": 4.0,
+    "Medieval Karl'Scher Reich": 4.0,
+    "Roman imperial": 4.0,
+    "Medieval Christianity (Crusades, Rittertism)": 4.0,
+    "Medieval European Powers (e.g. Franconia, Spain)": 4.0,
+    "Egyptian Pharaohs": 4.0,
+    "Chinese Dynastien (Qin, Tang)": 4.0,
+    "Chinese Dynastien (Zhou, Qin, Han)": 4.0,
+    "Medieval Islamic World": 4.0,
+    "Mediterranean-rich (Byzantium, Carthage)": 4.0,
+    "Roman Republic and Kaiser era": 4.0,
+    "Mediterranean-rich (Byzantium, Venice)": 4.0,
+    "Akkadiane": 4.333333333333333,
+    "Medieval Franconia": 4.5,
+    "Chinese Dynastien": 4.5,
+    "Medieval Carolingian Dynasty": 4.5,
+    "Greek culture": 4.5,
+    "Hellenistic richly among the Ptolemae and Seleucids": 5.0,
+    "Aigyptian Pharaons": 5.0,
+    "Roman Civilization": 5.0,
+    "Islamic Caliphat": 5.0,
+    "Hittiter": 5.0,
+    "Inka-Reich": 5.0,
+    "Byzantine Empire": 5.0,
+    "Mediterranean-rich (e.g. Byzantium, Carthage)": 5.0,
+    "Mongols under Genghis Khan": 5.0,
+    "Early Indus-Handelsreich": 5.0,
+    "Assyrierreich": 5.0,
+    "Inka-Imperium": 5.0,
+    "Hellenistic civilization": 5.0,
+    "Kaiserreich Maya": 5.0,
+    "Maurya and Gupa dynasty in India": 5.0,
+    "Islamic World (Abbasids, Fatimiden)": 5.0,
+    "Mediterranean civilization (Phoenicians, Greeks)": 5.0,
+    "Chinese culture": 5.0,
+    "Hittiter culture": 5.0,
+    "Central Oriental primary and early cultures (e.g. Babyloner, Assyrian, Perser)": 5.0,
+    "Islamic golden line (750-1258)": 5.0,
+    "Greek Classic": 5.0,
+    "Islamic Civilizations (Umayyad, Abbasid)": 5.0,
+    "Hindu civilizations (Indus- und Gupta period)": 5.0,
+    "Islamic World (Abbasids, Ottomans)": 5.0,
+    "Maya and Aztecke": 5.0,
+    "Aztec Imperium": 5.0,
+    "Mediterranean-rich (Hellas, Roman Empire, Byzantine Empire)": 5.0,
+    "Islamic Caliphs": 5.0,
+    "Vikings": 5.0,
+    "Vikinger culture": 5.0,
+    "Mughal-Dynasty": 5.0,
+    "Maya and Aztec civilizations": 5.0,
+    "Sasanid Persian": 5.0,
+    "Corcadian Empire": 5.0,
+    "Hethiter": 5.5,
+    "Babylonier": 5.5,
+    "Byzantium": 5.5,
+    "Akkadische Kultur": 5.666666666666667,
+    "Roman Empire (from 27 v. Chr.) ": 6.0,
+    "Aztec and Inca Eyons": 6.0,
+    "Islamic Civilization": 6.0,
+    "Hohes Indus area": 6.0,
+    "Aztec civilization": 6.0,
+    "Vikinger-Kultur": 6.0,
+    "Hindu civilizations (e.g. Guptas, Maurya)": 6.0,
+    "Atlantis (legendary)": 6.0,
+    "Greek Holy Allianz": 6.0,
+    "Inca-Zivilization": 6.0,
+    "Indian Empire (e.g. Maurya, Guptas) ": 6.0,
+    "Roman civilization": 6.0,
+    "Copten": 6.0,
+    " Viking empire in the northeast ": 6.0,
+    "Mongolian Empire": 6.0,
+    "Islamic tribal associations (Saqaliba)": 6.0,
+    "Roman culture": 6.0,
+    "British culture": 6.0,
+    "Alte Perser": 6.0,
+    " Maya culture ": 6.0,
+    "Mauren in Spain": 6.0,
+    "medieval Chinese dynasties": 6.0,
+    "Mongolenreich under Chingis Khan and his successors ": 6.0,
+    "Islamic civilizations (Raschiden, Abessiner , Umayyaden, Abbasid) ": 6.0,
+    "Persian civilization": 6.0,
+    "Mönchshauser and Cathedral of Europe": 6.0,
+    "Mediterranean-rich (e.g. Byzantine Empire, Ottoman East)": 6.0,
+    "Central American civilizations (Azteken, Maya)": 6.0,
+    "Hafsid dynasty in North Africa": 6.0,
+    "Kara-Khitan's civilization": 6.0,
+    "Maya-Zivilization": 6.166666666666667,
+    "Byzantine": 6.5,
+    "Babylonia": 6.5,
+    "Aztec": 6.5,
+    "Egyptian culture": 6.5,
+    " Byzantine Empire ": 7.0,
+    "Mediterranean cultures (Mycenaean, Greek Roman)": 7.0,
+    "China Civilization": 7.0,
+    "Islamic caliph empire (e.g. Rashidun, Umayyaden)": 7.0,
+    "British colonial power": 7.0,
+    "Reiche der Mediterranean": 7.0,
+    "Notten-Asian civilizations (Assyria, Babylonia, Persia) ": 7.0,
+    " Aztecal Empire ": 7.0,
+    "Egyptian civilization": 7.0,
+    "Islamic civilization": 7.0,
+    "Inka": 7.0,
+    " Maya civilization ": 7.0,
+    "Mughalreich in India": 7.0,
+    "Mediterranean cultures (e.g. Byzantine, Eastern Roman)": 7.0,
+    "Mediterranean-rich (Byzantine, East and West Roman)": 7.0,
+    "Hindu India": 7.0,
+    "Indus culture": 7.0,
+    "Greek cultures": 7.0,
+    "Kaierreich China": 7.0,
+    "Hindu z civilization": 7.0,
+    "Occident in the Middle Ages": 7.0,
+    " Habsburg Reich ": 7.0,
+    "Egyptian": 7.0,
+    " Mediterranean-rich (Venice, Genoese, Carthage) ": 7.0,
+    "Aztekische Empire": 7.0,
+    "Empire China of the Tang Dynasty": 7.0,
+    "Maya civilization": 7.0,
+    "Byzantine civilization": 7.0,
+    "Aztec civilization ": 7.0,
+    "Greece under the Olympians": 7.0,
+    "Maya- Civilization ": 7.0,
+    " Sasanid kingdoms ": 7.0,
+    "Kornassene-König-rich Mesopotamia": 7.0,
+    "Mönchengladbach civilization (fictitious)": 7.0,
+    "Empire Qin": 7.0,
+    "Spanish colonial power": 7.333333333333333,
+    "Mughal empire": 7.5,
+    "Maya cultures": 7.5,
+    "Incareich": 7.5,
+    " Mongolian hordes Khan ": 8.0,
+    " Hindu civilizations (Indus World rule, Gupa dynasty) ": 8.0,
+    "Maya Civilization": 8.0,
+    "Mehmedische Empire": 8.0,
+    "Ottoman Empire": 8.0,
+    "Aegyptian Kings": 8.0,
+    "Kaerreich Mughal": 8.0,
+    "Ceramean Culture in Mesoamerica": 8.0,
+    "Mongolian Heerscharts ": 8.0,
+    "Soviet Union under Stalin": 8.0,
+    "Mediterranean": 8.0,
+    " Central American civilizations ": 8.0,
+    "Mughal- Dynasty in India ": 8.0,
+    "Mughale": 8.0,
+    "Byzantine Rich ": 8.0,
+    "Hittiter empire": 8.0,
+    "Mughale in India": 8.0,
+    "Southeast Asian Empire (Khmaren, Chinese Dynastien)": 8.0,
+    " Inka-Reich ": 8.0,
+    "Great Britain in 19 . Century ": 8.0,
+    "Maya Z civilization ": 8.0,
+    " French rule initiated by France (epoch of the peace of Westphalia) ": 8.0,
+    "Perser": 8.0,
+    "Extra Austrian Reich": 8.0,
+    "Mediterranean-rich (here including Byzantium, Romans etc.)": 8.0,
+    "Arabic civilization": 8.0,
+    "Aztek-Imperium": 8.0,
+    "Mediterranean trade community": 8.0,
+    " Aztec civilization ": 8.0,
+    " Ottoman ": 8.0,
+    "Arabic caliph": 8.0,
+    "Chinese dynasties ( Zhou, Qin, Han etc.) ": 8.0,
+    "Mughal-Imperium": 8.0,
+    "Islamic caliph": 8.5,
+    "Byzantine Kaiser era": 8.5,
+    "Medieval European Civilization": 8.5,
+    " Aztec culture ": 8.5,
+    "Vikinger": 8.833333333333334,
+    " Seldschuken-Reich ": 9.0,
+    "Aztec Civilization": 9.0,
+    "Ottoman": 9.0,
+    "Inca Empire": 9.0,
+    "British World power ": 9.0,
+    "Maurya Dynasty in India": 9.0,
+    "Maya Civilizations ": 9.0,
+    " Aztec Empire ": 9.0,
+    " Inca Empire ": 9.0,
+    "United States in Economics": 9.0,
+    "Mughal Kaierreich": 9.0,
+    "Chinese dynasties": 9.0,
+    " Aegyptic Civilization ": 9.0,
+    "Central American cultures (e.g. Olmeken, Zapoteken)": 9.0,
+    "Chinese dynasties (Zhou, Qin , Han) ": 9.0,
+    " Viking rich ": 9.0,
+    "Viking Civilization": 9.0,
+    " Mongolenunterkp Genghis Khan ": 9.0,
+    "Assyrer and Babylonian-Reich": 9.0,
+    "British Empire": 9.0,
+    "Aztecs": 9.0,
+    "Islamic Caliphate": 9.0,
+    "Maya culture": 9.0,
+    "Islamic culture (Umayyaden and abbasids) ": 9.0,
+    " Coptic Culture of the Old Egypt ": 9.0,
+    " Soviet Union ": 9.0,
+    " Aztec Civilization ": 9.0,
+    "Aztek": 9.0,
+    " British colonial power ": 9.0,
+    "Grossbritannien": 9.0,
+    "Aztec and Incareich": 9.0,
+    "Great Britain in 19th and 20th Century ": 9.0,
+    "Arabic-Islamic Culture": 9.0,
+    " Greek Polis cities ": 9.0,
+    "Hanseatic cities": 9.0,
+    "Independent Indo-European cultures": 9.0,
+    " Inca empire ": 9.0,
+    " Empire China the Qing ": 9.0,
+    " Byzantine civilization ": 9.0,
+    " Ottoman Empire ": 10.0,
+    "Vikingerkultur": 10.0,
+    " Inca Civilization ": 10.0,
+    "Hanseatic Cities ": 10.0,
+    "Gross Asian Han dynasty ": 10.0,
+    " USA as global power ": 10.0,
+    "Zhou dynasty in China ": 10.0,
+    "Akkadische Rich": 10.0,
+    " Höfe der Perser ": 10.0,
+    "German Empire under Hitler": 10.0,
+    "Selgunkhans": 10.0,
+    "Roman Republic": 10.0,
+    " Guppa period and Htexturen times in India ": 10.0,
+    "Medieval European Royal Products": 10.0,
+    " Maya ": 10.0,
+    " Colonial Powers in Europe (15th - 20th Century) ": 10.0,
+    " Mongolian civilization ": 10.0,
+    "Late Ottoman Empire": 10.0,
+    " from the time of the pharaohs to Ptolemeases ": 10.0,
+    "Akkadische Reich": 10.0,
+    "American Empire": 10.0,
+    "Mayas": 10.0,
+    "Iron Age Cultures in Europe": 10.0,
+    " Chinese dynasties ": 10.0,
+    "Mogul- Dynasty": 10.0,
+    " Byzantine culture ": 10.0,
+    " USA in the 20th and 21st centuries ": 10.0,
+    " Incareich ": 10.0,
+    "Caiser Empire Chin": 10.0,
+    " US influence since the 20th century ": 10.0,
+    "Kaiserreich Prussia": 10.0,
+    " USA as a global power after the Second World War ": 10.0,
+    "Foreign World of the Persian Empire": 10.0,
+    "Near East Asian Civilization (Mesopotamia) ": 10.0,
+    "Mongolenreich under Genghis Khan": 10.0,
+    " Byzantine Rich": 10.0,
+    " Byzantium ": 10.0,
+    "Early Indus-Valley-Zivilization": 10.0,
+    " Islamic Central Asia ": 10.0,
+    "Britanian colonial power": 10.0
+  },
+  "weighted_rankings": {
+    "Ancient Greeks": 1050.0,
+    "Roman Empire": 241.66666666666666,
+    "Romans": 175.0,
+    "Ancient Greek Culture": 150.0,
+    "Assyrier": 115.83333333333334,
+    "Antique Romans": 100.0,
+    "China": 100.0,
+    "Mediterranean culture": 100.0,
+    "Ancient Hellas": 100.0,
+    "Hethiter": 60.41666666666667,
+    "Akkadische Empire": 54.16666666666667,
+    "Byzantine Empire": 54.16666666666667,
+    "Maya-Zivilization": 50.892857142857146,
+    "Mediterranean kingdom (e.g. Egyptian Empire, Greek world, Roman Empire)": 50.0,
+    "Maan Civilization": 50.0,
+    "Römerreich": 50.0,
+    "Ancient Hochz Civilization": 50.0,
+    "Chinese Dynasties (e.g. Han, Tang)": 50.0,
+    "Mehrdad dynasty": 50.0,
+    "Chinese Dynasties (e.g. Tang, Yuan)": 50.0,
+    "Macedonian rule under Alexander the Great": 50.0,
+    "Old Egyptian z civilization": 50.0,
+    "Mediterranean imperies (Romans, Greeks)": 50.0,
+    "Ancient Egyptians": 50.0,
+    "Manchu culture": 50.0,
+    "Ancient Egyptian z civilization": 50.0,
+    "Old Egypt": 50.0,
+    "Mehrdosch": 50.0,
+    "Mediterranean cultures (e.g. Greeks, Romans)": 50.0,
+    "Mediterranean cultures": 50.0,
+    "Ancient Egyptian culture": 50.0,
+    "Ancient Mediterranean cultures (Greece, Romans)": 50.0,
+    "Old Egyptian civilization": 50.0,
+    "Roman imperial era": 45.833333333333336,
+    "Medieval Franconia": 45.833333333333336,
+    "Aztec civilization": 45.0,
+    "Hellenistic culture": 41.66666666666667,
+    "Assyrian-Babylonian culture": 41.66666666666667,
+    "Akkadiane": 35.0,
+    "Vikinger": 34.84126984126984,
+    "Indus-Valley-Zivilization": 33.333333333333336,
+    "Chinese Dynastien (e.g. Han, Tang)": 33.333333333333336,
+    "Chinese Dynastien (Zhou, Han, Tang)": 33.333333333333336,
+    "Roman culture": 30.05952380952381,
+    "Akkadische Königen": 29.166666666666668,
+    "Akkadische Kultur": 28.75,
+    "Ottoman Empire": 25.3968253968254,
+    "Antique Egyptian Civilization": 25.0,
+    "Antique Romance Plain": 25.0,
+    "Roman Reich": 25.0,
+    "Chinese Dynastien": 25.0,
+    "Ancient Romans": 25.0,
+    "Habsburg dynasty": 25.0,
+    "Mediterranean civilizations (Greece, Romans)": 25.0,
+    "Hittiter civilization": 25.0,
+    "Chinese Dynastien (Zhou, Tang, Ming)": 25.0,
+    "ancient Egyptian culture": 25.0,
+    "Akkadian culture": 25.0,
+    "Greek culture": 25.0,
+    "Ancient Roman Culture": 25.0,
+    "Assyrian-Babylonian Z civilization": 25.0,
+    "Dreicaiserreich (China)": 25.0,
+    "Roman Cultural Education": 25.0,
+    "Chinese Dynasties": 25.0,
+    "Mediterranean cultures (e.g. Greek, Roman)": 25.0,
+    "Ancient Greek": 25.0,
+    "China of the Dynasties time": 25.0,
+    "Assyrian-Babylonian civilization": 25.0,
+    "Medieval Carolingian Dynasty": 22.5,
+    "Spanish colonial power": 20.833333333333336,
+    "Mediterranean-rich (e.g. Byzantium, Carthage)": 20.0,
+    "Byzantium": 19.642857142857142,
+    "Babylonier": 18.333333333333336,
+    "Maya civilization": 17.5,
+    "Vikinger-Kultur": 17.142857142857142,
+    "Assyrian and Babelische Empire": 16.666666666666668,
+    "China in the age of the dynasties": 16.666666666666668,
+    "Assyrian-Babylonian Civilization": 16.666666666666668,
+    "Chinese Dynasties (e.g. Zhou, Han)": 16.666666666666668,
+    "Chinese Dynasty": 16.666666666666668,
+    "Dynasty of the Chinese ruler": 16.666666666666668,
+    "Sumerer": 16.666666666666668,
+    "Triale Confederation (Chinese Dynastien)": 16.666666666666668,
+    "Ming Dynasty China": 16.666666666666668,
+    "Assyrian civilization": 16.666666666666668,
+    "Sassanids and Sasanids": 16.666666666666668,
+    "Chinical Dynasties (e.g. Zhou, Han, Tang)": 16.666666666666668,
+    "Islamic rulers (Abbasids, Ottomans)": 16.666666666666668,
+    "Chinese Dynasties (e.g. Tang, Qing)": 16.666666666666668,
+    "Assyrian culture": 16.666666666666668,
+    "South Asian Indus Culture": 16.666666666666668,
+    "Pre -state high cultures (Toltec, Maya)": 16.666666666666668,
+    "Chinese Dynastien (e.g. Tang, Yuan)": 16.666666666666668,
+    "Roman Empire (until 476 AD)": 16.666666666666668,
+    "Corcadian and Assyrian": 16.666666666666668,
+    "Corcadian King's Age": 16.666666666666668,
+    "Chinastate (e.g. Zhou, Qin)": 16.666666666666668,
+    "Mogulreich India": 16.666666666666668,
+    "Greek antiquity": 16.666666666666668,
+    "Egyptian culture": 16.25,
+    "Hindu India": 15.555555555555555,
+    "Byzantine": 15.476190476190478,
+    "Babylonia": 15.476190476190478,
+    "Aztec": 15.476190476190478,
+    "Mughal empire": 15.0,
+    "Maya cultures": 13.392857142857142,
+    "Incareich": 13.392857142857142,
+    "Persian Achämenidenreich": 12.5,
+    "Greek Civilization": 12.5,
+    "Akkadiker": 12.5,
+    "Macedonian hegemony (under Alexander the Great)": 12.5,
+    "Aztec Rich": 12.5,
+    "Greek Antiquity": 12.5,
+    "Akkadische Kaiserreich": 12.5,
+    "Zhou dynasty China": 12.5,
+    "Han-Dynasty": 12.5,
+    "Medieval Muslim States (e.g. Abessinier, Fatimidids, Aglabid)": 12.5,
+    "Mediterranean-rich (Greeks, Phoenizier)": 12.5,
+    "Babylonian civilization": 12.5,
+    "Maurya and Gupa period in India": 12.5,
+    "Aztec and Inkarempire": 12.5,
+    "Medieval European Hohenstaufen": 12.5,
+    "Notten-Asian civilization": 12.5,
+    "Islamic cultures": 12.5,
+    "Babylonian culture": 12.5,
+    "Chinese Dynasties (e.g. Zhou, Tang, Qing)": 12.5,
+    "Medieval Karl'Scher Reich": 12.5,
+    "Roman imperial": 12.5,
+    "Medieval Christianity (Crusades, Rittertism)": 12.5,
+    "Medieval European Powers (e.g. Franconia, Spain)": 12.5,
+    "Egyptian Pharaohs": 12.5,
+    "Chinese Dynastien (Qin, Tang)": 12.5,
+    "Chinese Dynastien (Zhou, Qin, Han)": 12.5,
+    "Medieval Islamic World": 12.5,
+    "Mediterranean-rich (Byzantium, Carthage)": 12.5,
+    "Roman Republic and Kaiser era": 12.5,
+    "Mediterranean-rich (Byzantium, Venice)": 12.5,
+    " Aztec culture ": 12.142857142857142,
+    "Islamic caliph": 11.805555555555555,
+    "Byzantine Kaiser era": 11.805555555555555,
+    "Medieval European Civilization": 11.805555555555555,
+    " Inca Empire ": 11.25,
+    "Inca Empire": 11.11111111111111,
+    "Chinese dynasties": 11.11111111111111,
+    "Hellenistic richly among the Ptolemae and Seleucids": 10.0,
+    "Aigyptian Pharaons": 10.0,
+    "Roman Civilization": 10.0,
+    "Islamic Caliphat": 10.0,
+    "Hittiter": 10.0,
+    "Inka-Reich": 10.0,
+    "Mongols under Genghis Khan": 10.0,
+    "Early Indus-Handelsreich": 10.0,
+    "Assyrierreich": 10.0,
+    "Inka-Imperium": 10.0,
+    "Hellenistic civilization": 10.0,
+    "Kaiserreich Maya": 10.0,
+    "Maurya and Gupa dynasty in India": 10.0,
+    "Islamic World (Abbasids, Fatimiden)": 10.0,
+    "Mediterranean civilization (Phoenicians, Greeks)": 10.0,
+    "Chinese culture": 10.0,
+    "Hittiter culture": 10.0,
+    "Central Oriental primary and early cultures (e.g. Babyloner, Assyrian, Perser)": 10.0,
+    "Islamic golden line (750-1258)": 10.0,
+    "Greek Classic": 10.0,
+    "Islamic Civilizations (Umayyad, Abbasid)": 10.0,
+    "Hindu civilizations (Indus- und Gupta period)": 10.0,
+    "Islamic World (Abbasids, Ottomans)": 10.0,
+    "Maya and Aztecke": 10.0,
+    "Aztec Imperium": 10.0,
+    "Mediterranean-rich (Hellas, Roman Empire, Byzantine Empire)": 10.0,
+    "Islamic Caliphs": 10.0,
+    "Vikings": 10.0,
+    "Vikinger culture": 10.0,
+    "Mughal-Dynasty": 10.0,
+    "Maya and Aztec civilizations": 10.0,
+    "Sasanid Persian": 10.0,
+    "Corcadian Empire": 10.0,
+    "Roman Empire (from 27 v. Chr.) ": 8.333333333333334,
+    "Aztec and Inca Eyons": 8.333333333333334,
+    "Islamic Civilization": 8.333333333333334,
+    "Hohes Indus area": 8.333333333333334,
+    "Hindu civilizations (e.g. Guptas, Maurya)": 8.333333333333334,
+    "Atlantis (legendary)": 8.333333333333334,
+    "Greek Holy Allianz": 8.333333333333334,
+    "Inca-Zivilization": 8.333333333333334,
+    "Indian Empire (e.g. Maurya, Guptas) ": 8.333333333333334,
+    "Roman civilization": 8.333333333333334,
+    "Copten": 8.333333333333334,
+    " Viking empire in the northeast ": 8.333333333333334,
+    "Mongolian Empire": 8.333333333333334,
+    "Islamic tribal associations (Saqaliba)": 8.333333333333334,
+    "British culture": 8.333333333333334,
+    "Alte Perser": 8.333333333333334,
+    " Maya culture ": 8.333333333333334,
+    "Mauren in Spain": 8.333333333333334,
+    "medieval Chinese dynasties": 8.333333333333334,
+    "Mongolenreich under Chingis Khan and his successors ": 8.333333333333334,
+    "Islamic civilizations (Raschiden, Abessiner , Umayyaden, Abbasid) ": 8.333333333333334,
+    "Persian civilization": 8.333333333333334,
+    "Mönchshauser and Cathedral of Europe": 8.333333333333334,
+    "Mediterranean-rich (e.g. Byzantine Empire, Ottoman East)": 8.333333333333334,
+    "Central American civilizations (Azteken, Maya)": 8.333333333333334,
+    "Hafsid dynasty in North Africa": 8.333333333333334,
+    "Kara-Khitan's civilization": 8.333333333333334,
+    " Byzantine Empire ": 7.142857142857143,
+    "Mediterranean cultures (Mycenaean, Greek Roman)": 7.142857142857143,
+    "China Civilization": 7.142857142857143,
+    "Islamic caliph empire (e.g. Rashidun, Umayyaden)": 7.142857142857143,
+    "British colonial power": 7.142857142857143,
+    "Reiche der Mediterranean": 7.142857142857143,
+    "Notten-Asian civilizations (Assyria, Babylonia, Persia) ": 7.142857142857143,
+    " Aztecal Empire ": 7.142857142857143,
+    "Egyptian civilization": 7.142857142857143,
+    "Islamic civilization": 7.142857142857143,
+    "Inka": 7.142857142857143,
+    " Maya civilization ": 7.142857142857143,
+    "Mughalreich in India": 7.142857142857143,
+    "Mediterranean cultures (e.g. Byzantine, Eastern Roman)": 7.142857142857143,
+    "Mediterranean-rich (Byzantine, East and West Roman)": 7.142857142857143,
+    "Indus culture": 7.142857142857143,
+    "Greek cultures": 7.142857142857143,
+    "Kaierreich China": 7.142857142857143,
+    "Hindu z civilization": 7.142857142857143,
+    "Occident in the Middle Ages": 7.142857142857143,
+    " Habsburg Reich ": 7.142857142857143,
+    "Egyptian": 7.142857142857143,
+    " Mediterranean-rich (Venice, Genoese, Carthage) ": 7.142857142857143,
+    "Aztekische Empire": 7.142857142857143,
+    "Empire China of the Tang Dynasty": 7.142857142857143,
+    "Byzantine civilization": 7.142857142857143,
+    "Aztec civilization ": 7.142857142857143,
+    "Greece under the Olympians": 7.142857142857143,
+    "Maya- Civilization ": 7.142857142857143,
+    " Sasanid kingdoms ": 7.142857142857143,
+    "Kornassene-König-rich Mesopotamia": 7.142857142857143,
+    "Mönchengladbach civilization (fictitious)": 7.142857142857143,
+    "Empire Qin": 7.142857142857143,
+    " Mongolian hordes Khan ": 6.25,
+    " Hindu civilizations (Indus World rule, Gupa dynasty) ": 6.25,
+    "Maya Civilization": 6.25,
+    "Mehmedische Empire": 6.25,
+    "Aegyptian Kings": 6.25,
+    "Kaerreich Mughal": 6.25,
+    "Ceramean Culture in Mesoamerica": 6.25,
+    "Mongolian Heerscharts ": 6.25,
+    "Soviet Union under Stalin": 6.25,
+    "Mediterranean": 6.25,
+    " Central American civilizations ": 6.25,
+    "Mughal- Dynasty in India ": 6.25,
+    "Mughale": 6.25,
+    "Byzantine Rich ": 6.25,
+    "Hittiter empire": 6.25,
+    "Mughale in India": 6.25,
+    "Southeast Asian Empire (Khmaren, Chinese Dynastien)": 6.25,
+    " Inka-Reich ": 6.25,
+    "Great Britain in 19 . Century ": 6.25,
+    "Maya Z civilization ": 6.25,
+    " French rule initiated by France (epoch of the peace of Westphalia) ": 6.25,
+    "Perser": 6.25,
+    "Extra Austrian Reich": 6.25,
+    "Mediterranean-rich (here including Byzantium, Romans etc.)": 6.25,
+    "Arabic civilization": 6.25,
+    "Aztek-Imperium": 6.25,
+    "Mediterranean trade community": 6.25,
+    " Aztec civilization ": 6.25,
+    " Ottoman ": 6.25,
+    "Arabic caliph": 6.25,
+    "Chinese dynasties ( Zhou, Qin, Han etc.) ": 6.25,
+    "Mughal-Imperium": 6.25,
+    " Seldschuken-Reich ": 5.555555555555555,
+    "Aztec Civilization": 5.555555555555555,
+    "Ottoman": 5.555555555555555,
+    "British World power ": 5.555555555555555,
+    "Maurya Dynasty in India": 5.555555555555555,
+    "Maya Civilizations ": 5.555555555555555,
+    " Aztec Empire ": 5.555555555555555,
+    "United States in Economics": 5.555555555555555,
+    "Mughal Kaierreich": 5.555555555555555,
+    " Aegyptic Civilization ": 5.555555555555555,
+    "Central American cultures (e.g. Olmeken, Zapoteken)": 5.555555555555555,
+    "Chinese dynasties (Zhou, Qin , Han) ": 5.555555555555555,
+    " Viking rich ": 5.555555555555555,
+    "Viking Civilization": 5.555555555555555,
+    " Mongolenunterkp Genghis Khan ": 5.555555555555555,
+    "Assyrer and Babylonian-Reich": 5.555555555555555,
+    "British Empire": 5.555555555555555,
+    "Aztecs": 5.555555555555555,
+    "Islamic Caliphate": 5.555555555555555,
+    "Maya culture": 5.555555555555555,
+    "Islamic culture (Umayyaden and abbasids) ": 5.555555555555555,
+    " Coptic Culture of the Old Egypt ": 5.555555555555555,
+    " Soviet Union ": 5.555555555555555,
+    " Aztec Civilization ": 5.555555555555555,
+    "Aztek": 5.555555555555555,
+    " British colonial power ": 5.555555555555555,
+    "Grossbritannien": 5.555555555555555,
+    "Aztec and Incareich": 5.555555555555555,
+    "Great Britain in 19th and 20th Century ": 5.555555555555555,
+    "Arabic-Islamic Culture": 5.555555555555555,
+    " Greek Polis cities ": 5.555555555555555,
+    "Hanseatic cities": 5.555555555555555,
+    "Independent Indo-European cultures": 5.555555555555555,
+    " Inca empire ": 5.555555555555555,
+    " Empire China the Qing ": 5.555555555555555,
+    " Byzantine civilization ": 5.555555555555555,
+    " Ottoman Empire ": 5.0,
+    "Vikingerkultur": 5.0,
+    " Inca Civilization ": 5.0,
+    "Hanseatic Cities ": 5.0,
+    "Gross Asian Han dynasty ": 5.0,
+    " USA as global power ": 5.0,
+    "Zhou dynasty in China ": 5.0,
+    "Akkadische Rich": 5.0,
+    " Höfe der Perser ": 5.0,
+    "German Empire under Hitler": 5.0,
+    "Selgunkhans": 5.0,
+    "Roman Republic": 5.0,
+    " Guppa period and Htexturen times in India ": 5.0,
+    "Medieval European Royal Products": 5.0,
+    " Maya ": 5.0,
+    " Colonial Powers in Europe (15th - 20th Century) ": 5.0,
+    " Mongolian civilization ": 5.0,
+    "Late Ottoman Empire": 5.0,
+    " from the time of the pharaohs to Ptolemeases ": 5.0,
+    "Akkadische Reich": 5.0,
+    "American Empire": 5.0,
+    "Mayas": 5.0,
+    "Iron Age Cultures in Europe": 5.0,
+    " Chinese dynasties ": 5.0,
+    "Mogul- Dynasty": 5.0,
+    " Byzantine culture ": 5.0,
+    " USA in the 20th and 21st centuries ": 5.0,
+    " Incareich ": 5.0,
+    "Caiser Empire Chin": 5.0,
+    " US influence since the 20th century ": 5.0,
+    "Kaiserreich Prussia": 5.0,
+    " USA as a global power after the Second World War ": 5.0,
+    "Foreign World of the Persian Empire": 5.0,
+    "Near East Asian Civilization (Mesopotamia) ": 5.0,
+    "Mongolenreich under Genghis Khan": 5.0,
+    " Byzantine Rich": 5.0,
+    " Byzantium ": 5.0,
+    "Early Indus-Valley-Zivilization": 5.0,
+    " Islamic Central Asia ": 5.0,
+    "Britanian colonial power": 5.0
+  },
+  "raw_rankings": {
+    "Mediterranean kingdom (e.g. Egyptian Empire, Greek world, Roman Empire)": [
+      1
+    ],
+    "Akkadische Empire": [
+      2,
+      4,
+      3
+    ],
+    "Assyrian and Babelische Empire": [
+      3
+    ],
+    "Persian Achämenidenreich": [
+      4
+    ],
+    "Hellenistic richly among the Ptolemae and Seleucids": [
+      5
+    ],
+    "Roman Empire (from 27 v. Chr.) ": [
+      6
+    ],
+    " Byzantine Empire ": [
+      7
+    ],
+    " Mongolian hordes Khan ": [
+      8
+    ],
+    " Seldschuken-Reich ": [
+      9
+    ],
+    " Ottoman Empire ": [
+      10
+    ],
+    "Ancient Greeks": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "Roman imperial era": [
+      2,
+      6,
+      4
+    ],
+    "China in the age of the dynasties": [
+      3
+    ],
+    "Akkadische Königen": [
+      4,
+      3
+    ],
+    "Aigyptian Pharaons": [
+      5
+    ],
+    "Aztec and Inca Eyons": [
+      6
+    ],
+    "Mediterranean cultures (Mycenaean, Greek Roman)": [
+      7
+    ],
+    " Hindu civilizations (Indus World rule, Gupa dynasty) ": [
+      8
+    ],
+    "Islamic caliph": [
+      9,
+      8
+    ],
+    "Vikingerkultur": [
+      10
+    ],
+    "Maan Civilization": [
+      1
+    ],
+    "Antique Egyptian Civilization": [
+      2
+    ],
+    "Assyrian-Babylonian Civilization": [
+      3
+    ],
+    "Greek Civilization": [
+      4
+    ],
+    "Roman Civilization": [
+      5
+    ],
+    "Islamic Civilization": [
+      6
+    ],
+    "China Civilization": [
+      7
+    ],
+    "Maya Civilization": [
+      8
+    ],
+    "Aztec Civilization": [
+      9
+    ],
+    " Inca Civilization ": [
+      10
+    ],
+    "Romans": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "Chinese Dynasties (e.g. Zhou, Han)": [
+      3
+    ],
+    "Akkadiker": [
+      4
+    ],
+    "Mughal empire": [
+      5,
+      10
+    ],
+    "Byzantine": [
+      6,
+      7
+    ],
+    "Vikinger": [
+      7,
+      7,
+      9,
+      10,
+      10,
+      10
+    ],
+    "Mehmedische Empire": [
+      8
+    ],
+    "Ottoman": [
+      9
+    ],
+    "Hanseatic Cities ": [
+      10
+    ],
+    "Antique Romance Plain": [
+      2
+    ],
+    "Chinese Dynasty": [
+      3
+    ],
+    "Medieval Franconia": [
+      4,
+      6,
+      4,
+      4
+    ],
+    "Akkadische Kultur": [
+      5,
+      4,
+      8
+    ],
+    "Hohes Indus area": [
+      6
+    ],
+    "Maya cultures": [
+      7,
+      8
+    ],
+    "Aztec civilization": [
+      8,
+      8,
+      5,
+      4,
+      5
+    ],
+    "Inca Empire": [
+      9,
+      9
+    ],
+    "Gross Asian Han dynasty ": [
+      10
+    ],
+    "Roman Empire": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      6,
+      2,
+      2,
+      3,
+      3
+    ],
+    "Dynasty of the Chinese ruler": [
+      3
+    ],
+    "Macedonian hegemony (under Alexander the Great)": [
+      4
+    ],
+    "Islamic Caliphat": [
+      5
+    ],
+    "Ottoman Empire": [
+      7,
+      7,
+      9,
+      9
+    ],
+    "Spanish colonial power": [
+      8,
+      6,
+      8
+    ],
+    "British World power ": [
+      9
+    ],
+    " USA as global power ": [
+      10
+    ],
+    "Roman Reich": [
+      2
+    ],
+    "Sumerer": [
+      3
+    ],
+    "Hittiter": [
+      5
+    ],
+    "Assyrier": [
+      6,
+      5,
+      5,
+      2,
+      2,
+      4,
+      2
+    ],
+    "Babylonia": [
+      7,
+      6
+    ],
+    "Aegyptian Kings": [
+      8
+    ],
+    "Maurya Dynasty in India": [
+      9
+    ],
+    "Zhou dynasty in China ": [
+      10
+    ],
+    "Römerreich": [
+      2,
+      2
+    ],
+    "Triale Confederation (Chinese Dynastien)": [
+      3
+    ],
+    "Aztec Rich": [
+      4
+    ],
+    "Inka-Reich": [
+      5
+    ],
+    "Hethiter": [
+      6,
+      8,
+      3,
+      4,
+      6,
+      6
+    ],
+    "Kaerreich Mughal": [
+      8
+    ],
+    "Byzantine Kaiser era": [
+      9,
+      8
+    ],
+    "Akkadische Rich": [
+      10
+    ],
+    "Ancient Hochz Civilization": [
+      1
+    ],
+    "Chinese Dynastien": [
+      3,
+      6
+    ],
+    "Greek Antiquity": [
+      4
+    ],
+    "Medieval Carolingian Dynasty": [
+      5,
+      4
+    ],
+    "Byzantine Empire": [
+      6,
+      3,
+      6,
+      4,
+      6
+    ],
+    "Vikinger-Kultur": [
+      7,
+      5
+    ],
+    "Ceramean Culture in Mesoamerica": [
+      8
+    ],
+    "Maya Civilizations ": [
+      9
+    ],
+    " Höfe der Perser ": [
+      10
+    ],
+    "Chinese Dynasties (e.g. Han, Tang)": [
+      3,
+      3,
+      3
+    ],
+    "Akkadische Kaiserreich": [
+      4
+    ],
+    "Mediterranean-rich (e.g. Byzantium, Carthage)": [
+      5,
+      5
+    ],
+    "Hindu civilizations (e.g. Guptas, Maurya)": [
+      6
+    ],
+    "Islamic caliph empire (e.g. Rashidun, Umayyaden)": [
+      7
+    ],
+    "Mongolian Heerscharts ": [
+      8
+    ],
+    " Aztec Empire ": [
+      9
+    ],
+    " Inca Empire ": [
+      10,
+      8
+    ],
+    "Ancient Romans": [
+      2
+    ],
+    "Mongols under Genghis Khan": [
+      5
+    ],
+    "British colonial power": [
+      7
+    ],
+    "Soviet Union under Stalin": [
+      8
+    ],
+    "United States in Economics": [
+      9
+    ],
+    "German Empire under Hitler": [
+      10
+    ],
+    "Antique Romans": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "Ming Dynasty China": [
+      3
+    ],
+    "Zhou dynasty China": [
+      4
+    ],
+    "Early Indus-Handelsreich": [
+      5
+    ],
+    "Atlantis (legendary)": [
+      6
+    ],
+    "Maya-Zivilization": [
+      7,
+      4,
+      8,
+      6,
+      6,
+      6
+    ],
+    "Mughal Kaierreich": [
+      9
+    ],
+    "Selgunkhans": [
+      10
+    ],
+    "Mehrdad dynasty": [
+      1
+    ],
+    "Habsburg dynasty": [
+      2
+    ],
+    "Han-Dynasty": [
+      4
+    ],
+    "Akkadiane": [
+      5,
+      4,
+      4
+    ],
+    "Greek Holy Allianz": [
+      6
+    ],
+    "Reiche der Mediterranean": [
+      7
+    ],
+    "Mediterranean": [
+      8
+    ],
+    "Chinese dynasties": [
+      9,
+      9
+    ],
+    "Roman Republic": [
+      10
+    ],
+    "China": [
+      1,
+      1
+    ],
+    "Mediterranean civilizations (Greece, Romans)": [
+      2
+    ],
+    "Indus-Valley-Zivilization": [
+      3,
+      3
+    ],
+    "Inca-Zivilization": [
+      6
+    ],
+    "Notten-Asian civilizations (Assyria, Babylonia, Persia) ": [
+      7
+    ],
+    " Central American civilizations ": [
+      8
+    ],
+    " Aegyptic Civilization ": [
+      9
+    ],
+    " Guppa period and Htexturen times in India ": [
+      10
+    ],
+    "Chinese Dynasties (e.g. Tang, Yuan)": [
+      3,
+      3,
+      3
+    ],
+    "Medieval Muslim States (e.g. Abessinier, Fatimidids, Aglabid)": [
+      4
+    ],
+    "Indian Empire (e.g. Maurya, Guptas) ": [
+      6
+    ],
+    " Aztecal Empire ": [
+      7
+    ],
+    "Central American cultures (e.g. Olmeken, Zapoteken)": [
+      9
+    ],
+    "Medieval European Royal Products": [
+      10
+    ],
+    "Mediterranean-rich (Greeks, Phoenizier)": [
+      4
+    ],
+    "Assyrierreich": [
+      5
+    ],
+    "Egyptian civilization": [
+      7
+    ],
+    "Chinese dynasties (Zhou, Qin , Han) ": [
+      9
+    ],
+    " Maya ": [
+      10
+    ],
+    "Macedonian rule under Alexander the Great": [
+      1
+    ],
+    "Chinese Dynastien (e.g. Han, Tang)": [
+      3,
+      3
+    ],
+    "Inka-Imperium": [
+      5
+    ],
+    "Mughal- Dynasty in India ": [
+      8
+    ],
+    " Viking rich ": [
+      9
+    ],
+    " Colonial Powers in Europe (15th - 20th Century) ": [
+      10
+    ],
+    "Old Egyptian z civilization": [
+      1
+    ],
+    "Hittiter civilization": [
+      2
+    ],
+    "Assyrian civilization": [
+      3
+    ],
+    "Babylonian civilization": [
+      4
+    ],
+    "Hellenistic civilization": [
+      5
+    ],
+    "Roman civilization": [
+      6
+    ],
+    "Islamic civilization": [
+      7
+    ],
+    "Medieval European Civilization": [
+      8,
+      9
+    ],
+    "Viking Civilization": [
+      9
+    ],
+    " Mongolian civilization ": [
+      10
+    ],
+    "Sassanids and Sasanids": [
+      3
+    ],
+    "Copten": [
+      6
+    ],
+    "Mughale": [
+      8
+    ],
+    "Late Ottoman Empire": [
+      10
+    ],
+    "Chinical Dynasties (e.g. Zhou, Han, Tang)": [
+      3
+    ],
+    "Maurya and Gupa period in India": [
+      4
+    ],
+    "Kaiserreich Maya": [
+      5
+    ],
+    "Aztec": [
+      6,
+      7
+    ],
+    "Inka": [
+      7
+    ],
+    "Byzantine Rich ": [
+      8
+    ],
+    " Mongolenunterkp Genghis Khan ": [
+      9
+    ],
+    " from the time of the pharaohs to Ptolemeases ": [
+      10
+    ],
+    "Mediterranean imperies (Romans, Greeks)": [
+      1
+    ],
+    "Chinese Dynastien (Zhou, Tang, Ming)": [
+      2
+    ],
+    "Islamic rulers (Abbasids, Ottomans)": [
+      3
+    ],
+    "Aztec and Inkarempire": [
+      4
+    ],
+    "Maurya and Gupa dynasty in India": [
+      5
+    ],
+    " Viking empire in the northeast ": [
+      6
+    ],
+    " Maya civilization ": [
+      7
+    ],
+    "Hittiter empire": [
+      8
+    ],
+    "Assyrer and Babylonian-Reich": [
+      9
+    ],
+    "Akkadische Reich": [
+      10
+    ],
+    "Chinese Dynastien (Zhou, Han, Tang)": [
+      3,
+      3
+    ],
+    "Medieval European Hohenstaufen": [
+      4
+    ],
+    "Islamic World (Abbasids, Fatimiden)": [
+      5
+    ],
+    "Mongolian Empire": [
+      6
+    ],
+    "Mughalreich in India": [
+      7
+    ],
+    "British Empire": [
+      9
+    ],
+    "American Empire": [
+      10
+    ],
+    "Babylonier": [
+      6,
+      5
+    ],
+    "Mediterranean cultures (e.g. Byzantine, Eastern Roman)": [
+      7
+    ],
+    "Mughale in India": [
+      8
+    ],
+    "Aztecs": [
+      9
+    ],
+    "Mayas": [
+      10
+    ],
+    "Ancient Egyptians": [
+      1
+    ],
+    "Notten-Asian civilization": [
+      4
+    ],
+    "Mediterranean civilization (Phoenicians, Greeks)": [
+      5
+    ],
+    "Mediterranean-rich (Byzantine, East and West Roman)": [
+      7
+    ],
+    "Southeast Asian Empire (Khmaren, Chinese Dynastien)": [
+      8
+    ],
+    "Islamic Caliphate": [
+      9
+    ],
+    "Iron Age Cultures in Europe": [
+      10
+    ],
+    "Chinese Dynasties (e.g. Tang, Qing)": [
+      3
+    ],
+    "Hindu India": [
+      5,
+      9
+    ],
+    "Islamic tribal associations (Saqaliba)": [
+      6
+    ],
+    "Manchu culture": [
+      1
+    ],
+    "Hellenistic culture": [
+      2,
+      3
+    ],
+    "Roman culture": [
+      3,
+      8,
+      7
+    ],
+    "Islamic cultures": [
+      4
+    ],
+    "Chinese culture": [
+      5
+    ],
+    "British culture": [
+      6
+    ],
+    "Indus culture": [
+      7
+    ],
+    "Egyptian culture": [
+      8,
+      5
+    ],
+    "Maya culture": [
+      9
+    ],
+    " Aztec culture ": [
+      10,
+      7
+    ],
+    "Mediterranean culture": [
+      1,
+      1
+    ],
+    "ancient Egyptian culture": [
+      2
+    ],
+    "Assyrian-Babylonian culture": [
+      3,
+      2
+    ],
+    "Hittiter culture": [
+      5
+    ],
+    "Alte Perser": [
+      6
+    ],
+    "Greek cultures": [
+      7
+    ],
+    "Islamic culture (Umayyaden and abbasids) ": [
+      9
+    ],
+    " Chinese dynasties ": [
+      10
+    ],
+    "Akkadian culture": [
+      2
+    ],
+    "Assyrian culture": [
+      3
+    ],
+    "Babylonian culture": [
+      4
+    ],
+    "Greek culture": [
+      6,
+      3
+    ],
+    "Mogul- Dynasty": [
+      10
+    ],
+    "Ancient Greek Culture": [
+      1,
+      1,
+      1
+    ],
+    "Ancient Roman Culture": [
+      2
+    ],
+    "South Asian Indus Culture": [
+      3
+    ],
+    "Chinese Dynasties (e.g. Zhou, Tang, Qing)": [
+      4
+    ],
+    "Central Oriental primary and early cultures (e.g. Babyloner, Assyrian, Perser)": [
+      5
+    ],
+    " Maya culture ": [
+      6
+    ],
+    " Inka-Reich ": [
+      8
+    ],
+    " Coptic Culture of the Old Egypt ": [
+      9
+    ],
+    " Byzantine culture ": [
+      10
+    ],
+    "Medieval Karl'Scher Reich": [
+      4
+    ],
+    "Mauren in Spain": [
+      6
+    ],
+    "Kaierreich China": [
+      7
+    ],
+    "Great Britain in 19 . Century ": [
+      8
+    ],
+    " Soviet Union ": [
+      9
+    ],
+    " USA in the 20th and 21st centuries ": [
+      10
+    ],
+    "Ancient Egyptian z civilization": [
+      1
+    ],
+    "Assyrian-Babylonian Z civilization": [
+      2
+    ],
+    "Roman imperial": [
+      4
+    ],
+    "Islamic golden line (750-1258)": [
+      5
+    ],
+    "medieval Chinese dynasties": [
+      6
+    ],
+    "Hindu z civilization": [
+      7
+    ],
+    "Maya Z civilization ": [
+      8
+    ],
+    " Aztec Civilization ": [
+      9
+    ],
+    " Incareich ": [
+      10
+    ],
+    "Old Egypt": [
+      1
+    ],
+    "Pre -state high cultures (Toltec, Maya)": [
+      3
+    ],
+    "Greek Classic": [
+      5
+    ],
+    "Occident in the Middle Ages": [
+      7
+    ],
+    "Aztek": [
+      9
+    ],
+    "Caiser Empire Chin": [
+      10
+    ],
+    "Chinese Dynastien (e.g. Tang, Yuan)": [
+      3
+    ],
+    "Medieval Christianity (Crusades, Rittertism)": [
+      4
+    ],
+    "Islamic Civilizations (Umayyad, Abbasid)": [
+      5
+    ],
+    "Mongolenreich under Chingis Khan and his successors ": [
+      6
+    ],
+    " Habsburg Reich ": [
+      7
+    ],
+    " French rule initiated by France (epoch of the peace of Westphalia) ": [
+      8
+    ],
+    " British colonial power ": [
+      9
+    ],
+    " US influence since the 20th century ": [
+      10
+    ],
+    "Egyptian": [
+      7
+    ],
+    "Perser": [
+      8
+    ],
+    "Grossbritannien": [
+      9
+    ],
+    "Mehrdosch": [
+      1
+    ],
+    "Dreicaiserreich (China)": [
+      2
+    ],
+    "Roman Empire (until 476 AD)": [
+      3
+    ],
+    "Hindu civilizations (Indus- und Gupta period)": [
+      5
+    ],
+    "Islamic civilizations (Raschiden, Abessiner , Umayyaden, Abbasid) ": [
+      6
+    ],
+    " Mediterranean-rich (Venice, Genoese, Carthage) ": [
+      7
+    ],
+    "Extra Austrian Reich": [
+      8
+    ],
+    "Aztec and Incareich": [
+      9
+    ],
+    "Kaiserreich Prussia": [
+      10
+    ],
+    "Roman Cultural Education": [
+      2
+    ],
+    "Medieval European Powers (e.g. Franconia, Spain)": [
+      4
+    ],
+    "Islamic World (Abbasids, Ottomans)": [
+      5
+    ],
+    "Aztekische Empire": [
+      7
+    ],
+    "Incareich": [
+      8,
+      7
+    ],
+    "Great Britain in 19th and 20th Century ": [
+      9
+    ],
+    " USA as a global power after the Second World War ": [
+      10
+    ],
+    "Mediterranean cultures (e.g. Greeks, Romans)": [
+      1
+    ],
+    "Chinese Dynasties": [
+      2
+    ],
+    "Corcadian and Assyrian": [
+      3
+    ],
+    "Egyptian Pharaohs": [
+      4
+    ],
+    "Maya and Aztecke": [
+      5
+    ],
+    "Empire China of the Tang Dynasty": [
+      7
+    ],
+    "Mediterranean-rich (here including Byzantium, Romans etc.)": [
+      8
+    ],
+    "Foreign World of the Persian Empire": [
+      10
+    ],
+    "Mediterranean cultures (e.g. Greek, Roman)": [
+      2
+    ],
+    "Maya civilization": [
+      4,
+      10
+    ],
+    "Persian civilization": [
+      6
+    ],
+    "Byzantine civilization": [
+      7
+    ],
+    "Arabic civilization": [
+      8
+    ],
+    "Near East Asian Civilization (Mesopotamia) ": [
+      10
+    ],
+    "Aztec Imperium": [
+      5
+    ],
+    "Arabic-Islamic Culture": [
+      9
+    ],
+    "Mongolenreich under Genghis Khan": [
+      10
+    ],
+    "Ancient Hellas": [
+      1,
+      1
+    ],
+    "Corcadian King's Age": [
+      3
+    ],
+    "Chinese Dynastien (Qin, Tang)": [
+      4
+    ],
+    "Mediterranean-rich (Hellas, Roman Empire, Byzantine Empire)": [
+      5
+    ],
+    "Aztec civilization ": [
+      7
+    ],
+    " Greek Polis cities ": [
+      9
+    ],
+    " Byzantine Rich": [
+      10
+    ],
+    "Mediterranean cultures": [
+      1
+    ],
+    "Ancient Greek": [
+      2
+    ],
+    "Chinese Dynastien (Zhou, Qin, Han)": [
+      4
+    ],
+    "Islamic Caliphs": [
+      5
+    ],
+    "Mönchshauser and Cathedral of Europe": [
+      6
+    ],
+    "Byzantium": [
+      7,
+      4
+    ],
+    "Aztek-Imperium": [
+      8
+    ],
+    "Hanseatic cities": [
+      9
+    ],
+    "Ancient Egyptian culture": [
+      1
+    ],
+    "Vikings": [
+      5
+    ],
+    "Greece under the Olympians": [
+      7
+    ],
+    "Mediterranean trade community": [
+      8
+    ],
+    "Independent Indo-European cultures": [
+      9
+    ],
+    "Chinastate (e.g. Zhou, Qin)": [
+      3
+    ],
+    "Medieval Islamic World": [
+      4
+    ],
+    "Vikinger culture": [
+      5
+    ],
+    "Mediterranean-rich (e.g. Byzantine Empire, Ottoman East)": [
+      6
+    ],
+    "Maya- Civilization ": [
+      7
+    ],
+    " Aztec civilization ": [
+      8
+    ],
+    " Inca empire ": [
+      9
+    ],
+    " Byzantium ": [
+      10
+    ],
+    "Mediterranean-rich (Byzantium, Carthage)": [
+      4
+    ],
+    "Mughal-Dynasty": [
+      5
+    ],
+    "Central American civilizations (Azteken, Maya)": [
+      6
+    ],
+    " Sasanid kingdoms ": [
+      7
+    ],
+    " Ottoman ": [
+      8
+    ],
+    " Empire China the Qing ": [
+      9
+    ],
+    "Ancient Mediterranean cultures (Greece, Romans)": [
+      1
+    ],
+    "China of the Dynasties time": [
+      2
+    ],
+    "Mogulreich India": [
+      3
+    ],
+    "Maya and Aztec civilizations": [
+      5
+    ],
+    "Hafsid dynasty in North Africa": [
+      6
+    ],
+    "Kornassene-König-rich Mesopotamia": [
+      7
+    ],
+    "Arabic caliph": [
+      8
+    ],
+    "Early Indus-Valley-Zivilization": [
+      10
+    ],
+    "Old Egyptian civilization": [
+      1
+    ],
+    "Assyrian-Babylonian civilization": [
+      2
+    ],
+    "Greek antiquity": [
+      3
+    ],
+    "Roman Republic and Kaiser era": [
+      4
+    ],
+    "Sasanid Persian": [
+      5
+    ],
+    "Kara-Khitan's civilization": [
+      6
+    ],
+    "Mönchengladbach civilization (fictitious)": [
+      7
+    ],
+    "Chinese dynasties ( Zhou, Qin, Han etc.) ": [
+      8
+    ],
+    " Byzantine civilization ": [
+      9
+    ],
+    " Islamic Central Asia ": [
+      10
+    ],
+    "Mediterranean-rich (Byzantium, Venice)": [
+      4
+    ],
+    "Corcadian Empire": [
+      5
+    ],
+    "Empire Qin": [
+      7
+    ],
+    "Mughal-Imperium": [
+      8
+    ],
+    "Britanian colonial power": [
+      10
+    ]
+  }
+}

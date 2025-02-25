@@ -1,0 +1,981 @@
+{
+  "question": "Create one top 10 list for this question. Only respond with the list in JSON array format, with each entry on the list being a string.\n\nQuestion: Historically, what civilations have been the most dominant and influencial of all time?",
+  "model": "qwen2.5",
+  "destination_language": "en",
+  "source_language": "en",
+  "iterations": 50,
+  "average_rankings": {
+    "Ancient Rome": 1.0,
+    "Ancient Roman Empire": 1.0,
+    "Ancient Egypt": 1.2608695652173914,
+    "Mesopotamian Civilization": 2.0,
+    "Mesopotamia": 2.0,
+    "The Han Dynasty of China": 2.0,
+    "Mesopotamian Civilizations (Sumer, Akkad, Babylon)": 2.0,
+    "Ancient Greece": 2.0,
+    "Chinese Dynasties ( Qin, Han, Tang, Ming )": 2.0,
+    "Assyria-Babylonia": 2.0,
+    "Ming Dynasty": 2.0,
+    "Mesopotamian Civilizations": 2.0,
+    "Ming Dynasty China": 2.7,
+    "Ming China": 3.0,
+    "Indus Valley Civilization": 3.0,
+    "Chinese Dynasties (e.g., Qin, Tang)": 3.0,
+    "Imperial China": 3.0,
+    "Ancient Egyptian Civilization": 3.0,
+    "The Chinese Dynasties (e.g., Qin, Han)": 3.0,
+    "Nubia Kingdoms": 3.0,
+    "Greece": 3.0,
+    "Mughal Empire India": 3.0,
+    "The Roman Empire": 3.1818181818181817,
+    "Medieval Islamic Caliphates": 3.3333333333333335,
+    "Chinese Han Dynasty": 3.5,
+    "The Mongol Empire": 3.7058823529411766,
+    "Roman Empire": 3.7333333333333334,
+    "Chinese Civilization": 3.75,
+    "Chinese Dynasty (various)": 4.0,
+    "The Chinese Dynasties ( Qin, Han, Tang)": 4.0,
+    "Rome": 4.0,
+    "Chinese Dynasty (including Qin, Han, Song)": 4.0,
+    "The Han Dynasty in China": 4.0,
+    "Axumite Empire": 4.0,
+    "The British Empire": 4.2,
+    "Chinese Dynasties (e.g., Qin, Han)": 5.0,
+    "The Persian Empire (Achaemenid, Sassanian)": 5.0,
+    "Minoan Civilization": 5.0,
+    "Maurya Empire of India": 5.0,
+    "Inca Civilization": 5.0,
+    "Persian Empire (Achaemenid, Parthian, Sassanid)": 5.0,
+    "Han Dynasty China": 5.0,
+    "China": 5.0,
+    "Mycenaean Greece and subsequent Greek civilizations": 5.0,
+    "Aksumite Empire": 5.0,
+    "Chinese Empire": 5.0,
+    "The Chinese Dynasties (Qin, Tang, Ming)": 5.0,
+    "Persian Empire": 5.0588235294117645,
+    "British Empire": 5.222222222222222,
+    "Persian Achaemenid Empire": 5.5,
+    "Egyptian Civilization": 5.5,
+    "Alexander's Empire": 5.666666666666667,
+    "Mongol Empire": 5.714285714285714,
+    "The Egyptian Civilization": 6.0,
+    "The Byzantine Empire": 6.0,
+    "The Carolingian Empire": 6.0,
+    "Mycenaean Greece and the Greek City-States": 6.0,
+    "拜占庭帝国 (Byzantine Empire)": 6.0,
+    "Persia": 6.0,
+    "Chinese Dynasties (Qin, Tang, Ming)": 6.0,
+    "Mayan Civilization": 6.142857142857143,
+    "The Aztec Empire": 6.266666666666667,
+    "Maurya Empire": 6.571428571428571,
+    "The Maurya Empire": 6.615384615384615,
+    "Maya Civilization": 6.625,
+    "The Chinese Qing Dynasty": 6.666666666666667,
+    "Aztec Empire": 6.75,
+    "Arab Caliphates": 6.833333333333333,
+    "The Han Dynasty": 7.0,
+    "The Roman Empire (Byzantine)": 7.0,
+    "Egyptian Empire": 7.0,
+    "Napoleonic France": 7.0,
+    "Umayyad Caliphate": 7.0,
+    "Han Dynasty": 7.0,
+    "Akkadian Empire": 7.0,
+    "Egyptian Kingdoms (Old, Middle, New)": 7.0,
+    "The Chinese Empire": 7.0,
+    "Greek Civilization": 7.181818181818182,
+    "The Ottoman Empire": 7.1875,
+    "The Persian Empire": 7.2,
+    "Mughal Empire": 7.25,
+    "Inca Empire": 7.5,
+    "Achaemenid Empire": 7.5,
+    "Egyptian New Kingdom": 7.5,
+    "The Chinese Dynasties (Qin, Han, Tang, Ming)": 7.5,
+    "Greek City-States": 7.75,
+    "Byzantine Empire": 7.925925925925926,
+    "Incan Empire": 8.0,
+    "Chinese Dynasties (Qin, Han)": 8.0,
+    "Greek City States and Empires": 8.0,
+    "The Chinese Qin Dynasty": 8.0,
+    "The Ancient Greek City-States": 8.0,
+    "The Spanish Empire": 8.5,
+    "Arab Islamic Golden Age": 9.0,
+    "The Persian Achaemenid Empire": 9.0,
+    "Armenian Kingdoms": 9.0,
+    "The Chinese Dynasties (e.g., Qin, Tang, Ming)": 9.0,
+    "The Islamic Caliphates": 9.0,
+    "Sui-Tang China": 9.0,
+    "The Incan Empire": 9.0,
+    "French Colonial Empire": 9.0,
+    "The Egyptian New Kingdom": 9.333333333333334,
+    "Spanish Empire": 9.333333333333334,
+    "The Greek Civilization": 9.333333333333334,
+    "Ottoman Empire": 9.5,
+    "Norse Vikings": 10.0,
+    "The Chinese Ming Dynasty": 10.0,
+    "Armenian Kingdom": 10.0,
+    " Ottoman Empire": 10.0,
+    "The Greek文明 (古典时期)": 10.0,
+    "Medieval European Civilization": 10.0,
+    "The Inca Empire": 10.0,
+    "Zhou Dynasty": 10.0,
+    "Armenian Kingdom of Cilicia": 10.0,
+    "Greek Classical Period": 10.0,
+    "Netherlands during the Golden Age": 10.0,
+    "The Chinese Dynasties": 10.0
+  },
+  "weighted_rankings": {
+    "Ancient Egypt": 1033.3333333333333,
+    "Ancient Rome": 1000.0,
+    "Roman Empire": 376.7857142857143,
+    "Ancient Roman Empire": 300.0,
+    "The Mongol Empire": 282.5,
+    "Ming Dynasty China": 218.33333333333334,
+    "British Empire": 216.94444444444443,
+    "The British Empire": 204.72222222222223,
+    "Byzantine Empire": 183.2539682539682,
+    "Persian Empire": 181.44841269841268,
+    "The Roman Empire": 179.16666666666663,
+    "Mesopotamia": 175.0,
+    "Aztec Empire": 164.74206349206347,
+    "The Aztec Empire": 129.16666666666669,
+    "Mesopotamian Civilization": 125.0,
+    "Inca Empire": 124.90079365079364,
+    "The Ottoman Empire": 117.18253968253967,
+    "Maurya Empire": 112.87698412698411,
+    "The Maurya Empire": 109.32539682539684,
+    "Mongol Empire": 98.75,
+    "Han Dynasty China": 86.80555555555556,
+    "Indus Valley Civilization": 83.33333333333334,
+    "Greek Civilization": 79.3452380952381,
+    "Maya Civilization": 61.7857142857143,
+    "Mayan Civilization": 60.47619047619048,
+    "The Carolingian Empire": 60.0,
+    "The Egyptian Civilization": 55.53571428571429,
+    "Chinese Civilization": 54.16666666666667,
+    "Imperial China": 54.16666666666667,
+    "Ancient Greece": 50.0,
+    "Ming Dynasty": 50.0,
+    "Arab Caliphates": 46.626984126984134,
+    "Medieval Islamic Caliphates": 45.833333333333336,
+    "Arab Islamic Golden Age": 44.861111111111114,
+    "Han Dynasty": 38.39285714285714,
+    "The Persian Empire": 36.726190476190474,
+    "Chinese Han Dynasty": 35.0,
+    "Mughal Empire": 34.36507936507937,
+    "Alexander's Empire": 34.16666666666667,
+    "The Greek Civilization": 32.361111111111114,
+    "Achaemenid Empire": 28.253968253968253,
+    "Greek City-States": 27.22222222222222,
+    "The Han Dynasty of China": 25.0,
+    "Mesopotamian Civilizations (Sumer, Akkad, Babylon)": 25.0,
+    "Chinese Dynasties ( Qin, Han, Tang, Ming )": 25.0,
+    "Assyria-Babylonia": 25.0,
+    "Mesopotamian Civilizations": 25.0,
+    "The Han Dynasty": 24.642857142857142,
+    "Akkadian Empire": 24.642857142857142,
+    "Napoleonic France": 24.305555555555557,
+    "The Spanish Empire": 23.611111111111114,
+    "The Chinese Qing Dynasty": 23.392857142857142,
+    "Chinese Dynasties (e.g., Qin, Han)": 20.0,
+    "Inca Civilization": 20.0,
+    "Persian Achaemenid Empire": 19.642857142857142,
+    "Egyptian Civilization": 18.333333333333336,
+    "Ming China": 16.666666666666668,
+    "Chinese Dynasties (e.g., Qin, Tang)": 16.666666666666668,
+    "Ancient Egyptian Civilization": 16.666666666666668,
+    "The Chinese Dynasties (e.g., Qin, Han)": 16.666666666666668,
+    "Nubia Kingdoms": 16.666666666666668,
+    "Greece": 16.666666666666668,
+    "Mughal Empire India": 16.666666666666668,
+    "The Egyptian New Kingdom": 16.11111111111111,
+    "Spanish Empire": 16.11111111111111,
+    "Egyptian New Kingdom": 13.88888888888889,
+    "The Chinese Dynasties (Qin, Han, Tang, Ming)": 13.88888888888889,
+    "Chinese Dynasty (various)": 12.5,
+    "The Chinese Dynasties ( Qin, Han, Tang)": 12.5,
+    "Incan Empire": 12.5,
+    "Rome": 12.5,
+    "Chinese Dynasty (including Qin, Han, Song)": 12.5,
+    "The Han Dynasty in China": 12.5,
+    "Axumite Empire": 12.5,
+    "Ottoman Empire": 10.555555555555555,
+    "The Persian Empire (Achaemenid, Sassanian)": 10.0,
+    "Minoan Civilization": 10.0,
+    "Maurya Empire of India": 10.0,
+    "Persian Empire (Achaemenid, Parthian, Sassanid)": 10.0,
+    "China": 10.0,
+    "Mycenaean Greece and subsequent Greek civilizations": 10.0,
+    "Aksumite Empire": 10.0,
+    "Chinese Empire": 10.0,
+    "The Chinese Dynasties (Qin, Tang, Ming)": 10.0,
+    "The Byzantine Empire": 8.333333333333334,
+    "Mycenaean Greece and the Greek City-States": 8.333333333333334,
+    "拜占庭帝国 (Byzantine Empire)": 8.333333333333334,
+    "Persia": 8.333333333333334,
+    "Chinese Dynasties (Qin, Tang, Ming)": 8.333333333333334,
+    "The Roman Empire (Byzantine)": 7.142857142857143,
+    "Egyptian Empire": 7.142857142857143,
+    "Umayyad Caliphate": 7.142857142857143,
+    "Egyptian Kingdoms (Old, Middle, New)": 7.142857142857143,
+    "The Chinese Empire": 7.142857142857143,
+    "Chinese Dynasties (Qin, Han)": 6.25,
+    "Greek City States and Empires": 6.25,
+    "The Chinese Qin Dynasty": 6.25,
+    "The Ancient Greek City-States": 6.25,
+    "The Persian Achaemenid Empire": 5.555555555555555,
+    "Armenian Kingdoms": 5.555555555555555,
+    "The Chinese Dynasties (e.g., Qin, Tang, Ming)": 5.555555555555555,
+    "The Islamic Caliphates": 5.555555555555555,
+    "Sui-Tang China": 5.555555555555555,
+    "The Incan Empire": 5.555555555555555,
+    "French Colonial Empire": 5.555555555555555,
+    "Norse Vikings": 5.0,
+    "The Chinese Ming Dynasty": 5.0,
+    "Armenian Kingdom": 5.0,
+    " Ottoman Empire": 5.0,
+    "The Greek文明 (古典时期)": 5.0,
+    "Medieval European Civilization": 5.0,
+    "The Inca Empire": 5.0,
+    "Zhou Dynasty": 5.0,
+    "Armenian Kingdom of Cilicia": 5.0,
+    "Greek Classical Period": 5.0,
+    "Netherlands during the Golden Age": 5.0,
+    "The Chinese Dynasties": 5.0
+  },
+  "raw_rankings": {
+    "Ancient Rome": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "The Mongol Empire": [
+      2,
+      2,
+      5,
+      5,
+      10,
+      4,
+      2,
+      2,
+      3,
+      4,
+      4,
+      3,
+      3,
+      5,
+      5,
+      2,
+      2
+    ],
+    "Ming China": [
+      3
+    ],
+    "Arab Caliphates": [
+      4,
+      7,
+      7,
+      7,
+      7,
+      9
+    ],
+    "Persian Empire": [
+      5,
+      4,
+      4,
+      4,
+      5,
+      4,
+      7,
+      8,
+      4,
+      5,
+      4,
+      4,
+      6,
+      3,
+      5,
+      5,
+      9
+    ],
+    "Greek Civilization": [
+      6,
+      7,
+      8,
+      10,
+      10,
+      7,
+      6,
+      6,
+      6,
+      6,
+      7
+    ],
+    "Maurya Empire": [
+      7,
+      9,
+      4,
+      10,
+      7,
+      5,
+      6,
+      6,
+      5,
+      8,
+      7,
+      7,
+      5,
+      6
+    ],
+    "British Empire": [
+      8,
+      9,
+      3,
+      10,
+      3,
+      3,
+      3,
+      3,
+      10,
+      4,
+      8,
+      3,
+      4,
+      3,
+      3,
+      9,
+      4,
+      4
+    ],
+    "Byzantine Empire": [
+      9,
+      9,
+      8,
+      6,
+      9,
+      6,
+      8,
+      8,
+      6,
+      4,
+      9,
+      10,
+      10,
+      9,
+      9,
+      4,
+      8,
+      8,
+      9,
+      9,
+      7,
+      4,
+      8,
+      9,
+      9,
+      9,
+      10
+    ],
+    "Aztec Empire": [
+      10,
+      6,
+      9,
+      10,
+      6,
+      5,
+      10,
+      3,
+      5,
+      7,
+      7,
+      7,
+      9,
+      4,
+      5,
+      4,
+      8,
+      6,
+      7,
+      7
+    ],
+    "Ancient Egypt": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      2,
+      3,
+      1,
+      1,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "Mesopotamian Civilization": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "Indus Valley Civilization": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "Chinese Dynasty (various)": [
+      4
+    ],
+    "Mayan Civilization": [
+      5,
+      5,
+      6,
+      5,
+      5,
+      10,
+      7
+    ],
+    "Inca Empire": [
+      7,
+      10,
+      7,
+      6,
+      8,
+      9,
+      8,
+      8,
+      6,
+      6,
+      7,
+      8,
+      10,
+      10,
+      6,
+      5,
+      8,
+      6
+    ],
+    "Roman Empire": [
+      8,
+      2,
+      1,
+      8,
+      1,
+      7,
+      4,
+      1,
+      1,
+      6,
+      7,
+      4,
+      2,
+      1,
+      3
+    ],
+    "Arab Islamic Golden Age": [
+      10,
+      10,
+      9,
+      8,
+      9,
+      10,
+      8,
+      8
+    ],
+    "Chinese Dynasties (e.g., Qin, Tang)": [
+      3
+    ],
+    "Greek City-States": [
+      6,
+      6,
+      9,
+      10
+    ],
+    "Mongol Empire": [
+      8,
+      2,
+      8,
+      10,
+      2,
+      8,
+      2
+    ],
+    "Norse Vikings": [
+      10
+    ],
+    "Chinese Dynasties (e.g., Qin, Han)": [
+      5,
+      5
+    ],
+    "The British Empire": [
+      3,
+      9,
+      6,
+      5,
+      3,
+      3,
+      4,
+      5,
+      3,
+      2,
+      4,
+      6,
+      4,
+      3,
+      3
+    ],
+    "The Roman Empire": [
+      4,
+      3,
+      3,
+      3,
+      2,
+      4,
+      4,
+      3,
+      3,
+      3,
+      3
+    ],
+    "The Chinese Qing Dynasty": [
+      5,
+      8,
+      7
+    ],
+    "The Aztec Empire": [
+      6,
+      8,
+      8,
+      8,
+      6,
+      5,
+      5,
+      6,
+      6,
+      4,
+      6,
+      8,
+      10,
+      4,
+      4
+    ],
+    "The Ottoman Empire": [
+      7,
+      10,
+      9,
+      9,
+      7,
+      6,
+      6,
+      10,
+      8,
+      5,
+      7,
+      5,
+      7,
+      8,
+      5,
+      6
+    ],
+    "The Maurya Empire": [
+      8,
+      4,
+      3,
+      7,
+      9,
+      7,
+      7,
+      7,
+      9,
+      8,
+      4,
+      7,
+      6
+    ],
+    "The Persian Achaemenid Empire": [
+      9
+    ],
+    "The Egyptian New Kingdom": [
+      10,
+      9,
+      9
+    ],
+    "Mesopotamia": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "Spanish Empire": [
+      9,
+      9,
+      10
+    ],
+    "The Han Dynasty of China": [
+      2
+    ],
+    "The Egyptian Civilization": [
+      3,
+      6,
+      7,
+      5,
+      8,
+      7
+    ],
+    "The Byzantine Empire": [
+      6
+    ],
+    "The Persian Empire": [
+      7,
+      8,
+      5,
+      10,
+      6
+    ],
+    "The Carolingian Empire": [
+      2,
+      2,
+      10,
+      10
+    ],
+    "The Han Dynasty": [
+      4,
+      10,
+      7
+    ],
+    "The Roman Empire (Byzantine)": [
+      7
+    ],
+    "The Chinese Ming Dynasty": [
+      10
+    ],
+    "Mesopotamian Civilizations (Sumer, Akkad, Babylon)": [
+      2
+    ],
+    "The Chinese Dynasties ( Qin, Han, Tang)": [
+      4
+    ],
+    "The Persian Empire (Achaemenid, Sassanian)": [
+      5
+    ],
+    "Mycenaean Greece and the Greek City-States": [
+      6
+    ],
+    "Ming Dynasty China": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      5,
+      2,
+      2,
+      6
+    ],
+    "Alexander's Empire": [
+      4,
+      10,
+      3
+    ],
+    "Egyptian Empire": [
+      7
+    ],
+    "Incan Empire": [
+      8,
+      8
+    ],
+    "Armenian Kingdom": [
+      10
+    ],
+    "Chinese Civilization": [
+      4,
+      3,
+      4,
+      4
+    ],
+    "Minoan Civilization": [
+      5
+    ],
+    "Maya Civilization": [
+      6,
+      5,
+      6,
+      7,
+      8,
+      6,
+      7,
+      8
+    ],
+    "Napoleonic France": [
+      4,
+      9,
+      8
+    ],
+    "Achaemenid Empire": [
+      5,
+      7,
+      9,
+      9
+    ],
+    "Umayyad Caliphate": [
+      7
+    ],
+    "Ancient Greece": [
+      2,
+      2
+    ],
+    "Imperial China": [
+      4,
+      3,
+      2
+    ],
+    "Mughal Empire": [
+      9,
+      7,
+      10,
+      3
+    ],
+    "Chinese Han Dynasty": [
+      2,
+      5
+    ],
+    "Ancient Egyptian Civilization": [
+      3
+    ],
+    "Persian Achaemenid Empire": [
+      4,
+      7
+    ],
+    "Maurya Empire of India": [
+      5
+    ],
+    "Armenian Kingdoms": [
+      9
+    ],
+    "Ancient Roman Empire": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "Han Dynasty": [
+      5,
+      7,
+      10,
+      8,
+      5
+    ],
+    "拜占庭帝国 (Byzantine Empire)": [
+      6
+    ],
+    "Akkadian Empire": [
+      7,
+      4,
+      10
+    ],
+    "Egyptian New Kingdom": [
+      9,
+      6
+    ],
+    "Inca Civilization": [
+      5,
+      5
+    ],
+    "Egyptian Civilization": [
+      6,
+      5
+    ],
+    "Chinese Dynasties (Qin, Han)": [
+      8
+    ],
+    "Chinese Dynasties ( Qin, Han, Tang, Ming )": [
+      2
+    ],
+    "Persian Empire (Achaemenid, Parthian, Sassanid)": [
+      5
+    ],
+    "Egyptian Kingdoms (Old, Middle, New)": [
+      7
+    ],
+    "Greek City States and Empires": [
+      8
+    ],
+    " Ottoman Empire": [
+      10
+    ],
+    "The Chinese Dynasties (e.g., Qin, Han)": [
+      3
+    ],
+    "The Greek文明 (古典时期)": [
+      10
+    ],
+    "Medieval European Civilization": [
+      10
+    ],
+    "Ottoman Empire": [
+      9,
+      10
+    ],
+    "Nubia Kingdoms": [
+      3
+    ],
+    "Han Dynasty China": [
+      9,
+      3,
+      8,
+      2,
+      2,
+      6
+    ],
+    "The Chinese Qin Dynasty": [
+      8
+    ],
+    "The Greek Civilization": [
+      10,
+      10,
+      8,
+      10,
+      9,
+      9
+    ],
+    "The Spanish Empire": [
+      8,
+      9,
+      8,
+      9
+    ],
+    "The Chinese Dynasties (e.g., Qin, Tang, Ming)": [
+      9
+    ],
+    "The Chinese Empire": [
+      7
+    ],
+    "The Inca Empire": [
+      10
+    ],
+    "Assyria-Babylonia": [
+      2
+    ],
+    "Greece": [
+      3
+    ],
+    "Rome": [
+      4
+    ],
+    "China": [
+      5
+    ],
+    "Persia": [
+      6
+    ],
+    "The Chinese Dynasties (Qin, Han, Tang, Ming)": [
+      6,
+      9
+    ],
+    "The Islamic Caliphates": [
+      9
+    ],
+    "Ming Dynasty": [
+      2,
+      2
+    ],
+    "Zhou Dynasty": [
+      10
+    ],
+    "Medieval Islamic Caliphates": [
+      3,
+      4,
+      3
+    ],
+    "Armenian Kingdom of Cilicia": [
+      10
+    ],
+    "Greek Classical Period": [
+      10
+    ],
+    "Sui-Tang China": [
+      9
+    ],
+    "Chinese Dynasty (including Qin, Han, Song)": [
+      4
+    ],
+    "Mycenaean Greece and subsequent Greek civilizations": [
+      5
+    ],
+    "The Incan Empire": [
+      9
+    ],
+    "Mughal Empire India": [
+      3
+    ],
+    "Netherlands during the Golden Age": [
+      10
+    ],
+    "Aksumite Empire": [
+      5
+    ],
+    "Mesopotamian Civilizations": [
+      2
+    ],
+    "Chinese Empire": [
+      5
+    ],
+    "Chinese Dynasties (Qin, Tang, Ming)": [
+      6
+    ],
+    "French Colonial Empire": [
+      9
+    ],
+    "The Chinese Dynasties": [
+      10
+    ],
+    "The Han Dynasty in China": [
+      4
+    ],
+    "Axumite Empire": [
+      4
+    ],
+    "The Chinese Dynasties (Qin, Tang, Ming)": [
+      5
+    ],
+    "The Ancient Greek City-States": [
+      8
+    ]
+  }
+}
