@@ -8,6 +8,7 @@ import json
 from pathlib import Path
 from pprint import pprint
 import argparse
+import httpx
 
 async def analyze_and_visualize_responses(question: str, source: str, destination: str, model: str, iterations: int):
     # Parse model name and size if specified (e.g., "qwen2.5:3b" -> "qwen2.5/3b")
@@ -22,11 +23,21 @@ async def analyze_and_visualize_responses(question: str, source: str, destinatio
     # Collect responses
     final_answers = []
     for i in tqdm(range(iterations), desc="Collecting responses"):
-        answer = execute_prompt(translated_question, model)
-        print(answer)
-        final_answers.append(answer)
+        final_answers.append(execute_prompt(translated_question, model))
 
-    translated_answers = await bulk_translate_text(texts=final_answers, dest=source)
+    # Add retry logic for translation
+    max_retries = 3
+    retry_delay = 5  # seconds
+    for attempt in range(max_retries):
+        try:
+            translated_answers = await bulk_translate_text(texts=final_answers, dest=source)
+            break
+        except httpx.ReadTimeout:
+            if attempt == max_retries - 1:  # Last attempt
+                raise  # Re-raise the exception if all retries failed
+            print(f"Translation timeout, retrying in {retry_delay} seconds...")
+            await asyncio.sleep(retry_delay)
+            retry_delay *= 2  # Exponential backoff
 
     # Process each answer
     for answer in tqdm(translated_answers, desc="Processing answers"):
@@ -52,6 +63,9 @@ async def analyze_and_visualize_responses(question: str, source: str, destinatio
         for country, rankings in country_rankings.items()
     }
 
+    # Sort average rankings by value (descending)
+    avg_rankings = dict(sorted(avg_rankings.items(), key=lambda x: x[1]))
+
     # Calculate the weighted rankings (adjusted formula)
     weighted_rankings = {}
     for country, rankings in country_rankings.items():
@@ -59,6 +73,9 @@ async def analyze_and_visualize_responses(question: str, source: str, destinatio
         for rank in rankings:
             weighted_ranking += iterations / rank
         weighted_rankings[country] = weighted_ranking
+
+    # Sort weighted rankings by value (descending)
+    weighted_rankings = dict(sorted(weighted_rankings.items(), key=lambda x: x[1], reverse=True))
 
     # Create base directory for this run
     base_dir = Path(f"data/{model_path}/{destination}_{iterations}")

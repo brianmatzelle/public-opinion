@@ -1,0 +1,939 @@
+{
+  "question": "Create one top 10 list for this question. Only respond with the list in JSON array format, with each entry on the list being a string.\n\nQuestion: Historically, what civilations have been the most dominant and influencial of all time?",
+  "model": "qwen2.5",
+  "destination_language": "ru",
+  "source_language": "en",
+  "iterations": 50,
+  "average_rankings": {
+    "Akkadian Empire": 1.0,
+    "Akado-Maluko": 1.0,
+    "Acadian civilization": 1.0,
+    "Ак embryo quesas": 1.0,
+    "Akkadsky Empire": 1.0,
+    "Academy of Alexander the Great": 1.0,
+    "Columbus Empire": 1.0,
+    "Chinese Empire": 1.0,
+    "Ак gland ennian civilization": 1.0,
+    "Academy of Alexandria": 1.6666666666666667,
+    "Bronze Assyria": 2.0,
+    "Assyria": 2.0,
+    "Bronze Age of Asia": 2.0,
+    "Chinese Dynasty of Tan": 2.0,
+    "Bronze Age of the East": 2.0,
+    "Academy of Alexandria and Hellenistic Civilization": 2.0,
+    "Babylonian empire": 2.0,
+    "Chinese dynasties (Jin, Song, Ming, Qing)": 2.0,
+    "Empire of Ancient Egypt": 2.0,
+    "Academy of Alexandria and Greece Classical": 2.0,
+    "Mayan civilization": 2.0,
+    "Ancient Rome": 2.5,
+    "Ancient Egypt": 3.0,
+    "Bronze Age of Civilizations of Central Asia": 3.0,
+    "Egyptian dynasties": 3.0,
+    "Chinese dynasties of Shang and Qing": 3.0,
+    "Chinese dynasties (Zhangen, Tan, Sun, etc.)": 3.0,
+    "Akkadian kingdom": 3.0,
+    "Bologna School of Jurisprudence": 3.0,
+    "Chinese dynasties (especially Qin and Sun)": 3.0,
+    "Ancientchina": 3.0,
+    "Aquilon kingdom (ancient Egyptian)": 3.0,
+    "Ancient Babylon": 3.0,
+    "Anglo-Saxon Kingdom": 3.0,
+    "Chinese dynasties (Jin, Sun, Min)": 3.0,
+    "Akaademic error, please correct the format of the request to obtain the correct answer.": 3.0,
+    "Jurchen, Dynasty Jin": 3.0,
+    "Egyptian civilization": 3.0,
+    "Chinese dynasties (Zhou, Qin, Sun)": 3.0,
+    "Ancient Mesopotamia": 3.5,
+    "Roman Empire": 3.739130434782609,
+    "Chinese Empire Jin": 4.0,
+    "Mitanni": 4.0,
+    "Assiro-Babylonian Empire": 4.0,
+    "Chinese Dynasty Jin": 4.0,
+    "Empire of Mogoli": 4.0,
+    "Aztec Empire": 4.0,
+    "Karios": 4.0,
+    "Achaemenid Empire": 4.0,
+    "Chinese dynasties (Qin, Han, Song and others)": 4.0,
+    "Ancient Mexico (Maya, Aztecs)": 4.0,
+    "Acadian Empire": 4.0,
+    "Bronze Age of Civilization of Mesopotamia": 4.0,
+    "Magnesium-Byzantine Empire": 4.0,
+    "Persian Empire": 4.0,
+    "Ancient China": 4.0,
+    "Ancient Greece": 4.5,
+    "Ancient India": 4.5,
+    "Great Chinese Empire": 5.0,
+    "Meroit Kingdom": 5.0,
+    "Babylonian Empire": 5.0,
+    "Egyptian pharaohs": 5.0,
+    "Mesopotamia": 5.0,
+    "Chinese dynasties (Zhonguyan, Sun, Qin, etc.)": 5.0,
+    "Middle Eastern Empires (Biblical Israel, Bavarian Kingdom, Assyria, Babylonia)": 5.0,
+    "Mongol Empire": 5.0,
+    "Magdalian Republic (ancient Greek)": 5.0,
+    "Achaemenid Power": 5.0,
+    "The Anglo-Saxon Kingdom and Great Britain": 5.0,
+    "Antique Greece": 5.0,
+    "Anglo-British Empire": 5.0,
+    "Akhmensky Empire": 5.0,
+    "Assyrian Empire": 5.0,
+    "Assiro-Baltic Empire": 5.0,
+    "Arab Caliphates": 5.5,
+    "Arabic Caliphate State": 5.5,
+    "Maya": 5.8,
+    "Empire Mogolistan": 6.0,
+    "Assyrian Kingdom": 6.0,
+    "Faralov Egypt": 6.0,
+    "On Mongol Empire": 6.0,
+    "Claudov Academy of Claudov. Carolingian France ": 6.0,
+    "Circassian Khanate": 6.0,
+    "Empire Jin": 6.0,
+    "Sui and Tang Dynasties China": 6.0,
+    "Persian Achaemenid Dynasty": 6.0,
+    "The Spirit-Portuguese Empire": 6.0,
+    "Incas": 6.0,
+    "Empire Zhou": 6.5,
+    "Byzantine Empire": 6.666666666666667,
+    "Chinese Empire Qin and Han": 7.0,
+    "Arabic Caliphate": 7.0,
+    "Carthage": 7.0,
+    "Mesopotamian civilizations (Elam, Babylonia) ": 7.0,
+    "Indians of Meso American": 7.0,
+    "Antique Greek city-state": 7.0,
+    "Turkish Emirates and Emirates and Emirates and Sultanate ": 7.0,
+    " Mowulov Empire ": 7.0,
+    "Arabic Caliphates": 7.0,
+    "Empire of Mogles": 7.0,
+    "Ostaninsky Empire": 7.0,
+    "Chinese dynasties (chew, qin, tan and others)": 7.0,
+    "Calming's Empire (Great Franks)": 7.0,
+    "Mongolian Empire ": 7.0,
+    "Dynasty Tan in China": 7.0,
+    "China of the Han and Tang dynasties": 7.0,
+    "Chinese dynasties (for example, Qin and Jin)": 7.0,
+    "Aztecs": 7.0,
+    "Empire of Magdalens": 7.0,
+    "Mongolian Empire": 7.5,
+    "Ottoman Empire": 7.8,
+    "On the Mongolian Principality": 8.0,
+    "Constantinople Patriarchate": 8.0,
+    "Anglo-Saxon kingdoms": 8.0,
+    "Ostrogothic empire": 8.0,
+    " Greek cities-states ": 8.0,
+    "Bronze Royal Dynasty": 8.0,
+    "Empire of Achaemenids": 8.0,
+    "Empire Ashoki": 8.0,
+    "Chinese Dynasties": 8.0,
+    "Macedonian Empire": 8.0,
+    "Confederation of the Vikings": 8.0,
+    "Akhamenid Power": 8.0,
+    "Congo Empire": 8.0,
+    "Empire of Carolins ": 8.0,
+    "The Anglo-Saxon kingdom ": 8.0,
+    "Columbian Inca Empire": 8.0,
+    "Mongolian Khanate": 8.0,
+    "Assyrian kingdom": 8.5,
+    "British Empire": 8.5,
+    "Greek civilization": 8.666666666666666,
+    " Byzantine Empire ": 8.666666666666666,
+    "Empire of the Byzantine ": 9.0,
+    "Empire Chewu": 9.0,
+    "Empire of Jurchin": 9.0,
+    " Anglo-Saxon kingdom ": 9.0,
+    " Anglo-Saxon Kingdoms ": 9.0,
+    "Empire of Genghis Khan and its successors": 9.0,
+    "Empire of Mogola": 9.0,
+    "Arab Empire": 9.0,
+    "Baikon Caliphates": 9.0,
+    "Empire of Ashak": 9.0,
+    " Ottoman 帝国 ": 9.0,
+    "Greek cities-states": 9.0,
+    "Arabic caliphates (Umaya, Abbasids, Usman) ": 9.0,
+    " German-German Empire ": 9.0,
+    "Russian Empire": 9.0,
+    " Ottoman Empire": 9.0,
+    " Baikon Hanat ": 9.0,
+    " Anglican Empire ": 10.0,
+    "Anglo-American empire": 10.0,
+    "Middle Eastern ones Empires (Babylon, Persepolis) ": 10.0,
+    "Confederation of Aztekov": 10.0,
+    " Empire Genghis Khan ": 10.0,
+    "Mongolian khanate": 10.0,
+    " German Empire ": 10.0,
+    "About 스 Party kingdom": 10.0,
+    "Anglo-British empire": 10.0,
+    "New Kingdom of Babylon": 10.0,
+    "Ochumen Marek": 10.0,
+    "Aquilon Kingdom (ancient Roman) ": 10.0,
+    " ancient Greek world ": 10.0,
+    "Magellan circles journey": 10.0,
+    "Empire of Mogole": 10.0,
+    " The Macedonian Empire of Alexander the Great ": 10.0,
+    "Ottoman (Turkish) Empire": 10.0,
+    "King of Aksum": 10.0,
+    "Middle Eastern monarchies": 10.0,
+    "Anglo-American Empire ": 10.0
+  },
+  "weighted_rankings": {
+    "Roman Empire": 538.9484126984127,
+    "Akkadian Empire": 250.0,
+    "Acadian civilization": 200.0,
+    "Ancient Egypt": 193.33333333333334,
+    "Academy of Alexandria": 100.0,
+    "Academy of Alexander the Great": 100.0,
+    "Ancient Rome": 62.5,
+    "Byzantine Empire": 51.09126984126985,
+    "Bronze Age of Asia": 50.0,
+    "Akado-Maluko": 50.0,
+    "Ак embryo quesas": 50.0,
+    "Akkadsky Empire": 50.0,
+    "Columbus Empire": 50.0,
+    "Chinese Empire": 50.0,
+    "Ак gland ennian civilization": 50.0,
+    "Maya": 47.5,
+    "Ancient Greece": 45.0,
+    "Mitanni": 39.16666666666667,
+    "Ottoman Empire": 33.611111111111114,
+    "Mongol Empire": 31.25,
+    "Ancient Mesopotamia": 29.166666666666668,
+    "Bronze Assyria": 25.0,
+    "Assyria": 25.0,
+    "Chinese Dynasty of Tan": 25.0,
+    "Bronze Age of the East": 25.0,
+    "Academy of Alexandria and Hellenistic Civilization": 25.0,
+    "Empire of Mogoli": 25.0,
+    "Babylonian empire": 25.0,
+    "Chinese dynasties (Jin, Song, Ming, Qing)": 25.0,
+    "Empire of Ancient Egypt": 25.0,
+    "Academy of Alexandria and Greece Classical": 25.0,
+    "Mayan civilization": 25.0,
+    "Babylonian Empire": 23.80952380952381,
+    "Ancient India": 22.5,
+    "Egyptian pharaohs": 20.833333333333336,
+    "Antique Greece": 20.833333333333336,
+    "Arab Caliphates": 19.642857142857142,
+    "Greek civilization": 18.333333333333336,
+    "Arabic Caliphate State": 18.333333333333336,
+    " Byzantine Empire ": 17.5,
+    "Bronze Age of Civilizations of Central Asia": 16.666666666666668,
+    "Egyptian dynasties": 16.666666666666668,
+    "Chinese dynasties of Shang and Qing": 16.666666666666668,
+    "Chinese dynasties (Zhangen, Tan, Sun, etc.)": 16.666666666666668,
+    "Akkadian kingdom": 16.666666666666668,
+    "Bologna School of Jurisprudence": 16.666666666666668,
+    "Chinese dynasties (especially Qin and Sun)": 16.666666666666668,
+    "Ancientchina": 16.666666666666668,
+    "Aquilon kingdom (ancient Egyptian)": 16.666666666666668,
+    "Ancient Babylon": 16.666666666666668,
+    "Anglo-Saxon Kingdom": 16.666666666666668,
+    "Chinese dynasties (Jin, Sun, Min)": 16.666666666666668,
+    "Akaademic error, please correct the format of the request to obtain the correct answer.": 16.666666666666668,
+    "Jurchen, Dynasty Jin": 16.666666666666668,
+    "Egyptian civilization": 16.666666666666668,
+    "Chinese dynasties (Zhou, Qin, Sun)": 16.666666666666668,
+    "Chinese Empire Qin and Han": 15.555555555555555,
+    "Empire Zhou": 15.476190476190478,
+    "Empire of Mogles": 14.583333333333334,
+    "Mongolian Empire": 13.88888888888889,
+    "Anglo-Saxon kingdoms": 12.6984126984127,
+    "Chinese Empire Jin": 12.5,
+    "Assiro-Babylonian Empire": 12.5,
+    "Chinese Dynasty Jin": 12.5,
+    "Aztec Empire": 12.5,
+    "Karios": 12.5,
+    "Achaemenid Empire": 12.5,
+    "Chinese dynasties (Qin, Han, Song and others)": 12.5,
+    "Ancient Mexico (Maya, Aztecs)": 12.5,
+    "Acadian Empire": 12.5,
+    "Bronze Age of Civilization of Mesopotamia": 12.5,
+    "Magnesium-Byzantine Empire": 12.5,
+    "Persian Empire": 12.5,
+    "Ancient China": 12.5,
+    "British Empire": 12.142857142857142,
+    "Assyrian kingdom": 11.805555555555555,
+    "Great Chinese Empire": 10.0,
+    "Meroit Kingdom": 10.0,
+    "Mesopotamia": 10.0,
+    "Chinese dynasties (Zhonguyan, Sun, Qin, etc.)": 10.0,
+    "Middle Eastern Empires (Biblical Israel, Bavarian Kingdom, Assyria, Babylonia)": 10.0,
+    "Magdalian Republic (ancient Greek)": 10.0,
+    "Achaemenid Power": 10.0,
+    "The Anglo-Saxon Kingdom and Great Britain": 10.0,
+    "Anglo-British Empire": 10.0,
+    "Akhmensky Empire": 10.0,
+    "Assyrian Empire": 10.0,
+    "Assiro-Baltic Empire": 10.0,
+    "Empire Mogolistan": 8.333333333333334,
+    "Assyrian Kingdom": 8.333333333333334,
+    "Faralov Egypt": 8.333333333333334,
+    "On Mongol Empire": 8.333333333333334,
+    "Claudov Academy of Claudov. Carolingian France ": 8.333333333333334,
+    "Circassian Khanate": 8.333333333333334,
+    "Empire Jin": 8.333333333333334,
+    "Sui and Tang Dynasties China": 8.333333333333334,
+    "Persian Achaemenid Dynasty": 8.333333333333334,
+    "The Spirit-Portuguese Empire": 8.333333333333334,
+    "Incas": 8.333333333333334,
+    "Arabic Caliphate": 7.142857142857143,
+    "Carthage": 7.142857142857143,
+    "Mesopotamian civilizations (Elam, Babylonia) ": 7.142857142857143,
+    "Indians of Meso American": 7.142857142857143,
+    "Antique Greek city-state": 7.142857142857143,
+    "Turkish Emirates and Emirates and Emirates and Sultanate ": 7.142857142857143,
+    " Mowulov Empire ": 7.142857142857143,
+    "Arabic Caliphates": 7.142857142857143,
+    "Ostaninsky Empire": 7.142857142857143,
+    "Chinese dynasties (chew, qin, tan and others)": 7.142857142857143,
+    "Calming's Empire (Great Franks)": 7.142857142857143,
+    "Mongolian Empire ": 7.142857142857143,
+    "Dynasty Tan in China": 7.142857142857143,
+    "China of the Han and Tang dynasties": 7.142857142857143,
+    "Chinese dynasties (for example, Qin and Jin)": 7.142857142857143,
+    "Aztecs": 7.142857142857143,
+    "Empire of Magdalens": 7.142857142857143,
+    "On the Mongolian Principality": 6.25,
+    "Constantinople Patriarchate": 6.25,
+    "Ostrogothic empire": 6.25,
+    " Greek cities-states ": 6.25,
+    "Bronze Royal Dynasty": 6.25,
+    "Empire of Achaemenids": 6.25,
+    "Empire Ashoki": 6.25,
+    "Chinese Dynasties": 6.25,
+    "Macedonian Empire": 6.25,
+    "Confederation of the Vikings": 6.25,
+    "Akhamenid Power": 6.25,
+    "Congo Empire": 6.25,
+    "Empire of Carolins ": 6.25,
+    "The Anglo-Saxon kingdom ": 6.25,
+    "Columbian Inca Empire": 6.25,
+    "Mongolian Khanate": 6.25,
+    "Empire of the Byzantine ": 5.555555555555555,
+    "Empire Chewu": 5.555555555555555,
+    "Empire of Jurchin": 5.555555555555555,
+    " Anglo-Saxon kingdom ": 5.555555555555555,
+    " Anglo-Saxon Kingdoms ": 5.555555555555555,
+    "Empire of Genghis Khan and its successors": 5.555555555555555,
+    "Empire of Mogola": 5.555555555555555,
+    "Arab Empire": 5.555555555555555,
+    "Baikon Caliphates": 5.555555555555555,
+    "Empire of Ashak": 5.555555555555555,
+    " Ottoman 帝国 ": 5.555555555555555,
+    "Greek cities-states": 5.555555555555555,
+    "Arabic caliphates (Umaya, Abbasids, Usman) ": 5.555555555555555,
+    " German-German Empire ": 5.555555555555555,
+    "Russian Empire": 5.555555555555555,
+    " Ottoman Empire": 5.555555555555555,
+    " Baikon Hanat ": 5.555555555555555,
+    " Anglican Empire ": 5.0,
+    "Anglo-American empire": 5.0,
+    "Middle Eastern ones Empires (Babylon, Persepolis) ": 5.0,
+    "Confederation of Aztekov": 5.0,
+    " Empire Genghis Khan ": 5.0,
+    "Mongolian khanate": 5.0,
+    " German Empire ": 5.0,
+    "About 스 Party kingdom": 5.0,
+    "Anglo-British empire": 5.0,
+    "New Kingdom of Babylon": 5.0,
+    "Ochumen Marek": 5.0,
+    "Aquilon Kingdom (ancient Roman) ": 5.0,
+    " ancient Greek world ": 5.0,
+    "Magellan circles journey": 5.0,
+    "Empire of Mogole": 5.0,
+    " The Macedonian Empire of Alexander the Great ": 5.0,
+    "Ottoman (Turkish) Empire": 5.0,
+    "King of Aksum": 5.0,
+    "Middle Eastern monarchies": 5.0,
+    "Anglo-American Empire ": 5.0
+  },
+  "raw_rankings": {
+    "Akkadian Empire": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "Ancient Egypt": [
+      2,
+      3,
+      5,
+      6,
+      3,
+      2,
+      2,
+      2,
+      3,
+      2
+    ],
+    "Bronze Age of Civilizations of Central Asia": [
+      3
+    ],
+    "Maya": [
+      4,
+      5,
+      5,
+      10,
+      5
+    ],
+    "Chinese Empire Qin and Han": [
+      5,
+      9
+    ],
+    "Roman Empire": [
+      6,
+      8,
+      1,
+      1,
+      2,
+      3,
+      1,
+      5,
+      5,
+      3,
+      7,
+      6,
+      1,
+      2,
+      6,
+      2,
+      1,
+      2,
+      1,
+      6,
+      6,
+      9,
+      2
+    ],
+    "Arabic Caliphate": [
+      7
+    ],
+    "On the Mongolian Principality": [
+      8
+    ],
+    "Empire of the Byzantine ": [
+      9
+    ],
+    " Anglican Empire ": [
+      10
+    ],
+    "Bronze Assyria": [
+      2
+    ],
+    "Egyptian dynasties": [
+      3
+    ],
+    "Ancient Rome": [
+      4,
+      1
+    ],
+    "Great Chinese Empire": [
+      5
+    ],
+    "Empire Mogolistan": [
+      6
+    ],
+    "Carthage": [
+      7
+    ],
+    "Constantinople Patriarchate": [
+      8
+    ],
+    "Ottoman Empire": [
+      9,
+      5,
+      8,
+      8,
+      9
+    ],
+    "Anglo-American empire": [
+      10
+    ],
+    "Assyria": [
+      2
+    ],
+    "Chinese Empire Jin": [
+      4
+    ],
+    "Meroit Kingdom": [
+      5
+    ],
+    "Greek civilization": [
+      6,
+      10,
+      10
+    ],
+    "Anglo-Saxon kingdoms": [
+      7,
+      9
+    ],
+    "Ostrogothic empire": [
+      8
+    ],
+    "Empire Chewu": [
+      9
+    ],
+    "Middle Eastern ones Empires (Babylon, Persepolis) ": [
+      10
+    ],
+    "Bronze Age of Asia": [
+      2,
+      2
+    ],
+    "Chinese dynasties of Shang and Qing": [
+      3
+    ],
+    "Mitanni": [
+      4,
+      5,
+      3
+    ],
+    "Assyrian Kingdom": [
+      6
+    ],
+    "Babylonian Empire": [
+      7,
+      3
+    ],
+    "Empire of Jurchin": [
+      9
+    ],
+    "Confederation of Aztekov": [
+      10
+    ],
+    "Academy of Alexandria": [
+      2,
+      1,
+      2
+    ],
+    "Chinese dynasties (Zhangen, Tan, Sun, etc.)": [
+      3
+    ],
+    "Assiro-Babylonian Empire": [
+      4
+    ],
+    "Faralov Egypt": [
+      6
+    ],
+    "Mesopotamian civilizations (Elam, Babylonia) ": [
+      7
+    ],
+    " Greek cities-states ": [
+      8
+    ],
+    " Anglo-Saxon kingdom ": [
+      9
+    ],
+    " Empire Genghis Khan ": [
+      10
+    ],
+    "Chinese Dynasty of Tan": [
+      2
+    ],
+    "Akkadian kingdom": [
+      3
+    ],
+    "Egyptian pharaohs": [
+      4,
+      6
+    ],
+    "Indians of Meso American": [
+      7
+    ],
+    "Bronze Royal Dynasty": [
+      8
+    ],
+    "Assyrian kingdom": [
+      9,
+      8
+    ],
+    "Bologna School of Jurisprudence": [
+      3
+    ],
+    "Chinese Dynasty Jin": [
+      4
+    ],
+    "Mesopotamia": [
+      5
+    ],
+    "Antique Greek city-state": [
+      7
+    ],
+    "Empire of Achaemenids": [
+      8
+    ],
+    "Byzantine Empire": [
+      9,
+      8,
+      7,
+      3,
+      7,
+      6
+    ],
+    "Mongolian khanate": [
+      10
+    ],
+    "Akado-Maluko": [
+      1
+    ],
+    "Bronze Age of the East": [
+      2
+    ],
+    "Arab Caliphates": [
+      4,
+      7
+    ],
+    "Chinese dynasties (Zhonguyan, Sun, Qin, etc.)": [
+      5
+    ],
+    "On Mongol Empire": [
+      6
+    ],
+    "Turkish Emirates and Emirates and Emirates and Sultanate ": [
+      7
+    ],
+    " Byzantine Empire ": [
+      8,
+      8,
+      10
+    ],
+    " Anglo-Saxon Kingdoms ": [
+      9
+    ],
+    " German Empire ": [
+      10
+    ],
+    "Academy of Alexandria and Hellenistic Civilization": [
+      2
+    ],
+    "Chinese dynasties (especially Qin and Sun)": [
+      3
+    ],
+    "Empire of Mogoli": [
+      4,
+      4
+    ],
+    "Middle Eastern Empires (Biblical Israel, Bavarian Kingdom, Assyria, Babylonia)": [
+      5
+    ],
+    "Claudov Academy of Claudov. Carolingian France ": [
+      6
+    ],
+    " Mowulov Empire ": [
+      7
+    ],
+    "Empire Ashoki": [
+      8
+    ],
+    "Empire of Genghis Khan and its successors": [
+      9
+    ],
+    "Acadian civilization": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "Babylonian empire": [
+      2
+    ],
+    "Ancient Greece": [
+      4,
+      4,
+      5,
+      5
+    ],
+    "Circassian Khanate": [
+      6
+    ],
+    "Arabic Caliphates": [
+      7
+    ],
+    "Chinese Dynasties": [
+      8
+    ],
+    "Empire of Mogola": [
+      9
+    ],
+    "About 스 Party kingdom": [
+      10
+    ],
+    "Empire Jin": [
+      6
+    ],
+    "Mongolian Empire": [
+      9,
+      6
+    ],
+    "Anglo-British empire": [
+      10
+    ],
+    "Ак embryo quesas": [
+      1
+    ],
+    "Mongol Empire": [
+      2,
+      8
+    ],
+    "Aztec Empire": [
+      4
+    ],
+    "Sui and Tang Dynasties China": [
+      6
+    ],
+    "Macedonian Empire": [
+      8
+    ],
+    "Arab Empire": [
+      9
+    ],
+    "New Kingdom of Babylon": [
+      10
+    ],
+    "Akkadsky Empire": [
+      1
+    ],
+    "Ancientchina": [
+      3
+    ],
+    "Ancient India": [
+      4,
+      5
+    ],
+    "Persian Achaemenid Dynasty": [
+      6
+    ],
+    "Confederation of the Vikings": [
+      8
+    ],
+    "Baikon Caliphates": [
+      9
+    ],
+    "Ochumen Marek": [
+      10
+    ],
+    "Karios": [
+      4
+    ],
+    "Empire Zhou": [
+      7,
+      6
+    ],
+    "Akhamenid Power": [
+      8
+    ],
+    "Chinese dynasties (Jin, Song, Ming, Qing)": [
+      2
+    ],
+    "Aquilon kingdom (ancient Egyptian)": [
+      3
+    ],
+    "Achaemenid Empire": [
+      4
+    ],
+    "Magdalian Republic (ancient Greek)": [
+      5
+    ],
+    "Empire of Mogles": [
+      6,
+      8
+    ],
+    "Ostaninsky Empire": [
+      7
+    ],
+    "Congo Empire": [
+      8
+    ],
+    "Empire of Ashak": [
+      9
+    ],
+    "Aquilon Kingdom (ancient Roman) ": [
+      10
+    ],
+    "Academy of Alexander the Great": [
+      1,
+      1
+    ],
+    "Chinese dynasties (Qin, Han, Song and others)": [
+      4
+    ],
+    "Arabic Caliphate State": [
+      5,
+      6
+    ],
+    "British Empire": [
+      7,
+      10
+    ],
+    "Empire of Carolins ": [
+      8
+    ],
+    " Ottoman 帝国 ": [
+      9
+    ],
+    " ancient Greek world ": [
+      10
+    ],
+    "Empire of Ancient Egypt": [
+      2
+    ],
+    "Ancient Babylon": [
+      3
+    ],
+    "Ancient Mexico (Maya, Aztecs)": [
+      4
+    ],
+    "Chinese dynasties (chew, qin, tan and others)": [
+      7
+    ],
+    "Greek cities-states": [
+      9
+    ],
+    "Magellan circles journey": [
+      10
+    ],
+    "Columbus Empire": [
+      1
+    ],
+    "Anglo-Saxon Kingdom": [
+      3
+    ],
+    "Acadian Empire": [
+      4
+    ],
+    "Achaemenid Power": [
+      5
+    ],
+    "Empire of Mogole": [
+      10
+    ],
+    "Chinese dynasties (Jin, Sun, Min)": [
+      3
+    ],
+    "The Anglo-Saxon Kingdom and Great Britain": [
+      5
+    ],
+    "Antique Greece": [
+      6,
+      4
+    ],
+    "Calming's Empire (Great Franks)": [
+      7
+    ],
+    "Arabic caliphates (Umaya, Abbasids, Usman) ": [
+      9
+    ],
+    " The Macedonian Empire of Alexander the Great ": [
+      10
+    ],
+    "Chinese Empire": [
+      1
+    ],
+    "Akaademic error, please correct the format of the request to obtain the correct answer.": [
+      3
+    ],
+    "Bronze Age of Civilization of Mesopotamia": [
+      4
+    ],
+    "Anglo-British Empire": [
+      5
+    ],
+    "The Spirit-Portuguese Empire": [
+      6
+    ],
+    "Mongolian Empire ": [
+      7
+    ],
+    " German-German Empire ": [
+      9
+    ],
+    "Ottoman (Turkish) Empire": [
+      10
+    ],
+    "Academy of Alexandria and Greece Classical": [
+      2
+    ],
+    "Jurchen, Dynasty Jin": [
+      3
+    ],
+    "Magnesium-Byzantine Empire": [
+      4
+    ],
+    "Akhmensky Empire": [
+      5
+    ],
+    "Dynasty Tan in China": [
+      7
+    ],
+    "Russian Empire": [
+      9
+    ],
+    "Ак gland ennian civilization": [
+      1
+    ],
+    "Mayan civilization": [
+      2
+    ],
+    "Egyptian civilization": [
+      3
+    ],
+    "Persian Empire": [
+      4
+    ],
+    "Assyrian Empire": [
+      5
+    ],
+    "China of the Han and Tang dynasties": [
+      7
+    ],
+    " Ottoman Empire": [
+      9
+    ],
+    "King of Aksum": [
+      10
+    ],
+    "Ancient Mesopotamia": [
+      4,
+      3
+    ],
+    "Chinese dynasties (for example, Qin and Jin)": [
+      7
+    ],
+    "The Anglo-Saxon kingdom ": [
+      8
+    ],
+    " Baikon Hanat ": [
+      9
+    ],
+    "Ancient China": [
+      4
+    ],
+    "Incas": [
+      6
+    ],
+    "Aztecs": [
+      7
+    ],
+    "Columbian Inca Empire": [
+      8
+    ],
+    "Middle Eastern monarchies": [
+      10
+    ],
+    "Chinese dynasties (Zhou, Qin, Sun)": [
+      3
+    ],
+    "Assiro-Baltic Empire": [
+      5
+    ],
+    "Empire of Magdalens": [
+      7
+    ],
+    "Mongolian Khanate": [
+      8
+    ],
+    "Anglo-American Empire ": [
+      10
+    ]
+  }
+}

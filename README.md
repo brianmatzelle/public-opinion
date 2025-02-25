@@ -34,3 +34,12 @@ The main scripts are `sample.py` and `visualize.py`
 ### Code
 1. `python sample.py -m llama3.2 -d es -i 10 -f question.txt`
 2. `python visualize.py -p data/llama3.2/es_10/results.json`
+
+
+## To Do
+Write a script that buckets semantically equivalent fields from raw_rankings into the same field. The script should be generic. 
+
+### Pseudo Code
+Start with an empty dictionary named `bucketed_rankings`. 
+Iterate through the raw rankings -- If the semantic equivalent exists in `bucketed_rankings`, add it to the bucket. Else, create a new entry in `bucketed_rankings`.
+Finetune an Instruct LLM to return either 0 or 1. *This could be a python library, linked with a lightweight LLM that only returns 0 or 1 as an int.* Use this LLM to see if a semantic equivalent exists.
