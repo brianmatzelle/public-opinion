@@ -22,7 +22,9 @@ async def analyze_and_visualize_responses(question: str, source: str, destinatio
     # Collect responses
     final_answers = []
     for i in tqdm(range(iterations), desc="Collecting responses"):
-        final_answers.append(execute_prompt(translated_question, model))
+        answer = execute_prompt(translated_question, model)
+        print(answer)
+        final_answers.append(answer)
 
     translated_answers = await bulk_translate_text(texts=final_answers, dest=source)
 
@@ -111,15 +113,17 @@ class IterationsCompleter:
 def parse_arguments():
     parser = argparse.ArgumentParser(description='Analyze and visualize responses.')
     parser.add_argument('-m', '--model', type=str, required=True, 
+                        help='Number of iterations')
+    parser.add_argument('-s', '--source', type=str, required=False,
                         help='Model name (e.g., llama3.2)')
     parser.add_argument('-d', '--destination', type=str, required=True,
                         help='Language code you wish to poll (e.g., es)')
     parser.add_argument('-i', '--iterations', type=int, required=True,
-                        help='Number of iterations')
+                        help='Language code you wish to poll from (e.g., en)')
     parser.add_argument('-q', '--question', type=str, required=False,
                         help='Question you wish to poll')
-    parser.add_argument('-s', '--source', type=str, required=False,
-                        help='Language code you wish to poll from (e.g., en)')
+    parser.add_argument('-f', '--file', type=str, required=False,
+                        help='File containing the question you wish to poll')
     # Enable tab completion
     try:
         import argcomplete
@@ -132,15 +136,31 @@ def parse_arguments():
 if __name__ == "__main__":
     args = parse_arguments()
 
+    PRE_PROMPT = "Create one top 10 list for this question. Only respond with the list in JSON array format, with each entry on the list being a string.\n\nQuestion: "
+
     DEFAULT_ARGS = {
         "source": "en",
-        "question": "In JSON array format (['country 1', 'country 2', ...]), list the top 10 countries in the world by geopolitical influence. Only respond with JSON."
     }
     
+    # Handle file input first
+    if args.file is not None:
+        with open(args.file, "r") as f:
+            args.question = PRE_PROMPT + f.read()
+
+    # Then handle other default arguments
     for key, value in DEFAULT_ARGS.items():
         if getattr(args, key) is None:
             setattr(args, key, value)
 
+    # Format the question if it exists
+    if args.question is not None and not args.question.startswith(PRE_PROMPT):
+        args.question = PRE_PROMPT + args.question
+
+    if args.question is None and args.file is None:
+        raise ValueError("Either question or file must be provided")
+    
+    print(args.question)
+    
     asyncio.run(analyze_and_visualize_responses(
         question=args.question,
         source=args.source,

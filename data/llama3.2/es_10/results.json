@@ -7,30 +7,32 @@
   "average_rankings": {
     "United States": 1.0,
     "China": 2.0,
-    "European Union": 3.1,
-    "India": 5.7,
-    "Japan": 5.0,
-    "Germany": 6.4,
-    "Russia": 5.8,
-    "Brazil": 9.5,
-    "France": 8.3,
-    "United Kingdom": 8.0,
+    "European Union": 3.2,
+    "Russia": 4.6,
+    "India": 4.7,
+    "Japan": 5.7,
+    "Germany": 6.9,
+    "United Kingdom": 8.6,
+    "France": 8.6,
+    "South Korea": 10.0,
+    "Brazil": 10.0,
     "Canada": 10.0,
-    "South Korea": 10.0
+    "Brazilejo": 7.0
   },
   "weighted_rankings": {
     "United States": 100.0,
     "China": 50.0,
-    "European Union": 32.5,
-    "India": 18.345238095238095,
-    "Japan": 20.333333333333336,
-    "Germany": 15.904761904761905,
-    "Russia": 20.484126984126984,
-    "Brazil": 6.361111111111111,
-    "France": 12.123015873015873,
-    "United Kingdom": 12.845238095238095,
-    "Canada": 3.0,
-    "South Korea": 1.0
+    "European Union": 31.666666666666664,
+    "Russia": 23.523809523809522,
+    "India": 21.666666666666664,
+    "Japan": 17.666666666666668,
+    "Germany": 14.583333333333334,
+    "United Kingdom": 11.694444444444443,
+    "France": 11.666666666666666,
+    "South Korea": 1.0,
+    "Brazil": 4.0,
+    "Canada": 4.0,
+    "Brazilejo": 1.4285714285714286
   },
   "raw_rankings": {
     "United States": [
@@ -63,99 +65,101 @@
       3,
       3,
       3,
+      4,
       3,
       3,
+      4,
+      3
+    ],
+    "Russia": [
+      4,
+      5,
+      7,
+      5,
+      4,
       3,
+      4,
+      7,
       3,
       4
     ],
     "India": [
-      4,
-      6,
-      8,
-      6,
-      4,
-      6,
-      6,
       5,
-      7,
+      4,
+      4,
+      4,
+      5,
+      5,
+      6,
+      4,
+      5,
       5
     ],
     "Japan": [
+      6,
+      6,
       5,
-      5,
-      4,
-      5,
-      5,
+      6,
+      6,
+      6,
       5,
       5,
       6,
-      4,
       6
     ],
     "Germany": [
-      6,
       7,
-      5,
       7,
       6,
+      8,
       7,
       7,
       7,
-      5,
+      6,
+      7,
       7
     ],
-    "Russia": [
-      7,
-      4,
-      9,
-      4,
-      9,
-      4,
-      4,
-      4,
-      10,
-      3
-    ],
-    "Brazil": [
+    "United Kingdom": [
       8,
+      9,
+      9,
       10,
-      10,
-      10,
-      10,
-      9
+      8,
+      8,
+      8,
+      9,
+      9,
+      8
     ],
     "France": [
       9,
-      9,
-      7,
-      8,
       8,
       8,
       9,
       9,
-      8,
-      8
-    ],
-    "United Kingdom": [
-      10,
-      8,
-      6,
       9,
-      7,
       9,
       8,
       8,
-      6,
       9
+    ],
+    "South Korea": [
+      10
+    ],
+    "Brazil": [
+      10,
+      10,
+      10,
+      10
     ],
     "Canada": [
       10,
       10,
+      10,
       10
     ],
-    "South Korea": [
-      10
+    "Brazilejo": [
+      7
     ]
   }
 }
