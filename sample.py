@@ -108,13 +108,13 @@ def parse_arguments():
     parser = argparse.ArgumentParser(description='Analyze and visualize responses.')
     parser.add_argument('-m', '--model', type=str, required=True, 
                         help='Model name (e.g., llama3.2)')
-    parser.add_argument('-l', '--language', type=str, required=True,
+    parser.add_argument('-d', '--destination', type=str, required=True,
                         help='Language code you wish to poll (e.g., es)')
     parser.add_argument('-i', '--iterations', type=int, required=True,
                         help='Number of iterations')
     parser.add_argument('-q', '--question', type=str, required=False,
                         help='Question you wish to poll')
-    parser.add_argument('-o', '--original_language', type=str, required=False,
+    parser.add_argument('-s', '--source', type=str, required=False,
                         help='Language code you wish to poll from (e.g., en)')
     # Enable tab completion
     try:

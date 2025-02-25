@@ -14,5 +14,24 @@ Listed are different steps -- each step is a folder in the repository.
 
 
 ## Demo
-1. `python main.py -m llama3.2 -l es -i 10`
-2. `python visualize.py -m mistral -l es -i 10 -t weighted`
+The main scripts are `sample.py` and `visualize.py`
+
+### Flags
+
+#### All scripts
+-m, --model == select the model you'd like to sample
+-d, --destination == the destination language code, ie the one you'd like to poll
+-i, --iterations == how many times you'd like to poll the LLM
+
+#### sample.py
+-q, --question == question you wish to poll
+
+*experimental*
+-s, --source == the source language, ie the language that the question you ask is in. Default is English
+
+#### visualize.py
+-t, --type == the type of analysis to view (either averaged or weighted)
+
+### Code
+1. `python sample.py -m llama3.2 -d es -i 10`
+2. `python visualize.py -m mistral -d es -i 10 -t weighted`
