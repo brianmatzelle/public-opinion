@@ -1,0 +1,1079 @@
+{
+  "question": "Create one top 10 list for this question. Only respond with the list in JSON array format, with each entry on the list being a string.\n\nQuestion: Historically, what civilations have been the most dominant and influencial of all time?",
+  "model": "llama3.2",
+  "destination_language": "ru",
+  "source_language": "en",
+  "iterations": 50,
+  "average_rankings": {
+    "Chinese Dynastia Qing": 1.0,
+    "Assyrian Empire": 1.0,
+    "Azteckutch Empire": 1.0,
+    "Ancient Babilonia": 1.0,
+    "Ancient Mesopotia": 1.0,
+    "Ancient Babilon": 1.0,
+    "Muvi": 1.0,
+    "Ancient Egiptic Civilization": 1.0,
+    "Aztecs": 1.0,
+    "Babylonian Empire": 1.0,
+    "Ancient Dinia": 1.0,
+    "Babilonians": 1.0,
+    "Ancient Babylonia": 1.0,
+    "Greek Empire": 1.0,
+    "Ancient civilization of Egypt": 1.0,
+    "Ancient Roman Empire": 1.0,
+    "Empire of the Jin dynasty": 1.0,
+    "David Kingdom": 2.0,
+    "Vavilonian Empire": 2.0,
+    "Babylonium": 2.0,
+    "Moweis civilization": 2.0,
+    "Moγγ Open Empire": 2.0,
+    "Assyrian kingdom": 2.0,
+    "Macedonians": 2.0,
+    "Drevniy Egypt": 2.0,
+    "Akhchengids": 2.0,
+    "Jindynasty China": 2.0,
+    "Roman Empire": 2.2083333333333335,
+    "Moster Order": 3.0,
+    "Ashamone Empire": 3.0,
+    "Aztec Empire": 3.0,
+    "Roman Republic/Empire": 3.0,
+    "Egyptian Korolynki": 3.0,
+    "Egyptskie civilization": 3.0,
+    "Byzantium": 3.0,
+    "Ungarian Khanate": 3.0,
+    "Manchu dynasty": 3.0,
+    "Babylonian empires": 3.0,
+    "Romans": 3.0,
+    "Magai": 3.0,
+    "Vietnamesca Civilization": 3.0,
+    "Empire of urine in Japan": 3.0,
+    "Chinese dinastia": 3.5,
+    "Chinese Dean Asta": 4.0,
+    "Athenian state": 4.0,
+    "Ancient Egypt": 4.0,
+    "Mogolsk Empire": 4.0,
+    "Vavilon Kingdom": 4.0,
+    "China Sun-Yang": 4.0,
+    "Chinese dinastia Jin": 4.0,
+    "Chin Dynasty China": 4.0,
+    "Qin dynasty": 4.0,
+    "Babylonians": 4.0,
+    "Roman imperia": 4.0,
+    "Mesopotamia (dusk SK, ACKAD, Babilon)": 4.0,
+    "Median Empire in Persia (Iran)": 4.0,
+    "Mogol Empire": 4.0,
+    "Egyptian Empire": 4.0,
+    "Babylonian civilization": 4.333333333333333,
+    "Ancient Babylon": 4.5,
+    "Ancient Greece": 4.666666666666667,
+    "Zhin Jin": 5.0,
+    "Egyptski Faral Kingdom": 5.0,
+    "Raci Egypt": 5.0,
+    "Chin": 5.0,
+    "Babylonia": 5.0,
+    "Persia": 5.0,
+    "Babilonia": 5.0,
+    "Empire of the Kushanskaya Artifacts": 5.0,
+    "Assyrian Imperium": 5.0,
+    "Islamic world": 5.0,
+    "Macci": 5.0,
+    "Mozart Empire": 5.0,
+    "Achaemenid empire": 5.0,
+    "The invasion and settlement of Chinese-Imperiya qin": 5.0,
+    "Achaemenidsky-Imperium Persia": 5.0,
+    "Zhindynasty": 5.0,
+    "Mogolian Empire": 5.0,
+    "Achaemenid Empire": 5.125,
+    "Egyptian civilization": 5.333333333333333,
+    "Greek civilization": 5.5,
+    "Egyptian pharaohs": 5.5,
+    "British Empire": 5.666666666666667,
+    "Chinese Empire": 5.75,
+    "Byzantine Empire": 5.9375,
+    "Mongolian Empire": 6.0,
+    "Chinese civilization": 6.0,
+    "Vavilonian kingdom": 6.0,
+    "Upper Mesopotamia (Sumerians)": 6.0,
+    "Sarabi Empires": 6.0,
+    "Babilon Empire": 6.0,
+    "Babylon": 6.0,
+    "Afghanistan Itaun": 6.0,
+    "Macedonian Kingdom": 6.0,
+    "Egyptian Pharaoh": 6.0,
+    "Mauryan Sahamites": 6.0,
+    "Parfian Satrapy": 6.0,
+    "Chinese empire": 6.0,
+    "Chinese Qing Dynasty": 6.0,
+    "Khan Chinese dinastria": 6.0,
+    "Kanjou-State": 6.0,
+    "Mauya": 6.0,
+    "Mesopotamian civilization": 6.0,
+    "Ahenny Rome": 6.0,
+    "Macedonian Empire": 6.285714285714286,
+    "Achaemenid Empires": 6.333333333333333,
+    "Persian Empire": 6.5,
+    "Islamic Caliphate": 7.0,
+    "Greek dictatorship": 7.0,
+    "Mogols": 7.0,
+    "Macedonian kingdom": 7.0,
+    "Empire Qin": 7.0,
+    "Egyptskie Kings": 7.0,
+    "Macedonia": 7.0,
+    "Ashkharhidid empires": 7.0,
+    "Greek Democracy": 7.0,
+    "Medieval Mavra": 7.0,
+    "Han": 7.0,
+    "Sumer civilizations": 7.0,
+    "Pallasian civilization period": 7.0,
+    "Empire Singamagars": 7.0,
+    "Assyria": 7.0,
+    "Babi-Luna": 7.0,
+    "Byzantine empire": 7.0,
+    "Mayan": 7.0,
+    "Phoenicia": 7.0,
+    "Sazzyan Dinasty": 7.0,
+    "Assyrian civilization": 7.0,
+    "Chinese dinast": 7.0,
+    "Kingdom of France": 8.0,
+    "Arabic caliphate": 8.0,
+    "Babylonian kingdom": 8.0,
+    "Empire of China (Han)": 8.0,
+    "Hansky empire": 8.0,
+    "Anseskirh": 8.0,
+    "Medieval Chinese Empire": 8.0,
+    "Olmekska Civilization": 8.0,
+    "Aintappa": 8.0,
+    "Ferium egalism": 8.0,
+    "Medieval Hungary": 8.0,
+    "Matsapin": 8.0,
+    "Persia (Sasania)": 8.0,
+    "Afghan Empire": 8.0,
+    "Farcid Empire": 8.0,
+    "Empire Jin": 8.0,
+    "Hellenism": 8.0,
+    "Rasa Sharki in Norway and Finland": 8.0,
+    "ANCIENT China": 8.0,
+    "Parphone civilization": 8.0,
+    "Vietnamese Empire": 8.5,
+    "Russian Empire": 9.0,
+    "Colonial Europe": 9.0,
+    "Egyptian Delfarkhov era": 9.0,
+    "Persidska Empire": 9.0,
+    "Aztecká Empire": 9.0,
+    "Zhin dynasty": 9.0,
+    "Twilight Civilizations": 9.0,
+    "Eastern Roman Empire": 9.0,
+    "Parfian Empire": 9.0,
+    "Fuzzin": 9.0,
+    "Twilight civilizations": 9.0,
+    "Empire of Tuzug": 9.0,
+    "Babylonian empire": 9.0,
+    "Jin dynasty": 9.0,
+    "Twilight": 9.0,
+    "Zhin (dinasta jin)": 9.0,
+    "Olmec state": 9.0,
+    "Great Britain": 9.0,
+    "Hindu civilization": 9.0,
+    "Khmer Empire": 9.0,
+    "Bizance": 9.0,
+    "Babylonian civilization ": 10.0,
+    "Roman Republic": 10.0,
+    "Afghan kingdom": 10.0,
+    "Soviet Union": 10.0,
+    "Saarian tribal cohort ": 10.0,
+    "Ancient Ancient Greek civilization ": 10.0,
+    "Sicilian Greek states": 10.0,
+    "Sajzyan": 10.0,
+    "Mesopotamia": 10.0,
+    "Middle Ages": 10.0,
+    "Carrier empire": 10.0,
+    "Iranian empire": 10.0,
+    "Medieval Arabia": 10.0,
+    "Turkmens Empire": 10.0,
+    "Pompeii Romans": 10.0,
+    "Napoleon Empire": 10.0,
+    "Nubian empire ": 10.0,
+    "Sicilian khanat": 10.0,
+    "Expanded Roman Empire": 10.0,
+    "Aztec civilization": 10.0,
+    "Aztec empire": 10.0,
+    "Ancient Greek civilization": 10.0,
+    "Empire of Incas ": 10.0
+  },
+  "weighted_rankings": {
+    "Roman Empire": 708.3333333333333,
+    "Byzantine Empire": 157.36111111111111,
+    "Ancient Egypt": 123.39285714285714,
+    "Achaemenid Empire": 116.72619047619047,
+    "Babylonian Empire": 100.0,
+    "Ancient Roman Empire": 100.0,
+    "Babylonian civilization": 80.83333333333334,
+    "Vavilonian Empire": 75.0,
+    "Ancient Greece": 71.66666666666667,
+    "Macedonian Empire": 64.30555555555556,
+    "British Empire": 62.142857142857146,
+    "Chinese Dynastia Qing": 50.0,
+    "Assyrian Empire": 50.0,
+    "Azteckutch Empire": 50.0,
+    "Ancient Babilonia": 50.0,
+    "Ancient Mesopotia": 50.0,
+    "Ancient Babilon": 50.0,
+    "Muvi": 50.0,
+    "Ancient Egiptic Civilization": 50.0,
+    "Babylonium": 50.0,
+    "Aztecs": 50.0,
+    "Ancient Dinia": 50.0,
+    "Babilonians": 50.0,
+    "Ancient Babylonia": 50.0,
+    "Greek Empire": 50.0,
+    "Ancient civilization of Egypt": 50.0,
+    "Empire of the Jin dynasty": 50.0,
+    "Chinese Empire": 40.0,
+    "Egyptian civilization": 39.583333333333336,
+    "Qin dynasty": 33.333333333333336,
+    "Ancient Babylon": 32.142857142857146,
+    "Mongolian Empire": 30.05952380952381,
+    "Achaemenid Empires": 29.365079365079364,
+    "Chinese dinastia": 29.166666666666668,
+    "David Kingdom": 25.0,
+    "Moweis civilization": 25.0,
+    "Moγγ Open Empire": 25.0,
+    "Assyrian kingdom": 25.0,
+    "Macedonians": 25.0,
+    "Drevniy Egypt": 25.0,
+    "Akhchengids": 25.0,
+    "Jindynasty China": 25.0,
+    "Greek civilization": 22.916666666666668,
+    "Egyptian pharaohs": 22.916666666666668,
+    "Chinese civilization": 18.75,
+    "Persian Empire": 18.055555555555557,
+    "Babilon Empire": 17.142857142857142,
+    "Moster Order": 16.666666666666668,
+    "Ashamone Empire": 16.666666666666668,
+    "Aztec Empire": 16.666666666666668,
+    "Roman Republic/Empire": 16.666666666666668,
+    "Egyptian Korolynki": 16.666666666666668,
+    "Egyptskie civilization": 16.666666666666668,
+    "Byzantium": 16.666666666666668,
+    "Ungarian Khanate": 16.666666666666668,
+    "Manchu dynasty": 16.666666666666668,
+    "Babylonian empires": 16.666666666666668,
+    "Romans": 16.666666666666668,
+    "Magai": 16.666666666666668,
+    "Vietnamesca Civilization": 16.666666666666668,
+    "Empire of urine in Japan": 16.666666666666668,
+    "Empire Qin": 15.555555555555555,
+    "Arabic caliphate": 13.333333333333334,
+    "Afghan Empire": 13.333333333333334,
+    "Medieval Chinese Empire": 12.6984126984127,
+    "Chinese Dean Asta": 12.5,
+    "Athenian state": 12.5,
+    "Mogolsk Empire": 12.5,
+    "Vavilon Kingdom": 12.5,
+    "China Sun-Yang": 12.5,
+    "Chinese dinastia Jin": 12.5,
+    "Chin Dynasty China": 12.5,
+    "Babylonians": 12.5,
+    "Roman imperia": 12.5,
+    "Mesopotamia (dusk SK, ACKAD, Babilon)": 12.5,
+    "Median Empire in Persia (Iran)": 12.5,
+    "Mogol Empire": 12.5,
+    "Egyptian Empire": 12.5,
+    "Vietnamese Empire": 11.805555555555555,
+    "Zhin Jin": 10.0,
+    "Egyptski Faral Kingdom": 10.0,
+    "Raci Egypt": 10.0,
+    "Chin": 10.0,
+    "Babylonia": 10.0,
+    "Persia": 10.0,
+    "Babilonia": 10.0,
+    "Empire of the Kushanskaya Artifacts": 10.0,
+    "Assyrian Imperium": 10.0,
+    "Islamic world": 10.0,
+    "Macci": 10.0,
+    "Mozart Empire": 10.0,
+    "Achaemenid empire": 10.0,
+    "The invasion and settlement of Chinese-Imperiya qin": 10.0,
+    "Achaemenidsky-Imperium Persia": 10.0,
+    "Zhindynasty": 10.0,
+    "Mogolian Empire": 10.0,
+    "Vavilonian kingdom": 8.333333333333334,
+    "Upper Mesopotamia (Sumerians)": 8.333333333333334,
+    "Sarabi Empires": 8.333333333333334,
+    "Babylon": 8.333333333333334,
+    "Afghanistan Itaun": 8.333333333333334,
+    "Macedonian Kingdom": 8.333333333333334,
+    "Egyptian Pharaoh": 8.333333333333334,
+    "Mauryan Sahamites": 8.333333333333334,
+    "Parfian Satrapy": 8.333333333333334,
+    "Chinese empire": 8.333333333333334,
+    "Chinese Qing Dynasty": 8.333333333333334,
+    "Khan Chinese dinastria": 8.333333333333334,
+    "Kanjou-State": 8.333333333333334,
+    "Mauya": 8.333333333333334,
+    "Mesopotamian civilization": 8.333333333333334,
+    "Ahenny Rome": 8.333333333333334,
+    "Islamic Caliphate": 7.142857142857143,
+    "Greek dictatorship": 7.142857142857143,
+    "Mogols": 7.142857142857143,
+    "Macedonian kingdom": 7.142857142857143,
+    "Egyptskie Kings": 7.142857142857143,
+    "Macedonia": 7.142857142857143,
+    "Ashkharhidid empires": 7.142857142857143,
+    "Greek Democracy": 7.142857142857143,
+    "Medieval Mavra": 7.142857142857143,
+    "Han": 7.142857142857143,
+    "Sumer civilizations": 7.142857142857143,
+    "Pallasian civilization period": 7.142857142857143,
+    "Empire Singamagars": 7.142857142857143,
+    "Assyria": 7.142857142857143,
+    "Babi-Luna": 7.142857142857143,
+    "Byzantine empire": 7.142857142857143,
+    "Mayan": 7.142857142857143,
+    "Phoenicia": 7.142857142857143,
+    "Sazzyan Dinasty": 7.142857142857143,
+    "Assyrian civilization": 7.142857142857143,
+    "Chinese dinast": 7.142857142857143,
+    "Kingdom of France": 6.25,
+    "Babylonian kingdom": 6.25,
+    "Empire of China (Han)": 6.25,
+    "Hansky empire": 6.25,
+    "Anseskirh": 6.25,
+    "Olmekska Civilization": 6.25,
+    "Aintappa": 6.25,
+    "Ferium egalism": 6.25,
+    "Medieval Hungary": 6.25,
+    "Matsapin": 6.25,
+    "Persia (Sasania)": 6.25,
+    "Farcid Empire": 6.25,
+    "Empire Jin": 6.25,
+    "Hellenism": 6.25,
+    "Rasa Sharki in Norway and Finland": 6.25,
+    "ANCIENT China": 6.25,
+    "Parphone civilization": 6.25,
+    "Russian Empire": 5.555555555555555,
+    "Colonial Europe": 5.555555555555555,
+    "Egyptian Delfarkhov era": 5.555555555555555,
+    "Persidska Empire": 5.555555555555555,
+    "Aztecká Empire": 5.555555555555555,
+    "Zhin dynasty": 5.555555555555555,
+    "Twilight Civilizations": 5.555555555555555,
+    "Eastern Roman Empire": 5.555555555555555,
+    "Parfian Empire": 5.555555555555555,
+    "Fuzzin": 5.555555555555555,
+    "Twilight civilizations": 5.555555555555555,
+    "Empire of Tuzug": 5.555555555555555,
+    "Babylonian empire": 5.555555555555555,
+    "Jin dynasty": 5.555555555555555,
+    "Twilight": 5.555555555555555,
+    "Zhin (dinasta jin)": 5.555555555555555,
+    "Olmec state": 5.555555555555555,
+    "Great Britain": 5.555555555555555,
+    "Hindu civilization": 5.555555555555555,
+    "Khmer Empire": 5.555555555555555,
+    "Bizance": 5.555555555555555,
+    "Babylonian civilization ": 5.0,
+    "Roman Republic": 5.0,
+    "Afghan kingdom": 5.0,
+    "Soviet Union": 5.0,
+    "Saarian tribal cohort ": 5.0,
+    "Ancient Ancient Greek civilization ": 5.0,
+    "Sicilian Greek states": 5.0,
+    "Sajzyan": 5.0,
+    "Mesopotamia": 5.0,
+    "Middle Ages": 5.0,
+    "Carrier empire": 5.0,
+    "Iranian empire": 5.0,
+    "Medieval Arabia": 5.0,
+    "Turkmens Empire": 5.0,
+    "Pompeii Romans": 5.0,
+    "Napoleon Empire": 5.0,
+    "Nubian empire ": 5.0,
+    "Sicilian khanat": 5.0,
+    "Expanded Roman Empire": 5.0,
+    "Aztec civilization": 5.0,
+    "Aztec empire": 5.0,
+    "Ancient Greek civilization": 5.0,
+    "Empire of Incas ": 5.0
+  },
+  "raw_rankings": {
+    "Chinese Dynastia Qing": [
+      1
+    ],
+    "Roman Empire": [
+      2,
+      2,
+      3,
+      2,
+      2,
+      4,
+      4,
+      3,
+      1,
+      1,
+      1,
+      2,
+      3,
+      1,
+      1,
+      4,
+      1,
+      3,
+      3,
+      2,
+      1,
+      2,
+      4,
+      1
+    ],
+    "British Empire": [
+      3,
+      6,
+      4,
+      7,
+      4,
+      10
+    ],
+    "Macedonian Empire": [
+      4,
+      4,
+      4,
+      10,
+      9,
+      5,
+      8
+    ],
+    "Achaemenid Empire": [
+      5,
+      1,
+      7,
+      6,
+      8,
+      6,
+      5,
+      3
+    ],
+    "Byzantine Empire": [
+      6,
+      5,
+      6,
+      5,
+      5,
+      8,
+      8,
+      4,
+      2,
+      8,
+      6,
+      9,
+      9,
+      3,
+      5,
+      6
+    ],
+    "Islamic Caliphate": [
+      7
+    ],
+    "Kingdom of France": [
+      8
+    ],
+    "Russian Empire": [
+      9
+    ],
+    "Babylonian civilization ": [
+      10
+    ],
+    "Chinese dinastia": [
+      3,
+      4
+    ],
+    "Greek dictatorship": [
+      7
+    ],
+    "Mongolian Empire": [
+      8,
+      3,
+      7
+    ],
+    "Colonial Europe": [
+      9
+    ],
+    "Arabic caliphate": [
+      10,
+      6
+    ],
+    "Assyrian Empire": [
+      1
+    ],
+    "David Kingdom": [
+      2
+    ],
+    "Zhin Jin": [
+      5
+    ],
+    "Mogols": [
+      7
+    ],
+    "Chinese civilization": [
+      8,
+      4
+    ],
+    "Egyptian Delfarkhov era": [
+      9
+    ],
+    "Roman Republic": [
+      10
+    ],
+    "Azteckutch Empire": [
+      1
+    ],
+    "Chinese Dean Asta": [
+      4
+    ],
+    "Egyptski Faral Kingdom": [
+      5
+    ],
+    "Vavilonian kingdom": [
+      6
+    ],
+    "Macedonian kingdom": [
+      7
+    ],
+    "Babylonian kingdom": [
+      8
+    ],
+    "Persidska Empire": [
+      9
+    ],
+    "Afghan kingdom": [
+      10
+    ],
+    "Ancient Babilonia": [
+      1
+    ],
+    "Moster Order": [
+      3
+    ],
+    "Athenian state": [
+      4
+    ],
+    "Raci Egypt": [
+      5
+    ],
+    "Upper Mesopotamia (Sumerians)": [
+      6
+    ],
+    "Ancient Babylon": [
+      7,
+      2
+    ],
+    "Empire of China (Han)": [
+      8
+    ],
+    "Aztecká Empire": [
+      9
+    ],
+    "Ancient Mesopotia": [
+      1
+    ],
+    "Ancient Egypt": [
+      2,
+      2,
+      2,
+      8,
+      2,
+      5,
+      7
+    ],
+    "Ashamone Empire": [
+      3
+    ],
+    "Sarabi Empires": [
+      6
+    ],
+    "Babilon Empire": [
+      7,
+      5
+    ],
+    "Hansky empire": [
+      8
+    ],
+    "Zhin dynasty": [
+      9
+    ],
+    "Soviet Union": [
+      10
+    ],
+    "Ancient Babilon": [
+      1
+    ],
+    "Aztec Empire": [
+      3
+    ],
+    "Chin": [
+      5
+    ],
+    "Babylon": [
+      6
+    ],
+    "Anseskirh": [
+      8
+    ],
+    "Twilight Civilizations": [
+      9
+    ],
+    "Ancient Greece": [
+      10,
+      3,
+      1
+    ],
+    "Muvi": [
+      1
+    ],
+    "Vavilonian Empire": [
+      2,
+      2,
+      2
+    ],
+    "Roman Republic/Empire": [
+      3
+    ],
+    "Chinese Empire": [
+      4,
+      10,
+      5,
+      4
+    ],
+    "Egyptian civilization": [
+      6,
+      8,
+      2
+    ],
+    "Greek civilization": [
+      8,
+      3
+    ],
+    "Eastern Roman Empire": [
+      9
+    ],
+    "Saarian tribal cohort ": [
+      10
+    ],
+    "Ancient Egiptic Civilization": [
+      1
+    ],
+    "Mogolsk Empire": [
+      4
+    ],
+    "Afghanistan Itaun": [
+      6
+    ],
+    "Medieval Chinese Empire": [
+      7,
+      9
+    ],
+    "Olmekska Civilization": [
+      8
+    ],
+    "Persian Empire": [
+      9,
+      4
+    ],
+    "Ancient Ancient Greek civilization ": [
+      10
+    ],
+    "Babylonium": [
+      2,
+      2
+    ],
+    "Vavilon Kingdom": [
+      4
+    ],
+    "Empire Qin": [
+      5,
+      9
+    ],
+    "Macedonian Kingdom": [
+      6
+    ],
+    "Egyptskie Kings": [
+      7
+    ],
+    "Aintappa": [
+      8
+    ],
+    "Parfian Empire": [
+      9
+    ],
+    "Sicilian Greek states": [
+      10
+    ],
+    "Egyptian Korolynki": [
+      3
+    ],
+    "China Sun-Yang": [
+      4
+    ],
+    "Babylonia": [
+      5
+    ],
+    "Macedonia": [
+      7
+    ],
+    "Fuzzin": [
+      9
+    ],
+    "Sajzyan": [
+      10
+    ],
+    "Moweis civilization": [
+      2
+    ],
+    "Egyptskie civilization": [
+      3
+    ],
+    "Persia": [
+      5
+    ],
+    "Babylonian civilization": [
+      6,
+      4,
+      6,
+      2,
+      3,
+      5
+    ],
+    "Ashkharhidid empires": [
+      7
+    ],
+    "Ferium egalism": [
+      8
+    ],
+    "Twilight civilizations": [
+      9
+    ],
+    "Mesopotamia": [
+      10
+    ],
+    "Aztecs": [
+      1
+    ],
+    "Byzantium": [
+      3
+    ],
+    "Chinese dinastia Jin": [
+      4
+    ],
+    "Babilonia": [
+      5
+    ],
+    "Egyptian Pharaoh": [
+      6
+    ],
+    "Greek Democracy": [
+      7
+    ],
+    "Medieval Hungary": [
+      8
+    ],
+    "Empire of Tuzug": [
+      9
+    ],
+    "Middle Ages": [
+      10
+    ],
+    "Babylonian Empire": [
+      1,
+      1
+    ],
+    "Chin Dynasty China": [
+      4
+    ],
+    "Empire of the Kushanskaya Artifacts": [
+      5
+    ],
+    "Mauryan Sahamites": [
+      6
+    ],
+    "Medieval Mavra": [
+      7
+    ],
+    "Achaemenid Empires": [
+      9,
+      3,
+      7
+    ],
+    "Carrier empire": [
+      10
+    ],
+    "Moγγ Open Empire": [
+      2
+    ],
+    "Ungarian Khanate": [
+      3
+    ],
+    "Assyrian Imperium": [
+      5
+    ],
+    "Parfian Satrapy": [
+      6
+    ],
+    "Han": [
+      7
+    ],
+    "Manchu dynasty": [
+      3
+    ],
+    "Sumer civilizations": [
+      7
+    ],
+    "Egyptian pharaohs": [
+      8,
+      3
+    ],
+    "Babylonian empire": [
+      9
+    ],
+    "Iranian empire": [
+      10
+    ],
+    "Ancient Dinia": [
+      1
+    ],
+    "Islamic world": [
+      5
+    ],
+    "Chinese empire": [
+      6
+    ],
+    "Pallasian civilization period": [
+      7
+    ],
+    "Vietnamese Empire": [
+      9,
+      8
+    ],
+    "Medieval Arabia": [
+      10
+    ],
+    "Assyrian kingdom": [
+      2
+    ],
+    "Babylonian empires": [
+      3
+    ],
+    "Macci": [
+      5
+    ],
+    "Qin dynasty": [
+      6,
+      2
+    ],
+    "Matsapin": [
+      8
+    ],
+    "Jin dynasty": [
+      9
+    ],
+    "Turkmens Empire": [
+      10
+    ],
+    "Babilonians": [
+      1
+    ],
+    "Macedonians": [
+      2
+    ],
+    "Romans": [
+      3
+    ],
+    "Babylonians": [
+      4
+    ],
+    "Chinese Qing Dynasty": [
+      6
+    ],
+    "Empire Singamagars": [
+      7
+    ],
+    "Twilight": [
+      9
+    ],
+    "Pompeii Romans": [
+      10
+    ],
+    "Ancient Babylonia": [
+      1
+    ],
+    "Drevniy Egypt": [
+      2
+    ],
+    "Mozart Empire": [
+      5
+    ],
+    "Assyria": [
+      7
+    ],
+    "Persia (Sasania)": [
+      8
+    ],
+    "Zhin (dinasta jin)": [
+      9
+    ],
+    "Napoleon Empire": [
+      10
+    ],
+    "Afghan Empire": [
+      6,
+      10
+    ],
+    "Babi-Luna": [
+      7
+    ],
+    "Farcid Empire": [
+      8
+    ],
+    "Nubian empire ": [
+      10
+    ],
+    "Greek Empire": [
+      1
+    ],
+    "Magai": [
+      3
+    ],
+    "Achaemenid empire": [
+      5
+    ],
+    "Khan Chinese dinastria": [
+      6
+    ],
+    "Byzantine empire": [
+      7
+    ],
+    "Olmec state": [
+      9
+    ],
+    "Sicilian khanat": [
+      10
+    ],
+    "Ancient civilization of Egypt": [
+      1
+    ],
+    "Roman imperia": [
+      4
+    ],
+    "The invasion and settlement of Chinese-Imperiya qin": [
+      5
+    ],
+    "Kanjou-State": [
+      6
+    ],
+    "Mayan": [
+      7
+    ],
+    "Empire Jin": [
+      8
+    ],
+    "Great Britain": [
+      9
+    ],
+    "Expanded Roman Empire": [
+      10
+    ],
+    "Akhchengids": [
+      2
+    ],
+    "Vietnamesca Civilization": [
+      3
+    ],
+    "Mesopotamia (dusk SK, ACKAD, Babilon)": [
+      4
+    ],
+    "Mauya": [
+      6
+    ],
+    "Phoenicia": [
+      7
+    ],
+    "Hellenism": [
+      8
+    ],
+    "Aztec civilization": [
+      10
+    ],
+    "Ancient Roman Empire": [
+      1,
+      1
+    ],
+    "Jindynasty China": [
+      2
+    ],
+    "Empire of urine in Japan": [
+      3
+    ],
+    "Median Empire in Persia (Iran)": [
+      4
+    ],
+    "Achaemenidsky-Imperium Persia": [
+      5
+    ],
+    "Rasa Sharki in Norway and Finland": [
+      8
+    ],
+    "Aztec empire": [
+      10
+    ],
+    "Mogol Empire": [
+      4
+    ],
+    "Zhindynasty": [
+      5
+    ],
+    "Sazzyan Dinasty": [
+      7
+    ],
+    "Mesopotamian civilization": [
+      6
+    ],
+    "ANCIENT China": [
+      8
+    ],
+    "Hindu civilization": [
+      9
+    ],
+    "Ancient Greek civilization": [
+      10
+    ],
+    "Empire of the Jin dynasty": [
+      1
+    ],
+    "Mogolian Empire": [
+      5
+    ],
+    "Assyrian civilization": [
+      7
+    ],
+    "Parphone civilization": [
+      8
+    ],
+    "Khmer Empire": [
+      9
+    ],
+    "Empire of Incas ": [
+      10
+    ],
+    "Egyptian Empire": [
+      4
+    ],
+    "Ahenny Rome": [
+      6
+    ],
+    "Chinese dinast": [
+      7
+    ],
+    "Bizance": [
+      9
+    ]
+  }
+}

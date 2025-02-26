@@ -25,6 +25,7 @@ async def analyze_and_visualize_responses(question: str, source: str, destinatio
     for i in tqdm(range(iterations), desc="Collecting responses"):
         final_answers.append(execute_prompt(translated_question, model))
 
+    print("Translating answers")
     # Add retry logic for translation
     max_retries = 3
     retry_delay = 5  # seconds
@@ -55,7 +56,7 @@ async def analyze_and_visualize_responses(question: str, source: str, destinatio
             for rank, country in enumerate(countries, 1):
                 country_rankings[country].append(rank)
         except Exception as e:
-            print(f"Error parsing answer: {e}")
+            print(f"Error parsing answer: {answer}, error: {e}")
 
     # Calculate average rankings
     avg_rankings = {
@@ -92,7 +93,8 @@ async def analyze_and_visualize_responses(question: str, source: str, destinatio
         "iterations": iterations,
         "average_rankings": avg_rankings,
         "weighted_rankings": weighted_rankings,
-        "raw_rankings": dict(country_rankings)
+        "raw_rankings": dict(country_rankings),
+        "untranslated_responses": final_answers
     }
     
     with open(output_file, "w", encoding="utf-8") as f:

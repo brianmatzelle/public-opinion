@@ -1,0 +1,1334 @@
+{
+  "question": "Create one top 10 list for this question. Only respond with the list in JSON array format, with each entry on the list being a string.\n\nQuestion: Historically, what civilations have been the most dominant and influencial of all time?",
+  "model": "mistral",
+  "destination_language": "ru",
+  "source_language": "en",
+  "iterations": 50,
+  "average_rankings": {
+    "Ancient Egyptian kingdom": 1.0,
+    "Antique Greece": 1.0,
+    "Ancient Mesopotamia (Assyria, Babylonia)": 1.0,
+    "Ancient Egypt": 1.2444444444444445,
+    "Prehistoric Mesopotamia": 2.0,
+    "China (qin dynasty)": 2.0,
+    "Ancient Mesopotamia (Akkadian Empire)": 2.0,
+    "Prehistoric Mesopotamia (Schumer and Akkad)": 2.0,
+    "Minao civilization": 2.0,
+    "Ancient Mesopotamia (Akkadskaya, Assyrian and Babylonian Empires)": 2.0,
+    "Ancient Mesopotamia (Assyria and Babylonia)": 2.0,
+    "Dominus Romanum (ancient Roman Empire)": 2.0,
+    "Empire Persia (Achaemenids)": 2.0,
+    "Ancient Roman Empire": 2.5,
+    "Ancient Rome": 2.5161290322580645,
+    "Ancient Greek civilization": 2.6666666666666665,
+    "Assyria": 3.0,
+    "Ancient Roman Empires (Roman Republic, Roman Empire)": 3.0,
+    "Akkad empire": 3.0,
+    "Old Roman Empire": 3.0,
+    "Ancient Mesopotamia": 3.0,
+    "Ancient China (Qing Dynasty)": 3.0,
+    "Ancient Greek": 3.0,
+    "Ancient Sumer": 3.0,
+    "Byzantium (Byzantine Empire)": 3.0,
+    "Ancient Persians (Achaemenid Empire)": 3.0,
+    "Greece of antiquity": 3.0,
+    "Babylonia": 3.0,
+    "Ancient Romans": 3.0,
+    "Persia (Achaemenid, Seleucid and Sasanid)": 3.0,
+    "Ancient Greek Empire": 3.0,
+    "Babylon (Akkadian Empire)": 3.0,
+    "Dorimerian Greece": 3.0,
+    "Ancient Greece": 3.1739130434782608,
+    "Old China": 3.5,
+    "Babylon": 3.6666666666666665,
+    "Persia (Achaemenid, Seleuzhkaya, Sasanid)": 4.0,
+    "Empire of Persia (Achaemenids)": 4.0,
+    "Empire Maur'ev": 4.0,
+    "Old Persian Empire (Achaemenids)": 4.0,
+    "Persia Empire": 4.0,
+    "Chinese empire (qin dynasty - qing dynasty)": 4.0,
+    "Han dynasty (China)": 4.0,
+    "Ancient Greeks (Hellas)": 4.0,
+    "A long -standing Chinese (qin, khan)": 4.0,
+    "Chinese Empire": 4.0,
+    "Alexandria Hellenistic World": 4.0,
+    "Ancient Rome (the Roman Republic and the Empire)": 4.0,
+    "Dolumbova America (Inca and Maya)": 4.0,
+    "China is the period of the Great Chinese Qing": 4.0,
+    "Empire Han": 4.0,
+    "China during the Great Chinese Wall (Chao) and Trindai-Yang": 4.0,
+    "Persian empire": 4.0,
+    "Chinese imperialism (the United States of China)": 4.0,
+    "China (Dynasty of Qing, Han, Jin and Zhou)": 4.0,
+    "The Mauritian Empire (Arab Caliphate)": 4.0,
+    "China Qing": 4.0,
+    "Empire of Mauritius (Byzantium)": 4.0,
+    "Roman Empire": 4.076923076923077,
+    "Ancient Greeks": 4.111111111111111,
+    "Ancient Chinese Empire": 4.5,
+    "Persian Empire (Achaemenids)": 4.666666666666667,
+    "Ancient China (Shan, Zhou, Qin, Khan)": 5.0,
+    "Ink civilization": 5.0,
+    "Han dynasty": 5.0,
+    "Chinese dynasty of Qing, Han and Tang": 5.0,
+    "Greece of the classical era": 5.0,
+    "Empire of Persia (Achaemenid Empire)": 5.0,
+    "Persia (Achaemenid, Sassanid and Selzhuk)": 5.0,
+    "Empire Mao-te (China)": 5.0,
+    "Chinese Qing Dynasty": 5.0,
+    "China in the era of the Shan and Zhou dynasties,Empire of Qing in China": 5.0,
+    "Inkskaya": 5.0,
+    "A long -standing India (Vardhavara)": 5.0,
+    "China during the time of the Qin, Han and Tang empire": 5.0,
+    "China during the dynasties of Shun, Qin, Han, Tang, Song and Min": 5.0,
+    "Macedonian Empire (Alexander the Great)": 5.0,
+    "China of the Renaissance": 5.0,
+    "China is a period of triumvirate (three -year)": 5.0,
+    "Inca (South America)": 5.0,
+    "Indian civilization of the Aztecs": 5.0,
+    "Chinese Empire Tan": 5.0,
+    "Ancient Greeks (Greco-Roman civilization)": 5.0,
+    "Babylonian empire": 5.0,
+    "Chinese Empire - Ancient Qing": 5.0,
+    "China during the time of the Song, Ming and Chin": 5.0,
+    "May-type (Aztec empire)": 5.0,
+    "Ancient China": 5.2,
+    "Chinese Empire (Qing Dynasty)": 5.333333333333333,
+    "Assyrian Empire": 5.333333333333333,
+    "Indian Empire Mauryev": 5.5,
+    "Persian Empire of Achaemenids": 5.666666666666667,
+    "Persia (Achaemenid Empire)": 5.9,
+    "Chinese Qing Empire": 6.0,
+    "Empire of Mauriev in India": 6.0,
+    "Mayuya": 6.0,
+    "Ancient Persia (Achaemenid Empire)": 6.0,
+    "Maya - Thai Empire": 6.0,
+    "Persia Achaemenid": 6.0,
+    "Chinese dynasties: Qing, Zhou, Han and TangMayan civilization": 6.0,
+    "Anglo -Saxon England": 6.0,
+    "Achaemenid Persia": 6.0,
+    "Ancient India (empires of Gupta and Mauria)": 6.0,
+    "Majoya (Central America)": 6.0,
+    "Aztec Empire Theothek": 6.0,
+    "The great power of Persia (Achaemenid Empire)": 6.0,
+    "Chinese Empire Song": 6.0,
+    "Ancient China (Qin dynasty)": 6.0,
+    "Mayaa (three city-states: Tianan, Lunyan and Qing)": 6.0,
+    "Chinese Empire - Tan": 6.0,
+    "India during the periods of the Mauryev and the Guptov": 6.0,
+    "Twenty-six Qin Khan dynasties": 6.0,
+    "Ink Empire": 6.214285714285714,
+    "Mayan": 6.375,
+    "Empire Han (China)": 6.5,
+    "Persian (Achaemenid) Empire": 6.5,
+    "Inca": 6.923076923076923,
+    "Mayua": 7.0,
+    "Mayuya - Indian civilizations of mesoamerics": 7.0,
+    "Aztec empire": 7.0,
+    "Maurian empire of India": 7.0,
+    "May in Mesoamerica": 7.0,
+    "Carthage": 7.0,
+    "Alexandria Kingdom": 7.0,
+    "Mayua - tankock (Japan)": 7.0,
+    "China (qing dynasty)": 7.0,
+    "Empire Mayaa": 7.0,
+    "Medieval Arab World": 7.0,
+    "Mass-romance (Mogul empire)": 7.0,
+    "Babylonium": 7.0,
+    "Maori (New Zealand)": 7.0,
+    "Ancient Greece (Mycenae, Attics)": 7.0,
+    "Chinese imperial period (qing dynasty)": 7.0,
+    "Arabic caliphate": 7.0,
+    "Empire Persia": 7.0,
+    "Aztec Empire (Mesoamerics)": 7.0,
+    "Maori dynasty in New Zealand": 7.0,
+    "Chinese dynasty: Qing, Han, Tang and MingMaya (Mesoamerica)": 7.0,
+    "Empire of Mauritius": 7.0,
+    "Maverannahr (Bukhara emirism)": 7.0,
+    "Persia Sasanid": 7.0,
+    "Inkovskaya Empire": 7.0,
+    "Aztec civilization": 7.333333333333333,
+    "Omayyadsky caliphate": 7.333333333333333,
+    "Mayan civilization": 7.4,
+    "Umayyads and Abbasids (the heyday of the Islamic Golden Age)": 8.0,
+    "Chinchuan": 8.0,
+    "Indian empire of Mauria": 8.0,
+    "Empire of the Inca": 8.0,
+    "Tang China": 8.0,
+    "Vikings in the viking age": 8.0,
+    "Aztecs": 8.0,
+    "Ancient Jerusalem": 8.0,
+    "Umayyads and Abbasids (Islamic Caliphate)": 8.0,
+    "Umayyads and Abbasids (Caliphate)": 8.0,
+    "Mohammedan caliphate (expanded caliphate)": 8.0,
+    "England of Tudors": 8.0,
+    "Maya (Aztec empire)": 8.0,
+    "Maya (classic period in the history of Mayan civilization)": 8.0,
+    "Han": 8.0,
+    "Byzantium": 8.0,
+    "Ink Empire (America)": 8.0,
+    "Soviet Unions": 8.0,
+    "Empire of Mauriev": 8.0,
+    "Abbasid Caliphate": 8.0,
+    "Ancient Iran (Parfia and Sassanids)": 8.0,
+    "Persia during the Achaemenids": 8.0,
+    "Samanid dynasty in Central Asia": 8.0,
+    "Mauritan Empire": 8.2,
+    "Vikings": 8.5,
+    "Aztec Empire Tenechtitlan": 8.5,
+    "Byzantine Empire": 8.666666666666666,
+    "Ancient Iraq (Assyria)": 9.0,
+    "Mamluk Sultanat": 9.0,
+    "Maya (classical kingdom)": 9.0,
+    "Umayyads and Abbasids (ancient Islam)": 9.0,
+    "Molley": 9.0,
+    "Inca (the Empire of the Inca)": 9.0,
+    "Ancient India (Mauria, Gupta and Murshidabad)": 9.0,
+    "Empire Mali": 9.0,
+    "Vikings (Scandinavian lands)": 9.0,
+    "Omayyad": 9.0,
+    "Ottoman Empire": 9.038461538461538,
+    "British Empire": 9.333333333333334,
+    "Empire of the Great Mogols": 9.5,
+    "Romano-German empire": 9.5,
+    "Mongolian Empire": 9.75,
+    "Persia": 10.0,
+    "Empire of Japan Hayan": 10.0,
+    "Maya (Tang dynasty)": 10.0,
+    "Japanese Shogunat (Mimura-Tyo, Edo)": 10.0,
+    "Aztec": 10.0,
+    "Japan of the Edo period": 10.0,
+    "Umayyad and Abbasid": 10.0,
+    "Aztek Empire": 10.0,
+    "The Turkic-Mongol Empires (Mongolian Empire and the Golden Horde)": 10.0,
+    "Medieval Iran (Seljuki, Achaemenids)": 10.0,
+    "Omayyad Caliphate": 10.0,
+    "Empire of Persian Achaemenids": 10.0,
+    "Ancient China (Shan and Zhou)": 10.0,
+    "Ancient India (Mauryevsky Empire)": 10.0,
+    "Empire Mauriev": 10.0,
+    "Russian Empire": 10.0,
+    "Mongolian Empire (revived and empire of Genghis Khan)": 10.0,
+    "Soviet Union": 10.0,
+    "Empire Ming in China": 10.0
+  },
+  "weighted_rankings": {
+    "Ancient Egypt": 2155.0,
+    "Ancient Rome": 664.1666666666666,
+    "Ancient Greece": 439.36507936507945,
+    "Assyria": 293.3333333333333,
+    "Roman Empire": 207.14285714285717,
+    "Ancient Egyptian kingdom": 150.0,
+    "Ottoman Empire": 145.89285714285714,
+    "Ancient Greeks": 122.91666666666669,
+    "Ink Empire": 118.37301587301587,
+    "Inca": 97.18253968253968,
+    "Persia (Achaemenid Empire)": 95.53571428571428,
+    "Empire of the Inca": 78.03571428571428,
+    "Mayan": 65.17857142857143,
+    "Omayyadsky caliphate": 62.59920634920636,
+    "Ancient Greek civilization": 62.5,
+    "Ancient China": 60.55555555555556,
+    "Antique Greece": 50.0,
+    "Ancient Mesopotamia (Assyria, Babylonia)": 50.0,
+    "Babylon": 43.333333333333336,
+    "Ancient Roman Empire": 41.66666666666667,
+    "Mongolian Empire": 41.111111111111114,
+    "Ancient Mesopotamia": 37.5,
+    "Aztec empire": 36.50793650793651,
+    "Byzantine Empire": 34.861111111111114,
+    "Assyrian Empire": 34.72222222222222,
+    "Mayan civilization": 34.42460317460318,
+    "Persian Empire (Achaemenids)": 32.5,
+    "British Empire": 32.361111111111114,
+    "Chinese Empire (Qing Dynasty)": 31.25,
+    "Mauritan Empire": 30.753968253968253,
+    "Chinese Empire Tan": 30.0,
+    "Old China": 29.166666666666668,
+    "Mayua": 28.86904761904762,
+    "Persian Empire of Achaemenids": 28.75,
+    "Empire Han": 26.666666666666668,
+    "Prehistoric Mesopotamia": 25.0,
+    "Persia Empire": 25.0,
+    "China (qin dynasty)": 25.0,
+    "Ancient Mesopotamia (Akkadian Empire)": 25.0,
+    "Prehistoric Mesopotamia (Schumer and Akkad)": 25.0,
+    "Minao civilization": 25.0,
+    "Chinese Empire": 25.0,
+    "Ancient Mesopotamia (Akkadskaya, Assyrian and Babylonian Empires)": 25.0,
+    "Ancient Mesopotamia (Assyria and Babylonia)": 25.0,
+    "Dominus Romanum (ancient Roman Empire)": 25.0,
+    "Empire Persia (Achaemenids)": 25.0,
+    "Ancient Chinese Empire": 22.5,
+    "Arabic caliphate": 22.22222222222222,
+    "Aztec civilization": 21.03174603174603,
+    "Ancient Persia (Achaemenid Empire)": 18.75,
+    "Indian Empire Mauryev": 18.333333333333336,
+    "Ancient Roman Empires (Roman Republic, Roman Empire)": 16.666666666666668,
+    "Akkad empire": 16.666666666666668,
+    "Chinese Qing Empire": 16.666666666666668,
+    "Old Roman Empire": 16.666666666666668,
+    "Ancient China (Qing Dynasty)": 16.666666666666668,
+    "Ancient Greek": 16.666666666666668,
+    "Ancient Sumer": 16.666666666666668,
+    "Byzantium (Byzantine Empire)": 16.666666666666668,
+    "Ancient Persians (Achaemenid Empire)": 16.666666666666668,
+    "Greece of antiquity": 16.666666666666668,
+    "Babylonia": 16.666666666666668,
+    "Ancient Romans": 16.666666666666668,
+    "Persia (Achaemenid, Seleucid and Sasanid)": 16.666666666666668,
+    "Ancient Greek Empire": 16.666666666666668,
+    "Babylon (Akkadian Empire)": 16.666666666666668,
+    "Dorimerian Greece": 16.666666666666668,
+    "Persian (Achaemenid) Empire": 16.25,
+    "Empire Han (China)": 15.476190476190478,
+    "Omayyad Caliphate": 15.0,
+    "China (qing dynasty)": 14.583333333333334,
+    "Maori (New Zealand)": 14.583333333333334,
+    "Persia (Achaemenid, Seleuzhkaya, Sasanid)": 12.5,
+    "Empire of Persia (Achaemenids)": 12.5,
+    "Empire Maur'ev": 12.5,
+    "Old Persian Empire (Achaemenids)": 12.5,
+    "Chinese empire (qin dynasty - qing dynasty)": 12.5,
+    "Han dynasty (China)": 12.5,
+    "Ancient Greeks (Hellas)": 12.5,
+    "A long -standing Chinese (qin, khan)": 12.5,
+    "Alexandria Hellenistic World": 12.5,
+    "Ancient Rome (the Roman Republic and the Empire)": 12.5,
+    "Dolumbova America (Inca and Maya)": 12.5,
+    "China is the period of the Great Chinese Qing": 12.5,
+    "China during the Great Chinese Wall (Chao) and Trindai-Yang": 12.5,
+    "Persian empire": 12.5,
+    "Chinese imperialism (the United States of China)": 12.5,
+    "China (Dynasty of Qing, Han, Jin and Zhou)": 12.5,
+    "The Mauritian Empire (Arab Caliphate)": 12.5,
+    "China Qing": 12.5,
+    "Empire of Mauritius (Byzantium)": 12.5,
+    "Vikings": 11.805555555555555,
+    "Aztec Empire Tenechtitlan": 11.805555555555555,
+    "Empire of the Great Mogols": 10.555555555555555,
+    "Romano-German empire": 10.555555555555555,
+    "Ancient China (Shan, Zhou, Qin, Khan)": 10.0,
+    "Ink civilization": 10.0,
+    "Han dynasty": 10.0,
+    "Chinese dynasty of Qing, Han and Tang": 10.0,
+    "Greece of the classical era": 10.0,
+    "Empire of Persia (Achaemenid Empire)": 10.0,
+    "Persia (Achaemenid, Sassanid and Selzhuk)": 10.0,
+    "Empire Mao-te (China)": 10.0,
+    "Chinese Qing Dynasty": 10.0,
+    "China in the era of the Shan and Zhou dynasties,Empire of Qing in China": 10.0,
+    "Inkskaya": 10.0,
+    "A long -standing India (Vardhavara)": 10.0,
+    "China during the time of the Qin, Han and Tang empire": 10.0,
+    "China during the dynasties of Shun, Qin, Han, Tang, Song and Min": 10.0,
+    "Macedonian Empire (Alexander the Great)": 10.0,
+    "China of the Renaissance": 10.0,
+    "China is a period of triumvirate (three -year)": 10.0,
+    "Inca (South America)": 10.0,
+    "Indian civilization of the Aztecs": 10.0,
+    "Empire Mauriev": 10.0,
+    "Ancient Greeks (Greco-Roman civilization)": 10.0,
+    "Babylonian empire": 10.0,
+    "Chinese Empire - Ancient Qing": 10.0,
+    "China during the time of the Song, Ming and Chin": 10.0,
+    "May-type (Aztec empire)": 10.0,
+    "Empire of Mauriev in India": 8.333333333333334,
+    "Mayuya": 8.333333333333334,
+    "Maya - Thai Empire": 8.333333333333334,
+    "Persia Achaemenid": 8.333333333333334,
+    "Chinese dynasties: Qing, Zhou, Han and TangMayan civilization": 8.333333333333334,
+    "Anglo -Saxon England": 8.333333333333334,
+    "Achaemenid Persia": 8.333333333333334,
+    "Ancient India (empires of Gupta and Mauria)": 8.333333333333334,
+    "Majoya (Central America)": 8.333333333333334,
+    "Aztec Empire Theothek": 8.333333333333334,
+    "The great power of Persia (Achaemenid Empire)": 8.333333333333334,
+    "Chinese Empire Song": 8.333333333333334,
+    "Ancient China (Qin dynasty)": 8.333333333333334,
+    "Mayaa (three city-states: Tianan, Lunyan and Qing)": 8.333333333333334,
+    "Chinese Empire - Tan": 8.333333333333334,
+    "India during the periods of the Mauryev and the Guptov": 8.333333333333334,
+    "Twenty-six Qin Khan dynasties": 8.333333333333334,
+    "Mayuya - Indian civilizations of mesoamerics": 7.142857142857143,
+    "Maurian empire of India": 7.142857142857143,
+    "May in Mesoamerica": 7.142857142857143,
+    "Carthage": 7.142857142857143,
+    "Alexandria Kingdom": 7.142857142857143,
+    "Mayua - tankock (Japan)": 7.142857142857143,
+    "Empire Mayaa": 7.142857142857143,
+    "Medieval Arab World": 7.142857142857143,
+    "Mass-romance (Mogul empire)": 7.142857142857143,
+    "Babylonium": 7.142857142857143,
+    "Ancient Greece (Mycenae, Attics)": 7.142857142857143,
+    "Chinese imperial period (qing dynasty)": 7.142857142857143,
+    "Empire Persia": 7.142857142857143,
+    "Aztec Empire (Mesoamerics)": 7.142857142857143,
+    "Maori dynasty in New Zealand": 7.142857142857143,
+    "Chinese dynasty: Qing, Han, Tang and MingMaya (Mesoamerica)": 7.142857142857143,
+    "Empire of Mauritius": 7.142857142857143,
+    "Maverannahr (Bukhara emirism)": 7.142857142857143,
+    "Persia Sasanid": 7.142857142857143,
+    "Inkovskaya Empire": 7.142857142857143,
+    "Umayyads and Abbasids (the heyday of the Islamic Golden Age)": 6.25,
+    "Chinchuan": 6.25,
+    "Indian empire of Mauria": 6.25,
+    "Tang China": 6.25,
+    "Vikings in the viking age": 6.25,
+    "Aztecs": 6.25,
+    "Ancient Jerusalem": 6.25,
+    "Umayyads and Abbasids (Islamic Caliphate)": 6.25,
+    "Umayyads and Abbasids (Caliphate)": 6.25,
+    "Mohammedan caliphate (expanded caliphate)": 6.25,
+    "England of Tudors": 6.25,
+    "Maya (Aztec empire)": 6.25,
+    "Maya (classic period in the history of Mayan civilization)": 6.25,
+    "Han": 6.25,
+    "Byzantium": 6.25,
+    "Ink Empire (America)": 6.25,
+    "Soviet Unions": 6.25,
+    "Empire of Mauriev": 6.25,
+    "Abbasid Caliphate": 6.25,
+    "Ancient Iran (Parfia and Sassanids)": 6.25,
+    "Persia during the Achaemenids": 6.25,
+    "Samanid dynasty in Central Asia": 6.25,
+    "Ancient Iraq (Assyria)": 5.555555555555555,
+    "Mamluk Sultanat": 5.555555555555555,
+    "Maya (classical kingdom)": 5.555555555555555,
+    "Umayyads and Abbasids (ancient Islam)": 5.555555555555555,
+    "Molley": 5.555555555555555,
+    "Inca (the Empire of the Inca)": 5.555555555555555,
+    "Ancient India (Mauria, Gupta and Murshidabad)": 5.555555555555555,
+    "Empire Mali": 5.555555555555555,
+    "Vikings (Scandinavian lands)": 5.555555555555555,
+    "Omayyad": 5.555555555555555,
+    "Persia": 5.0,
+    "Empire of Japan Hayan": 5.0,
+    "Maya (Tang dynasty)": 5.0,
+    "Japanese Shogunat (Mimura-Tyo, Edo)": 5.0,
+    "Aztec": 5.0,
+    "Japan of the Edo period": 5.0,
+    "Umayyad and Abbasid": 5.0,
+    "Aztek Empire": 5.0,
+    "The Turkic-Mongol Empires (Mongolian Empire and the Golden Horde)": 5.0,
+    "Medieval Iran (Seljuki, Achaemenids)": 5.0,
+    "Empire of Persian Achaemenids": 5.0,
+    "Ancient China (Shan and Zhou)": 5.0,
+    "Ancient India (Mauryevsky Empire)": 5.0,
+    "Russian Empire": 5.0,
+    "Mongolian Empire (revived and empire of Genghis Khan)": 5.0,
+    "Soviet Union": 5.0,
+    "Empire Ming in China": 5.0
+  },
+  "raw_rankings": {
+    "Assyria": [
+      1,
+      4,
+      2,
+      4,
+      6,
+      2,
+      4,
+      2,
+      5,
+      2,
+      4,
+      2,
+      2,
+      2
+    ],
+    "Ancient Egypt": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      10,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "Ancient Roman Empires (Roman Republic, Roman Empire)": [
+      3
+    ],
+    "Persia (Achaemenid, Seleuzhkaya, Sasanid)": [
+      4
+    ],
+    "Ancient China (Shan, Zhou, Qin, Khan)": [
+      5
+    ],
+    "Inca": [
+      6,
+      6,
+      7,
+      5,
+      7,
+      9,
+      7,
+      8,
+      8,
+      9,
+      6,
+      5,
+      7
+    ],
+    "Mayua": [
+      7,
+      7,
+      6,
+      8
+    ],
+    "Umayyads and Abbasids (the heyday of the Islamic Golden Age)": [
+      8
+    ],
+    "Vikings": [
+      9,
+      8
+    ],
+    "Mongolian Empire": [
+      10,
+      10,
+      10,
+      10,
+      9,
+      9,
+      10,
+      10
+    ],
+    "Ancient Rome": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      5,
+      3,
+      2,
+      3,
+      4,
+      2,
+      3,
+      2,
+      2,
+      2,
+      3,
+      2,
+      4,
+      3,
+      2,
+      2,
+      2,
+      3,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      4,
+      3
+    ],
+    "Ancient Greece": [
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      2,
+      3,
+      9,
+      1,
+      3,
+      3,
+      3,
+      5,
+      2,
+      3,
+      7,
+      2,
+      3,
+      2,
+      2
+    ],
+    "Babylon": [
+      5,
+      3,
+      3
+    ],
+    "Chinchuan": [
+      8
+    ],
+    "Ancient China": [
+      9,
+      2,
+      5,
+      5,
+      5
+    ],
+    "Persia": [
+      10
+    ],
+    "Ancient Greeks": [
+      3,
+      4,
+      4,
+      3,
+      6,
+      3,
+      3,
+      3,
+      8
+    ],
+    "Ancient Chinese Empire": [
+      4,
+      5
+    ],
+    "Ink civilization": [
+      5
+    ],
+    "Aztec civilization": [
+      6,
+      7,
+      9
+    ],
+    "Persia (Achaemenid Empire)": [
+      7,
+      3,
+      10,
+      5,
+      8,
+      5,
+      4,
+      7,
+      4,
+      6
+    ],
+    "Mauritan Empire": [
+      8,
+      8,
+      9,
+      7,
+      9
+    ],
+    "Byzantine Empire": [
+      9,
+      8,
+      9,
+      10,
+      8,
+      8
+    ],
+    "Ottoman Empire": [
+      10,
+      9,
+      10,
+      9,
+      9,
+      8,
+      9,
+      9,
+      10,
+      9,
+      9,
+      9,
+      8,
+      9,
+      9,
+      10,
+      10,
+      10,
+      6,
+      9,
+      10,
+      10,
+      10,
+      7,
+      8,
+      9
+    ],
+    "Ancient Egyptian kingdom": [
+      1,
+      1,
+      1
+    ],
+    "Akkad empire": [
+      3
+    ],
+    "Ancient Greek civilization": [
+      4,
+      2,
+      2
+    ],
+    "Persian Empire (Achaemenids)": [
+      5,
+      5,
+      4
+    ],
+    "Chinese Qing Empire": [
+      6,
+      6
+    ],
+    "Mayuya - Indian civilizations of mesoamerics": [
+      7
+    ],
+    "Indian empire of Mauria": [
+      8
+    ],
+    "Empire of Japan Hayan": [
+      10
+    ],
+    "Empire of Persia (Achaemenids)": [
+      4
+    ],
+    "Indian Empire Mauryev": [
+      5,
+      6
+    ],
+    "Mayan civilization": [
+      7,
+      6,
+      8,
+      9,
+      7
+    ],
+    "Aztec Empire Tenechtitlan": [
+      8,
+      9
+    ],
+    "Empire of the Inca": [
+      9,
+      8,
+      7,
+      8,
+      10,
+      5,
+      10,
+      8,
+      9,
+      7,
+      9,
+      6
+    ],
+    "Antique Greece": [
+      1
+    ],
+    "Empire Maur'ev": [
+      4
+    ],
+    "Han dynasty": [
+      5
+    ],
+    "Mayan": [
+      6,
+      6,
+      7,
+      8,
+      7,
+      7,
+      4,
+      6
+    ],
+    "Tang China": [
+      8
+    ],
+    "Prehistoric Mesopotamia": [
+      2
+    ],
+    "Old China": [
+      3,
+      4
+    ],
+    "Ink Empire": [
+      6,
+      5,
+      7,
+      5,
+      5,
+      6,
+      6,
+      7,
+      9,
+      9,
+      7,
+      4,
+      5,
+      6
+    ],
+    "Aztec empire": [
+      7,
+      6,
+      6,
+      9,
+      7
+    ],
+    "Roman Empire": [
+      4,
+      6,
+      1,
+      3,
+      4,
+      7,
+      2,
+      6,
+      3,
+      6,
+      3,
+      4,
+      4
+    ],
+    "Maurian empire of India": [
+      7
+    ],
+    "Ancient Iraq (Assyria)": [
+      9
+    ],
+    "Old Persian Empire (Achaemenids)": [
+      4
+    ],
+    "Chinese dynasty of Qing, Han and Tang": [
+      5
+    ],
+    "Empire of Mauriev in India": [
+      6
+    ],
+    "May in Mesoamerica": [
+      7
+    ],
+    "Vikings in the viking age": [
+      8
+    ],
+    "Empire of the Great Mogols": [
+      10,
+      9
+    ],
+    "Persia Empire": [
+      4,
+      4
+    ],
+    "Mayuya": [
+      6
+    ],
+    "Aztecs": [
+      8
+    ],
+    "China (qin dynasty)": [
+      2
+    ],
+    "Old Roman Empire": [
+      3
+    ],
+    "Persian Empire of Achaemenids": [
+      4,
+      8,
+      5
+    ],
+    "Greece of the classical era": [
+      5
+    ],
+    "Carthage": [
+      7
+    ],
+    "Omayyadsky caliphate": [
+      8,
+      6,
+      9,
+      7,
+      9,
+      7,
+      6,
+      7,
+      7
+    ],
+    "Maya (Tang dynasty)": [
+      10
+    ],
+    "Ancient Mesopotamia": [
+      2,
+      4
+    ],
+    "Alexandria Kingdom": [
+      7
+    ],
+    "Chinese Empire (Qing Dynasty)": [
+      8,
+      4,
+      4
+    ],
+    "Mamluk Sultanat": [
+      9
+    ],
+    "Ancient Mesopotamia (Akkadian Empire)": [
+      2
+    ],
+    "Ancient China (Qing Dynasty)": [
+      3
+    ],
+    "Empire of Persia (Achaemenid Empire)": [
+      5
+    ],
+    "Mayua - tankock (Japan)": [
+      7
+    ],
+    "Ancient Jerusalem": [
+      8
+    ],
+    "British Empire": [
+      10,
+      10,
+      10,
+      9,
+      8,
+      9
+    ],
+    "Chinese empire (qin dynasty - qing dynasty)": [
+      4
+    ],
+    "Persia (Achaemenid, Sassanid and Selzhuk)": [
+      5
+    ],
+    "Japanese Shogunat (Mimura-Tyo, Edo)": [
+      10
+    ],
+    "China (qing dynasty)": [
+      6,
+      8
+    ],
+    "Empire Mayaa": [
+      7
+    ],
+    "Han dynasty (China)": [
+      4
+    ],
+    "Empire Mao-te (China)": [
+      5
+    ],
+    "Medieval Arab World": [
+      7
+    ],
+    "Assyrian Empire": [
+      3,
+      9,
+      4
+    ],
+    "Ancient Persia (Achaemenid Empire)": [
+      4,
+      8
+    ],
+    "Chinese Qing Dynasty": [
+      5
+    ],
+    "Umayyads and Abbasids (Islamic Caliphate)": [
+      8
+    ],
+    "Ancient Mesopotamia (Assyria, Babylonia)": [
+      1
+    ],
+    "Ancient Greeks (Hellas)": [
+      4
+    ],
+    "China in the era of the Shan and Zhou dynasties,Empire of Qing in China": [
+      5
+    ],
+    "Maya - Thai Empire": [
+      6
+    ],
+    "Ancient Greek": [
+      3
+    ],
+    "A long -standing Chinese (qin, khan)": [
+      4
+    ],
+    "Inkskaya": [
+      5
+    ],
+    "Persia Achaemenid": [
+      6
+    ],
+    "Mass-romance (Mogul empire)": [
+      7
+    ],
+    "Umayyads and Abbasids (Caliphate)": [
+      8
+    ],
+    "Maya (classical kingdom)": [
+      9
+    ],
+    "Aztec": [
+      10
+    ],
+    "A long -standing India (Vardhavara)": [
+      5
+    ],
+    "Chinese dynasties: Qing, Zhou, Han and TangMayan civilization": [
+      6
+    ],
+    "Umayyads and Abbasids (ancient Islam)": [
+      9
+    ],
+    "Prehistoric Mesopotamia (Schumer and Akkad)": [
+      2
+    ],
+    "China during the time of the Qin, Han and Tang empire": [
+      5
+    ],
+    "Anglo -Saxon England": [
+      6
+    ],
+    "Japan of the Edo period": [
+      10
+    ],
+    "Babylonium": [
+      7
+    ],
+    "Romano-German empire": [
+      10,
+      9
+    ],
+    "Minao civilization": [
+      2
+    ],
+    "Ancient Sumer": [
+      3
+    ],
+    "Umayyad and Abbasid": [
+      10
+    ],
+    "Chinese Empire": [
+      4,
+      4
+    ],
+    "Achaemenid Persia": [
+      6
+    ],
+    "Aztek Empire": [
+      10
+    ],
+    "Maori (New Zealand)": [
+      6,
+      8
+    ],
+    "Empire Han (China)": [
+      7,
+      6
+    ],
+    "Mohammedan caliphate (expanded caliphate)": [
+      8
+    ],
+    "Byzantium (Byzantine Empire)": [
+      3
+    ],
+    "Alexandria Hellenistic World": [
+      4
+    ],
+    "England of Tudors": [
+      8
+    ],
+    "Ancient Mesopotamia (Akkadskaya, Assyrian and Babylonian Empires)": [
+      2
+    ],
+    "Ancient Persians (Achaemenid Empire)": [
+      3
+    ],
+    "Ancient Rome (the Roman Republic and the Empire)": [
+      4
+    ],
+    "China during the dynasties of Shun, Qin, Han, Tang, Song and Min": [
+      5
+    ],
+    "Ancient Greece (Mycenae, Attics)": [
+      7
+    ],
+    "Maya (Aztec empire)": [
+      8
+    ],
+    "Molley": [
+      9
+    ],
+    "Ancient Mesopotamia (Assyria and Babylonia)": [
+      2
+    ],
+    "Macedonian Empire (Alexander the Great)": [
+      5
+    ],
+    "Ancient India (empires of Gupta and Mauria)": [
+      6
+    ],
+    "Chinese imperial period (qing dynasty)": [
+      7
+    ],
+    "Maya (classic period in the history of Mayan civilization)": [
+      8
+    ],
+    "Inca (the Empire of the Inca)": [
+      9
+    ],
+    "The Turkic-Mongol Empires (Mongolian Empire and the Golden Horde)": [
+      10
+    ],
+    "Han": [
+      8
+    ],
+    "Greece of antiquity": [
+      3
+    ],
+    "Dolumbova America (Inca and Maya)": [
+      4
+    ],
+    "China of the Renaissance": [
+      5
+    ],
+    "Arabic caliphate": [
+      6,
+      9,
+      6
+    ],
+    "Empire Persia": [
+      7
+    ],
+    "Byzantium": [
+      8
+    ],
+    "Ancient India (Mauria, Gupta and Murshidabad)": [
+      9
+    ],
+    "Medieval Iran (Seljuki, Achaemenids)": [
+      10
+    ],
+    "China is the period of the Great Chinese Qing": [
+      4
+    ],
+    "China is a period of triumvirate (three -year)": [
+      5
+    ],
+    "Omayyad Caliphate": [
+      10,
+      10,
+      10
+    ],
+    "Inca (South America)": [
+      5
+    ],
+    "Majoya (Central America)": [
+      6
+    ],
+    "Aztec Empire (Mesoamerics)": [
+      7
+    ],
+    "Persian (Achaemenid) Empire": [
+      8,
+      5
+    ],
+    "Maori dynasty in New Zealand": [
+      7
+    ],
+    "Empire of Persian Achaemenids": [
+      10
+    ],
+    "Chinese dynasty: Qing, Han, Tang and MingMaya (Mesoamerica)": [
+      7
+    ],
+    "Ink Empire (America)": [
+      8
+    ],
+    "Dominus Romanum (ancient Roman Empire)": [
+      2
+    ],
+    "Empire Han": [
+      3,
+      5
+    ],
+    "Aztec Empire Theothek": [
+      6
+    ],
+    "Soviet Unions": [
+      8
+    ],
+    "Ancient China (Shan and Zhou)": [
+      10
+    ],
+    "Indian civilization of the Aztecs": [
+      5
+    ],
+    "China during the Great Chinese Wall (Chao) and Trindai-Yang": [
+      4
+    ],
+    "The great power of Persia (Achaemenid Empire)": [
+      6
+    ],
+    "Empire of Mauritius": [
+      7
+    ],
+    "Ancient India (Mauryevsky Empire)": [
+      10
+    ],
+    "Persian empire": [
+      4
+    ],
+    "Chinese Empire Tan": [
+      5,
+      5,
+      5
+    ],
+    "Chinese Empire Song": [
+      6
+    ],
+    "Empire Mauriev": [
+      10,
+      10
+    ],
+    "Chinese imperialism (the United States of China)": [
+      4
+    ],
+    "Russian Empire": [
+      10
+    ],
+    "Babylonia": [
+      3
+    ],
+    "Ancient Greeks (Greco-Roman civilization)": [
+      5
+    ],
+    "Maverannahr (Bukhara emirism)": [
+      7
+    ],
+    "Babylonian empire": [
+      5
+    ],
+    "Ancient China (Qin dynasty)": [
+      6
+    ],
+    "Ancient Romans": [
+      3
+    ],
+    "Empire of Mauriev": [
+      8
+    ],
+    "Ancient Roman Empire": [
+      2,
+      3
+    ],
+    "Persia (Achaemenid, Seleucid and Sasanid)": [
+      3
+    ],
+    "China (Dynasty of Qing, Han, Jin and Zhou)": [
+      4
+    ],
+    "Mayaa (three city-states: Tianan, Lunyan and Qing)": [
+      6
+    ],
+    "Mongolian Empire (revived and empire of Genghis Khan)": [
+      10
+    ],
+    "Empire Persia (Achaemenids)": [
+      2
+    ],
+    "Ancient Greek Empire": [
+      3
+    ],
+    "Chinese Empire - Ancient Qing": [
+      5
+    ],
+    "Chinese Empire - Tan": [
+      6
+    ],
+    "Abbasid Caliphate": [
+      8
+    ],
+    "The Mauritian Empire (Arab Caliphate)": [
+      4
+    ],
+    "Ancient Iran (Parfia and Sassanids)": [
+      8
+    ],
+    "Empire Mali": [
+      9
+    ],
+    "Babylon (Akkadian Empire)": [
+      3
+    ],
+    "China during the time of the Song, Ming and Chin": [
+      5
+    ],
+    "India during the periods of the Mauryev and the Guptov": [
+      6
+    ],
+    "Persia during the Achaemenids": [
+      8
+    ],
+    "Vikings (Scandinavian lands)": [
+      9
+    ],
+    "Dorimerian Greece": [
+      3
+    ],
+    "Twenty-six Qin Khan dynasties": [
+      6
+    ],
+    "Omayyad": [
+      9
+    ],
+    "China Qing": [
+      4
+    ],
+    "May-type (Aztec empire)": [
+      5
+    ],
+    "Persia Sasanid": [
+      7
+    ],
+    "Soviet Union": [
+      10
+    ],
+    "Empire of Mauritius (Byzantium)": [
+      4
+    ],
+    "Inkovskaya Empire": [
+      7
+    ],
+    "Samanid dynasty in Central Asia": [
+      8
+    ],
+    "Empire Ming in China": [
+      10
+    ]
+  }
+}

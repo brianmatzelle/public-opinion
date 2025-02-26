@@ -1,0 +1,1339 @@
+{
+  "question": "Create one top 10 list for this question. Only respond with the list in JSON array format, with each entry on the list being a string.\n\nQuestion: Historically, what civilations have been the most dominant and influencial of all time?",
+  "model": "qwen2.5",
+  "destination_language": "sv",
+  "source_language": "en",
+  "iterations": 50,
+  "average_rankings": {
+    "Roman Empire": 1.0,
+    "The Romans": 1.0,
+    "The Rome of Roma": 1.0,
+    "Acadic War": 1.0,
+    "Mittani": 1.0,
+    "Romans": 1.0,
+    "The kingdom of the Roma": 1.0,
+    "Acsumic kingdoms": 1.0,
+    "Akkadian kingdoms": 1.0,
+    "Acadic": 1.0,
+    "The Kingdom of Akkades": 1.0,
+    "Chińskan Empire": 1.0,
+    "Roma-Time's Rome": 1.0,
+    "The Empire of Alexander's Big Wheel": 1.0,
+    "Roman Kingdom": 1.0,
+    "Romaiden's Russia": 1.0,
+    "The Roma Age": 1.0,
+    "The Academy of Alexandria": 1.0,
+    "Akkadian Empire": 1.8,
+    "Aztekriget": 2.0,
+    "Akkadi": 2.0,
+    "Assyrian Russia": 2.0,
+    "The Kingdom of Macedons under Alexander's size": 2.0,
+    "The Empire in Rome": 2.0,
+    "The Persian Empire under Cyrus The Great": 2.0,
+    "Assyrian": 2.0,
+    "This Rike": 2.0,
+    "Mayan Civilization": 2.0,
+    "Maoguqiyis Ming Dynasty": 2.0,
+    "Roma Time's Rome": 2.0,
+    "Ming- and Qing Dynasties in China": 2.0,
+    "Kingdom Egypt": 2.0,
+    "Pharaoer Time Egypt": 2.0,
+    "Byzantine": 2.5,
+    "Byzantine Kingdom": 2.7777777777777777,
+    "Majesty Macedonia": 3.0,
+    "Arabic Califés": 3.0,
+    "Incarcker Kingdom": 3.0,
+    "Assyrian Rumors": 3.0,
+    "Persian kingdoms (Achaemenids, Selukids, Sassaniden)": 3.0,
+    "The Kingdom of Roma": 3.0,
+    "Egypt": 3.0,
+    "Mannanni": 3.0,
+    "Romean Empire": 3.0,
+    "Byzantine kingdom": 3.0,
+    "Akkade": 3.0,
+    "The Red Empire in Mechanis": 3.0,
+    "China under Qin and Han Dynasties": 3.0,
+    "The United Kingdom under Karl the Great": 3.0,
+    "Persian Empire": 3.0,
+    "Aztec Empire": 3.0,
+    "Vikings": 3.0,
+    "Byzantine Cerout Params": 3.0,
+    "Macedon's rider forests (Basileus Alexander)": 3.0,
+    "Chinese surgeon": 3.0,
+    "Persian kingdom (Achaemenide)": 3.0,
+    "China": 3.25,
+    "Arabic Caliphate": 3.5,
+    "Byzantins": 3.5,
+    "Byzantine Empire": 3.625,
+    "The Roman Empire": 4.0,
+    "The Assyrian Empire": 4.0,
+    "Pharaonic Egypt": 4.0,
+    "Mongols' Emperor": 4.0,
+    "The Kingdom of Mongols": 4.0,
+    "The Greek Empire": 4.0,
+    "Greek": 4.0,
+    "Assyrian kingdoms": 4.0,
+    "Akkadi War Lord": 4.0,
+    "Babylonian": 4.0,
+    "Inka Kingdom": 4.0,
+    "Islamic Empire": 4.0,
+    "Ancient Roman Empire": 4.0,
+    "Inca-Kingdom": 4.0,
+    "Arab Califates": 4.0,
+    "Mongolian eremen": 4.0,
+    "Viking Time": 4.0,
+    "Roman Roman Empire": 4.0,
+    "Azteckiska": 4.0,
+    "Mongolian Expension": 4.0,
+    "Macedonian kingdoms (under Alexander's great)": 4.0,
+    "Mannankiket": 4.0,
+    "The Kingdom of Seljuken": 5.0,
+    "Mannanni Empire": 5.0,
+    "Chinese Dynasties (ex. Qin, Tang)": 5.0,
+    "Babylonia": 5.0,
+    "Dälden over India (Maurya-Dynasti)": 5.0,
+    "Arabic Califé": 5.0,
+    "Arabs": 5.0,
+    "Byzantine Ryket": 5.0,
+    "Pharaohs of Egypt": 5.0,
+    "The Han Dynasty in China": 5.0,
+    "Macedon's empire": 5.0,
+    "Church Empire under Karol Magnus": 5.0,
+    "Islamic kingdom (under the Abbasiden)": 5.0,
+    "The Wealth of the Vikings": 5.0,
+    "Macedon's Empire during Alexander's big formation": 5.0,
+    "Mongolian Mongols under Chinggis can": 5.0,
+    "Assyrian Empire": 5.0,
+    "Mössa Park": 5.0,
+    "The Kingdom of Macedons under Alexander's Size": 5.0,
+    "Akkadian kingdom": 5.0,
+    "Macedonia under Alexander's great campaign": 5.0,
+    "Inka-War": 5.0,
+    "British Rajan in India": 5.0,
+    "Frankiska Riken": 5.0,
+    "China's Dinastier (Qin, Tang, Ming, etc.)": 5.0,
+    "Hittite Kingdom": 5.0,
+    "Arab Califats": 5.5,
+    "Greek kingdom": 5.5,
+    "Mongolian kingdom": 6.0,
+    "Indian M 鋜 Ket": 6.0,
+    "Macedonian Carlist": 6.0,
+    "The Kingdom of the Vikings": 6.0,
+    "Greek rumors": 6.0,
+    "Chinese dynasties": 6.0,
+    "Mongolian Ryke": 6.0,
+    "Dänisch-Mittelmeer culture": 6.0,
+    "Araber Empire": 6.0,
+    "Hittite": 6.0,
+    "The Kingdom of Ottomaftier": 6.0,
+    "Pharaohs in Egypt": 6.0,
+    "China during Dinastians such as Qin, Tang and Ming": 6.0,
+    "New Kingdom of Egypt": 6.0,
+    "French Revolusion and Napoleon": 6.0,
+    "Chinese Dynasties (eg Qin, Tang)": 6.0,
+    "Macedonia under Philippos and Alexander": 6.0,
+    "The Hittic Empire": 6.0,
+    "Ottoman Rike": 6.0,
+    "Abbasid calendar": 6.0,
+    "The Pharaohs Egypt": 6.0,
+    "The Dinasty of Qing in China": 6.0,
+    "The Ottoman Empire": 6.0,
+    "Pharaon's Egypt": 6.0,
+    "Macedonia under the star of Alexander": 6.0,
+    "Arab Califés": 6.25,
+    "Mongolian kingdoms": 6.5,
+    "Austrian Empire": 7.0,
+    "Maurya Dynasties in India": 7.0,
+    "Ottoman Kingdom": 7.0,
+    "The Arab Empire": 7.0,
+    "Hellenistic period of time": 7.0,
+    "Roman rumors": 7.0,
+    "Mongols": 7.0,
+    "Ottomanian Rykets top stage": 7.0,
+    "Minoan culture": 7.0,
+    "The Allies of the Vikings": 7.0,
+    "Ottonic kingdom": 7.0,
+    "Neo-Assyrian": 7.0,
+    "Han Dynasties in China": 7.0,
+    "Macedonian Empire": 7.0,
+    "Asian mystery general": 7.0,
+    "Assyrian kingdom": 7.0,
+    "Ottomanian": 7.0,
+    "Spain's Golden Age": 7.0,
+    "Persian Empire (Achaemenids, Selukids, Sassanidars) ": 7.0,
+    "Arab Califére": 7.0,
+    "Red Hansaraget": 7.0,
+    "The Vikings": 7.5,
+    "Düsselstadska Empire": 8.0,
+    "Han Dynasty in China": 8.0,
+    "Ånyta": 8.0,
+    "The Vikings' time period": 8.0,
+    "Atlantic colonialism": 8.0,
+    "Byzantine Ryken": 8.0,
+    "The Kingdom of Mongol": 8.0,
+    "The Dutch": 8.0,
+    "Vikings and Nordic domination": 8.0,
+    "Mycenic Empire": 8.0,
+    "French promotion of cultural dominance": 8.0,
+    "Frankiska": 8.0,
+    "Neo-Babylonian": 8.0,
+    " Vikings ": 8.0,
+    "Ottoman Empire": 8.0,
+    "US dominance during the 20th century": 8.0,
+    " Byzantine kingdoms ": 8.0,
+    "PaRaes of the Egips": 8.0,
+    "The Pharaohs in Egypt": 8.0,
+    "Persian Empire under Cyrus The Great": 8.0,
+    "Seljukernes Tourie": 8.0,
+    "Dutch trade governments": 8.0,
+    "Middle Germany (Hanseatern)": 8.0,
+    "Mice": 8.0,
+    " Byzantine kingdom ": 8.0,
+    "Mongolian Empire": 8.0,
+    "Byzantine Emperor": 8.0,
+    "British Empire": 8.5,
+    "Vittaldalen's kingdom": 9.0,
+    "Seljukarnes rich ": 9.0,
+    "French Trog": 9.0,
+    "The Hafsittles": 9.0,
+    "British Empire ": 9.0,
+    "Arabic caliphate": 9.0,
+    "Seljukernas Kingdom ": 9.0,
+    "British": 9.0,
+    "French revolution ": 9.0,
+    "Persian kingdom": 9.0,
+    "Portuguesna and Spanish colonialism ": 9.0,
+    "Ottomaan kingdom ": 9.0,
+    "Mediterranean Kingdom": 9.0,
+    "The Kartierian Empire ": 9.0,
+    "The Wealth of the Mongols": 9.0,
+    "Middle Pire": 9.0,
+    " Hittites ": 9.0,
+    "The power of the Soviet Union during the First and Second World War": 9.0,
+    " Maurya Dynasty in India ": 9.0,
+    "Greek Riken under Pericles ": 9.0,
+    "French revolusion and the empire ": 9.0,
+    " The Swedish Empire during Karl the Great ": 9.0,
+    "Azkeckes": 9.0,
+    "Inka-Kingdom": 9.0,
+    "Ottomaan kingdom": 9.0,
+    "Africkhan Maurrya": 9.0,
+    " Mongolian kingdom ": 10.0,
+    "Anglo-Saxon": 10.0,
+    "Maurena's kingdom": 10.0,
+    " USA as superpower ": 10.0,
+    "The Consonicial Sassanid": 10.0,
+    " Ottoman Empire ": 10.0,
+    "United States": 10.0,
+    " The top stage of the British Rycke ": 10.0,
+    " Rome's Warring ": 10.0,
+    " British Empire ": 10.0,
+    "Persian": 10.0,
+    " Byzantine Empire ": 10.0,
+    "Hafsian Empire": 10.0,
+    "Greek police states and Republic of Rome": 10.0,
+    " Assyrian Kingdom ": 10.0,
+    " Spanish Empire": 10.0,
+    "He-dynasty": 10.0,
+    " Han Dynasty in China ": 10.0,
+    " Aztec Empire ": 10.0,
+    " Persian Empire ": 10.0,
+    "Hellenistic kingdoms": 10.0,
+    "Arabic Califat": 10.0,
+    " US Global influence in the 20th century and 30s ": 10.0,
+    " Vasa monarchy in Sweden ": 10.0,
+    "Incana": 10.0,
+    "Maurya Dinasty in India": 10.0,
+    " The Safavian Empire ": 10.0,
+    "Roman's resources and influence": 10.0
+  },
+  "weighted_rankings": {
+    "Roman Empire": 250.0,
+    "Romans": 200.0,
+    "Akkadian Empire": 183.33333333333334,
+    "Byzantine Kingdom": 180.83333333333334,
+    "Byzantine Empire": 139.16666666666669,
+    "The Roman Empire": 80.83333333333334,
+    "China": 72.5,
+    "The Kingdom of Roma": 60.0,
+    "Mannanni": 60.0,
+    "Byzantine kingdom": 54.16666666666667,
+    "The Romans": 50.0,
+    "The Rome of Roma": 50.0,
+    "Acadic War": 50.0,
+    "Mittani": 50.0,
+    "The kingdom of the Roma": 50.0,
+    "Acsumic kingdoms": 50.0,
+    "Akkadian kingdoms": 50.0,
+    "The Persian Empire under Cyrus The Great": 50.0,
+    "Acadic": 50.0,
+    "The Kingdom of Akkades": 50.0,
+    "Chińskan Empire": 50.0,
+    "Roma-Time's Rome": 50.0,
+    "The Empire of Alexander's Big Wheel": 50.0,
+    "Roman Kingdom": 50.0,
+    "Romaiden's Russia": 50.0,
+    "The Roma Age": 50.0,
+    "The Academy of Alexandria": 50.0,
+    "Assyrian kingdoms": 48.80952380952381,
+    "Byzantine": 41.66666666666667,
+    "Babylonia": 35.41666666666667,
+    "Byzantins": 35.0,
+    "Arab Califés": 34.226190476190474,
+    "Mongolian kingdom": 33.80952380952381,
+    "Pharaonic Egypt": 33.333333333333336,
+    "Arabic Califés": 33.333333333333336,
+    "Arabic Caliphate": 29.166666666666668,
+    "Aztekriget": 25.0,
+    "Akkadi": 25.0,
+    "Assyrian Russia": 25.0,
+    "The Kingdom of Macedons under Alexander's size": 25.0,
+    "The Empire in Rome": 25.0,
+    "Assyrian": 25.0,
+    "This Rike": 25.0,
+    "Mayan Civilization": 25.0,
+    "Maoguqiyis Ming Dynasty": 25.0,
+    "Roma Time's Rome": 25.0,
+    "Ming- and Qing Dynasties in China": 25.0,
+    "Kingdom Egypt": 25.0,
+    "Pharaoer Time Egypt": 25.0,
+    "British Empire": 23.9484126984127,
+    "Arabic Califé": 23.80952380952381,
+    "The Han Dynasty in China": 23.80952380952381,
+    "Han Dynasties in China": 22.698412698412696,
+    "Chinese dynasties": 22.22222222222222,
+    "Arabs": 20.833333333333336,
+    "Arab Califats": 19.642857142857142,
+    "Greek kingdom": 19.642857142857142,
+    "Mongolian kingdoms": 18.055555555555557,
+    "Majesty Macedonia": 16.666666666666668,
+    "Incarcker Kingdom": 16.666666666666668,
+    "Assyrian Rumors": 16.666666666666668,
+    "Persian kingdoms (Achaemenids, Selukids, Sassaniden)": 16.666666666666668,
+    "Egypt": 16.666666666666668,
+    "Romean Empire": 16.666666666666668,
+    "Akkade": 16.666666666666668,
+    "The Red Empire in Mechanis": 16.666666666666668,
+    "China under Qin and Han Dynasties": 16.666666666666668,
+    "The United Kingdom under Karl the Great": 16.666666666666668,
+    "Persian Empire": 16.666666666666668,
+    "Aztec Empire": 16.666666666666668,
+    "Vikings": 16.666666666666668,
+    "Byzantine Cerout Params": 16.666666666666668,
+    "Macedon's rider forests (Basileus Alexander)": 16.666666666666668,
+    "Chinese surgeon": 16.666666666666668,
+    "Persian kingdom (Achaemenide)": 16.666666666666668,
+    "Maurya Dynasties in India": 14.285714285714286,
+    "The Vikings": 13.392857142857142,
+    "The Assyrian Empire": 12.5,
+    "Mongols' Emperor": 12.5,
+    "The Kingdom of Mongols": 12.5,
+    "The Greek Empire": 12.5,
+    "Greek": 12.5,
+    "Akkadi War Lord": 12.5,
+    "Babylonian": 12.5,
+    "Inka Kingdom": 12.5,
+    "Islamic Empire": 12.5,
+    "Ancient Roman Empire": 12.5,
+    "Inca-Kingdom": 12.5,
+    "Arab Califates": 12.5,
+    "Mongolian eremen": 12.5,
+    "Viking Time": 12.5,
+    "Roman Roman Empire": 12.5,
+    "Azteckiska": 12.5,
+    "Mongolian Expension": 12.5,
+    "Macedonian kingdoms (under Alexander's great)": 12.5,
+    "Mannankiket": 12.5,
+    " Maurya Dynasty in India ": 11.11111111111111,
+    "The Kingdom of Seljuken": 10.0,
+    "Mannanni Empire": 10.0,
+    "Chinese Dynasties (ex. Qin, Tang)": 10.0,
+    "Dälden over India (Maurya-Dynasti)": 10.0,
+    "Byzantine Ryket": 10.0,
+    "Pharaohs of Egypt": 10.0,
+    "Macedon's empire": 10.0,
+    " British Empire ": 10.0,
+    "Church Empire under Karol Magnus": 10.0,
+    "Islamic kingdom (under the Abbasiden)": 10.0,
+    "The Wealth of the Vikings": 10.0,
+    "Macedon's Empire during Alexander's big formation": 10.0,
+    "Mongolian Mongols under Chinggis can": 10.0,
+    "Assyrian Empire": 10.0,
+    "Mössa Park": 10.0,
+    "The Kingdom of Macedons under Alexander's Size": 10.0,
+    " Aztec Empire ": 10.0,
+    "Akkadian kingdom": 10.0,
+    "Macedonia under Alexander's great campaign": 10.0,
+    "Inka-War": 10.0,
+    "British Rajan in India": 10.0,
+    "Frankiska Riken": 10.0,
+    "China's Dinastier (Qin, Tang, Ming, etc.)": 10.0,
+    "Hittite Kingdom": 10.0,
+    "Indian M 鋜 Ket": 8.333333333333334,
+    "Macedonian Carlist": 8.333333333333334,
+    "The Kingdom of the Vikings": 8.333333333333334,
+    "Greek rumors": 8.333333333333334,
+    "Mongolian Ryke": 8.333333333333334,
+    "Dänisch-Mittelmeer culture": 8.333333333333334,
+    "Araber Empire": 8.333333333333334,
+    "Hittite": 8.333333333333334,
+    "The Kingdom of Ottomaftier": 8.333333333333334,
+    "Pharaohs in Egypt": 8.333333333333334,
+    "China during Dinastians such as Qin, Tang and Ming": 8.333333333333334,
+    "New Kingdom of Egypt": 8.333333333333334,
+    "French Revolusion and Napoleon": 8.333333333333334,
+    "Chinese Dynasties (eg Qin, Tang)": 8.333333333333334,
+    "Macedonia under Philippos and Alexander": 8.333333333333334,
+    "The Hittic Empire": 8.333333333333334,
+    "Ottoman Rike": 8.333333333333334,
+    "Abbasid calendar": 8.333333333333334,
+    "The Pharaohs Egypt": 8.333333333333334,
+    "The Dinasty of Qing in China": 8.333333333333334,
+    "The Ottoman Empire": 8.333333333333334,
+    "Pharaon's Egypt": 8.333333333333334,
+    "Macedonia under the star of Alexander": 8.333333333333334,
+    "Austrian Empire": 7.142857142857143,
+    "Ottoman Kingdom": 7.142857142857143,
+    "The Arab Empire": 7.142857142857143,
+    "Hellenistic period of time": 7.142857142857143,
+    "Roman rumors": 7.142857142857143,
+    "Mongols": 7.142857142857143,
+    "Ottomanian Rykets top stage": 7.142857142857143,
+    "Minoan culture": 7.142857142857143,
+    "The Allies of the Vikings": 7.142857142857143,
+    "Ottonic kingdom": 7.142857142857143,
+    "Neo-Assyrian": 7.142857142857143,
+    "Macedonian Empire": 7.142857142857143,
+    "Asian mystery general": 7.142857142857143,
+    "Assyrian kingdom": 7.142857142857143,
+    "Ottomanian": 7.142857142857143,
+    "Spain's Golden Age": 7.142857142857143,
+    "Persian Empire (Achaemenids, Selukids, Sassanidars) ": 7.142857142857143,
+    "Arab Califére": 7.142857142857143,
+    "Red Hansaraget": 7.142857142857143,
+    "Düsselstadska Empire": 6.25,
+    "Han Dynasty in China": 6.25,
+    "Ånyta": 6.25,
+    "The Vikings' time period": 6.25,
+    "Atlantic colonialism": 6.25,
+    "Byzantine Ryken": 6.25,
+    "The Kingdom of Mongol": 6.25,
+    "The Dutch": 6.25,
+    "Vikings and Nordic domination": 6.25,
+    "Mycenic Empire": 6.25,
+    "French promotion of cultural dominance": 6.25,
+    "Frankiska": 6.25,
+    "Neo-Babylonian": 6.25,
+    " Vikings ": 6.25,
+    "Ottoman Empire": 6.25,
+    "US dominance during the 20th century": 6.25,
+    " Byzantine kingdoms ": 6.25,
+    "PaRaes of the Egips": 6.25,
+    "The Pharaohs in Egypt": 6.25,
+    "Persian Empire under Cyrus The Great": 6.25,
+    "Seljukernes Tourie": 6.25,
+    "Dutch trade governments": 6.25,
+    "Middle Germany (Hanseatern)": 6.25,
+    "Mice": 6.25,
+    " Byzantine kingdom ": 6.25,
+    "Mongolian Empire": 6.25,
+    "Byzantine Emperor": 6.25,
+    "Vittaldalen's kingdom": 5.555555555555555,
+    "Seljukarnes rich ": 5.555555555555555,
+    "French Trog": 5.555555555555555,
+    "The Hafsittles": 5.555555555555555,
+    "British Empire ": 5.555555555555555,
+    "Arabic caliphate": 5.555555555555555,
+    "Seljukernas Kingdom ": 5.555555555555555,
+    "British": 5.555555555555555,
+    "French revolution ": 5.555555555555555,
+    "Persian kingdom": 5.555555555555555,
+    "Portuguesna and Spanish colonialism ": 5.555555555555555,
+    "Ottomaan kingdom ": 5.555555555555555,
+    "Mediterranean Kingdom": 5.555555555555555,
+    "The Kartierian Empire ": 5.555555555555555,
+    "The Wealth of the Mongols": 5.555555555555555,
+    "Middle Pire": 5.555555555555555,
+    " Hittites ": 5.555555555555555,
+    "The power of the Soviet Union during the First and Second World War": 5.555555555555555,
+    "Greek Riken under Pericles ": 5.555555555555555,
+    "French revolusion and the empire ": 5.555555555555555,
+    " The Swedish Empire during Karl the Great ": 5.555555555555555,
+    "Azkeckes": 5.555555555555555,
+    "Inka-Kingdom": 5.555555555555555,
+    "Ottomaan kingdom": 5.555555555555555,
+    "Africkhan Maurrya": 5.555555555555555,
+    " Mongolian kingdom ": 5.0,
+    "Anglo-Saxon": 5.0,
+    "Maurena's kingdom": 5.0,
+    " USA as superpower ": 5.0,
+    "The Consonicial Sassanid": 5.0,
+    " Ottoman Empire ": 5.0,
+    "United States": 5.0,
+    " The top stage of the British Rycke ": 5.0,
+    " Rome's Warring ": 5.0,
+    "Persian": 5.0,
+    " Byzantine Empire ": 5.0,
+    "Hafsian Empire": 5.0,
+    "Greek police states and Republic of Rome": 5.0,
+    " Assyrian Kingdom ": 5.0,
+    " Spanish Empire": 5.0,
+    "He-dynasty": 5.0,
+    " Han Dynasty in China ": 5.0,
+    " Persian Empire ": 5.0,
+    "Hellenistic kingdoms": 5.0,
+    "Arabic Califat": 5.0,
+    " US Global influence in the 20th century and 30s ": 5.0,
+    " Vasa monarchy in Sweden ": 5.0,
+    "Incana": 5.0,
+    "Maurya Dinasty in India": 5.0,
+    " The Safavian Empire ": 5.0,
+    "Roman's resources and influence": 5.0
+  },
+  "raw_rankings": {
+    "Roman Empire": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "Byzantine Kingdom": [
+      2,
+      5,
+      2,
+      2,
+      4,
+      3,
+      2,
+      3,
+      2
+    ],
+    "Majesty Macedonia": [
+      3
+    ],
+    "Arabic Caliphate": [
+      4,
+      3
+    ],
+    "The Kingdom of Seljuken": [
+      5
+    ],
+    "Mongolian kingdom": [
+      6,
+      6,
+      5,
+      7
+    ],
+    "Austrian Empire": [
+      7
+    ],
+    "Düsselstadska Empire": [
+      8
+    ],
+    "Vittaldalen's kingdom": [
+      9
+    ],
+    "British Empire": [
+      10,
+      9,
+      7,
+      8
+    ],
+    "The Roman Empire": [
+      1,
+      6,
+      4,
+      5
+    ],
+    "Byzantine Empire": [
+      2,
+      2,
+      6,
+      4,
+      2,
+      2,
+      5,
+      6
+    ],
+    "Akkadian Empire": [
+      3,
+      1,
+      3,
+      1,
+      1
+    ],
+    "The Assyrian Empire": [
+      4
+    ],
+    "Mannanni Empire": [
+      5
+    ],
+    "Pharaonic Egypt": [
+      6,
+      2
+    ],
+    "Maurya Dynasties in India": [
+      7,
+      7
+    ],
+    "Han Dynasty in China": [
+      8
+    ],
+    "Seljukarnes rich ": [
+      9
+    ],
+    " Mongolian kingdom ": [
+      10
+    ],
+    "The Romans": [
+      1
+    ],
+    "Arabic Califés": [
+      3,
+      3
+    ],
+    "Mongols' Emperor": [
+      4
+    ],
+    "China": [
+      5,
+      4,
+      2,
+      2
+    ],
+    "Indian M 鋜 Ket": [
+      6
+    ],
+    "Ottoman Kingdom": [
+      7
+    ],
+    "Ånyta": [
+      8
+    ],
+    "French Trog": [
+      9
+    ],
+    "Anglo-Saxon": [
+      10
+    ],
+    "The Rome of Roma": [
+      1
+    ],
+    "Aztekriget": [
+      2
+    ],
+    "Incarcker Kingdom": [
+      3
+    ],
+    "Macedonian Carlist": [
+      6
+    ],
+    "The Arab Empire": [
+      7
+    ],
+    "The Vikings' time period": [
+      8
+    ],
+    "The Hafsittles": [
+      9
+    ],
+    "Maurena's kingdom": [
+      10
+    ],
+    "The Kingdom of Mongols": [
+      4
+    ],
+    "Chinese Dynasties (ex. Qin, Tang)": [
+      5
+    ],
+    "The Kingdom of the Vikings": [
+      6
+    ],
+    "Hellenistic period of time": [
+      7
+    ],
+    "Atlantic colonialism": [
+      8
+    ],
+    "British Empire ": [
+      9
+    ],
+    " USA as superpower ": [
+      10
+    ],
+    "Acadic War": [
+      1
+    ],
+    "Akkadi": [
+      2
+    ],
+    "Assyrian Rumors": [
+      3
+    ],
+    "Babylonia": [
+      4,
+      3,
+      8
+    ],
+    "Dälden over India (Maurya-Dynasti)": [
+      5
+    ],
+    "Greek rumors": [
+      6
+    ],
+    "Roman rumors": [
+      7
+    ],
+    "Byzantine Ryken": [
+      8
+    ],
+    "Arabic caliphate": [
+      9
+    ],
+    "The Consonicial Sassanid": [
+      10
+    ],
+    "Mittani": [
+      1
+    ],
+    "Assyrian Russia": [
+      2
+    ],
+    "Persian kingdoms (Achaemenids, Selukids, Sassaniden)": [
+      3
+    ],
+    "The Greek Empire": [
+      4
+    ],
+    "The Kingdom of Roma": [
+      5,
+      1
+    ],
+    "Arabic Califé": [
+      7,
+      3
+    ],
+    "The Kingdom of Mongol": [
+      8
+    ],
+    "Seljukernas Kingdom ": [
+      9
+    ],
+    " Ottoman Empire ": [
+      10
+    ],
+    "Romans": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "Egypt": [
+      3
+    ],
+    "Greek": [
+      4
+    ],
+    "Byzantins": [
+      5,
+      2
+    ],
+    "Arabs": [
+      6,
+      4
+    ],
+    "Mongols": [
+      7
+    ],
+    "The Dutch": [
+      8
+    ],
+    "British": [
+      9
+    ],
+    "United States": [
+      10
+    ],
+    "The kingdom of the Roma": [
+      1
+    ],
+    "The Kingdom of Macedons under Alexander's size": [
+      2
+    ],
+    "Chinese dynasties": [
+      3,
+      9
+    ],
+    "Arab Califats": [
+      4,
+      7
+    ],
+    "Byzantine Ryket": [
+      5
+    ],
+    "Mongolian Ryke": [
+      6
+    ],
+    "Ottomanian Rykets top stage": [
+      7
+    ],
+    "Vikings and Nordic domination": [
+      8
+    ],
+    "French revolution ": [
+      9
+    ],
+    " The top stage of the British Rycke ": [
+      10
+    ],
+    "Mannanni": [
+      1,
+      5
+    ],
+    "Assyrian kingdoms": [
+      2,
+      7,
+      3
+    ],
+    "Akkadi War Lord": [
+      4
+    ],
+    "Pharaohs of Egypt": [
+      5
+    ],
+    "Dänisch-Mittelmeer culture": [
+      6
+    ],
+    "Minoan culture": [
+      7
+    ],
+    "Mycenic Empire": [
+      8
+    ],
+    "Persian kingdom": [
+      9
+    ],
+    " Rome's Warring ": [
+      10
+    ],
+    "Acsumic kingdoms": [
+      1
+    ],
+    "The Empire in Rome": [
+      2
+    ],
+    "The Han Dynasty in China": [
+      3,
+      7
+    ],
+    "Macedon's empire": [
+      5
+    ],
+    "Araber Empire": [
+      6
+    ],
+    "The Allies of the Vikings": [
+      7
+    ],
+    "French promotion of cultural dominance": [
+      8
+    ],
+    "Portuguesna and Spanish colonialism ": [
+      9
+    ],
+    " British Empire ": [
+      10,
+      10
+    ],
+    "Akkadian kingdoms": [
+      1
+    ],
+    "The Persian Empire under Cyrus The Great": [
+      2,
+      2
+    ],
+    "Romean Empire": [
+      3
+    ],
+    "Byzantine kingdom": [
+      4,
+      2,
+      3
+    ],
+    "Church Empire under Karol Magnus": [
+      5
+    ],
+    "Ottonic kingdom": [
+      7
+    ],
+    "Frankiska": [
+      8
+    ],
+    "Ottomaan kingdom ": [
+      9
+    ],
+    "Acadic": [
+      1
+    ],
+    "Assyrian": [
+      2
+    ],
+    "Akkade": [
+      3
+    ],
+    "Babylonian": [
+      4
+    ],
+    "Hittite": [
+      6
+    ],
+    "Neo-Assyrian": [
+      7
+    ],
+    "Neo-Babylonian": [
+      8
+    ],
+    "Mediterranean Kingdom": [
+      9
+    ],
+    "Persian": [
+      10
+    ],
+    "Mongolian kingdoms": [
+      4,
+      9
+    ],
+    "Islamic kingdom (under the Abbasiden)": [
+      5
+    ],
+    "The Kingdom of Ottomaftier": [
+      6
+    ],
+    "Han Dynasties in China": [
+      7,
+      5,
+      9
+    ],
+    "The Vikings": [
+      8,
+      7
+    ],
+    "The Kartierian Empire ": [
+      9
+    ],
+    " Byzantine Empire ": [
+      10
+    ],
+    "The Kingdom of Akkades": [
+      1
+    ],
+    "This Rike": [
+      2
+    ],
+    "The Red Empire in Mechanis": [
+      3
+    ],
+    "The Wealth of the Vikings": [
+      5
+    ],
+    "Arab Califés": [
+      8,
+      4,
+      7,
+      6
+    ],
+    "The Wealth of the Mongols": [
+      9
+    ],
+    "Hafsian Empire": [
+      10
+    ],
+    "China under Qin and Han Dynasties": [
+      3
+    ],
+    "Inka Kingdom": [
+      4
+    ],
+    "Macedon's Empire during Alexander's big formation": [
+      5
+    ],
+    "Pharaohs in Egypt": [
+      6
+    ],
+    "Middle Pire": [
+      9
+    ],
+    "Greek police states and Republic of Rome": [
+      10
+    ],
+    "The United Kingdom under Karl the Great": [
+      3
+    ],
+    "Islamic Empire": [
+      4
+    ],
+    "Mongolian Mongols under Chinggis can": [
+      5
+    ],
+    "China during Dinastians such as Qin, Tang and Ming": [
+      6
+    ],
+    "Greek kingdom": [
+      7,
+      4
+    ],
+    " Vikings ": [
+      8
+    ],
+    " Hittites ": [
+      9
+    ],
+    " Assyrian Kingdom ": [
+      10
+    ],
+    "Chińskan Empire": [
+      1
+    ],
+    "Mayan Civilization": [
+      2
+    ],
+    "Persian Empire": [
+      3
+    ],
+    "Ancient Roman Empire": [
+      4
+    ],
+    "Assyrian Empire": [
+      5
+    ],
+    "New Kingdom of Egypt": [
+      6
+    ],
+    "Macedonian Empire": [
+      7
+    ],
+    "Ottoman Empire": [
+      8
+    ],
+    " Spanish Empire": [
+      10
+    ],
+    "Roma-Time's Rome": [
+      1
+    ],
+    "Maoguqiyis Ming Dynasty": [
+      2
+    ],
+    "Mössa Park": [
+      5
+    ],
+    "French Revolusion and Napoleon": [
+      6
+    ],
+    "US dominance during the 20th century": [
+      8
+    ],
+    "The power of the Soviet Union during the First and Second World War": [
+      9
+    ],
+    "He-dynasty": [
+      10
+    ],
+    "Aztec Empire": [
+      3
+    ],
+    "Inca-Kingdom": [
+      4
+    ],
+    "The Kingdom of Macedons under Alexander's Size": [
+      5
+    ],
+    "Chinese Dynasties (eg Qin, Tang)": [
+      6
+    ],
+    " Byzantine kingdoms ": [
+      8
+    ],
+    " Maurya Dynasty in India ": [
+      9,
+      9
+    ],
+    " Han Dynasty in China ": [
+      10
+    ],
+    "The Empire of Alexander's Big Wheel": [
+      1
+    ],
+    "Roma Time's Rome": [
+      2
+    ],
+    "Byzantine": [
+      3,
+      2
+    ],
+    "Arab Califates": [
+      4
+    ],
+    "Macedonia under Philippos and Alexander": [
+      6
+    ],
+    "Asian mystery general": [
+      7
+    ],
+    "PaRaes of the Egips": [
+      8
+    ],
+    " Aztec Empire ": [
+      10,
+      10
+    ],
+    "Roman Kingdom": [
+      1
+    ],
+    "Vikings": [
+      3
+    ],
+    "Mongolian eremen": [
+      4
+    ],
+    "Akkadian kingdom": [
+      5
+    ],
+    "The Hittic Empire": [
+      6
+    ],
+    "Assyrian kingdom": [
+      7
+    ],
+    "The Pharaohs in Egypt": [
+      8
+    ],
+    " Persian Empire ": [
+      10
+    ],
+    "Romaiden's Russia": [
+      1
+    ],
+    "Byzantine Cerout Params": [
+      3
+    ],
+    "Viking Time": [
+      4
+    ],
+    "Macedonia under Alexander's great campaign": [
+      5
+    ],
+    "Ottoman Rike": [
+      6
+    ],
+    "Persian Empire under Cyrus The Great": [
+      8
+    ],
+    "Greek Riken under Pericles ": [
+      9
+    ],
+    "Roman Roman Empire": [
+      4
+    ],
+    "Abbasid calendar": [
+      6
+    ],
+    "Ottomanian": [
+      7
+    ],
+    "Hellenistic kingdoms": [
+      10
+    ],
+    "The Roma Age": [
+      1
+    ],
+    "Ming- and Qing Dynasties in China": [
+      2
+    ],
+    "Azteckiska": [
+      4
+    ],
+    "Inka-War": [
+      5
+    ],
+    "The Pharaohs Egypt": [
+      6
+    ],
+    "Seljukernes Tourie": [
+      8
+    ],
+    "Arabic Califat": [
+      10
+    ],
+    "Mongolian Expension": [
+      4
+    ],
+    "British Rajan in India": [
+      5
+    ],
+    "The Dinasty of Qing in China": [
+      6
+    ],
+    "Spain's Golden Age": [
+      7
+    ],
+    "Dutch trade governments": [
+      8
+    ],
+    "French revolusion and the empire ": [
+      9
+    ],
+    " US Global influence in the 20th century and 30s ": [
+      10
+    ],
+    "The Academy of Alexandria": [
+      1
+    ],
+    "Kingdom Egypt": [
+      2
+    ],
+    "Macedon's rider forests (Basileus Alexander)": [
+      3
+    ],
+    "Middle Germany (Hanseatern)": [
+      8
+    ],
+    " The Swedish Empire during Karl the Great ": [
+      9
+    ],
+    " Vasa monarchy in Sweden ": [
+      10
+    ],
+    "Chinese surgeon": [
+      3
+    ],
+    "Frankiska Riken": [
+      5
+    ],
+    "The Ottoman Empire": [
+      6
+    ],
+    "Mice": [
+      8
+    ],
+    "Azkeckes": [
+      9
+    ],
+    "Incana": [
+      10
+    ],
+    "Macedonian kingdoms (under Alexander's great)": [
+      4
+    ],
+    "China's Dinastier (Qin, Tang, Ming, etc.)": [
+      5
+    ],
+    "Pharaon's Egypt": [
+      6
+    ],
+    "Persian Empire (Achaemenids, Selukids, Sassanidars) ": [
+      7
+    ],
+    " Byzantine kingdom ": [
+      8
+    ],
+    "Inka-Kingdom": [
+      9
+    ],
+    "Maurya Dinasty in India": [
+      10
+    ],
+    "Pharaoer Time Egypt": [
+      2
+    ],
+    "Persian kingdom (Achaemenide)": [
+      3
+    ],
+    "Arab Califére": [
+      7
+    ],
+    "Mongolian Empire": [
+      8
+    ],
+    "Ottomaan kingdom": [
+      9
+    ],
+    " The Safavian Empire ": [
+      10
+    ],
+    "Mannankiket": [
+      4
+    ],
+    "Hittite Kingdom": [
+      5
+    ],
+    "Macedonia under the star of Alexander": [
+      6
+    ],
+    "Red Hansaraget": [
+      7
+    ],
+    "Byzantine Emperor": [
+      8
+    ],
+    "Africkhan Maurrya": [
+      9
+    ],
+    "Roman's resources and influence": [
+      10
+    ]
+  },
+  "untranslated_responses": [
+    "[\"Romersk rike\", \"Byzantinskt rike\", \"Majestätiska Makedonien\", \"Arabiska Kalifaten\", \"Seljukernas rike\", \"Mongoliska riken\", \"Österrikiska riket\", \"Düsselstadtska riket\", \"Vittaldalens rike\", \"Brittiskt imperium\"]",
+    "[\"Romerska riket\", \"Byzantinska kejsarriket\", \"Akkadiska riket\", \"Assyriska riket\", \"Mitanni-riket\", \"Faraoniska Egypten\", \"Maurya-dynastierna i Indien\", \"Han-dynastiet i Kina\", \"Seljukernas rike\", \"Mongoliskt rike\"]",
+    "[\"Romersk rike\", \"Byzantinskt rike\", \"Akkadiska riken\", \"Faraonske Egypten\", \"Makedonernas rike under Alexanders av Makedonia\", \"Aztekiska riket\", \"Inka-riket\", \"Kinaresorna\", \"Assyriska riket\", \"Persiska rikestiden\"]",
+    "[\"Chi\", \"Romerska riket\", \"Byzantinskt rike\", \"Arabiska califoneriet\", \"Mongolernas rike\", \"Ottomaansk förening\", \"Vandala-Visigotiska unionen i Spanien\", \"Grekiska riket\", \"Byzantinska imperiet\", \"Indiska Maurya-dynastin\"]",
+    "[\"Romar\", \"Byzantinska riket\", \"Akkadiska riken\", \"Mitanni-riken\", \"Assyriska riket\", \"Faraoniska Egypten\", \"Mittelholländskt rike\", \"Himyaritiska riket\", \"Maurya-dynastiet i Indien\", \"Han-dynastiet i Kina\"]",
+    "[\"Romernas\", \"Byzantinska Kejsardömet\", \"Arabiska Kaliféerna\", \"Mongolernas Kejserri\", \"Kinareske\", \"Indiska M鋜ket\", \"Osmaniskt Rike\", \"Ånyta\", \"Fransk Trog\", \"Anglo-Saxons\"]",
+    "[\"Romertidens Rom\", \"Azteckriget\", \"Inkaremkerriken\", \"Kinaresorna\", \"Byzantinsk rike\", \"Makedonernas Carlisten\", \"Arabiska riket\", \"Vikingarnas tidsperiod\", \"Hafsittlarna\", \"Maurenas rike\"]",
+    "[\"Aksumiska riken\", \"Röda kungariket\", \"Azteckiska riket\", \"Mongoliska riken\", \"Byzantinska kerouteParams\", \"Maurya-dynastiet\", \"Graeco-Romiska riken\", \"Han-dynastier\", \"Akkadiska riket\", \"Assyriska riket\"]",
+    "[\"Romersk rike\", \"Byzantinskt rike\", \"Arabiska kaliféerna\", \"Mongolernas rike\", \"Kinesiska dynastier (ex. Qin, Tang)\", \"Vikingarnas rike\", \"Hellenistiskt tidsperiod\", \"Atlantiska kolonialismen\", \"Brittiska imperiet\", \"USA som supermakt\"]",
+    "[\"Akadiska Kriget\", \"Akkadi\", \"Assyriska Ryktena\", \"Babylonien\", \"Dälden över Indien (Maurya-dynasti)\", \"Grekiska Ryktena\", \"Romerska Ryktena\", \"Byzantinska Ryken\", \"Arabisk Kalifat\", \"Kongeriket Sassanid\"]",
+    "[\"Mittani\", \"Assyriska Ryssland\", \"Persiska riken (Achaemeniderna, Selukider, Sassaniden)\", \"Grekiska riket\", \"Romertidens Rike\", \"Byzantinska riket\", \"Arabisk Califé\", \"Mongolernas rike\", \"Seljukernas rike\", \"Osmaniske rike\"]",
+    "[\"Romernas\", \"Kina\", \"Egypten\", \"Grekken\", \"Byzantiner\", \"Araber\", \"Mongoler\", \"Holländarna\", \"Britterna\", \"USA\"]",
+    "[\"Romertidens Rike\", \"Makedonernas Rike under Alexanders Storlek\", \"Chinesiska Dynastierna\", \"Arabiska Kalifaterna\", \"Byzantinska Ryket\", \"Mongoliskt Ryke\", \"Ottomaniska Rykets Toppstadium\", \"Vikingar och Nordiska Domineringen\", \"Fransk Revolutionsrykte\", \"Brittiska Rykets Toppstadium\"]",
+    "[\"Romersk rike\", \"Byzantinskt rike\", \"Arabiska califéerna\", \"Mongoliska eremen\", \"Hafsiska riket\", \"Kinesiskt imperium (Qing)\", \"Brittiska imperiet\", \"Osmaniskt rike\", \"Sovjetunionen\", \"USA:s globala influens\"]",
+    "[\"Mitanni\", \"Assyriska riken\", \"Babylonien\", \"Akkadi-krigsherrskapet\", \"Faraoner av Egypten\", \"Dänische-Mittelmeer-Kultur\", \"Minoiskan Kultur\", \"Mykeniska riket\", \"Persiska rike\", \"Roms krigsherrskap\"]",
+    "[\"Aksumiska riken\", \"Imperiet i Rom\", \"Han-dynastin i Kina\", \"Byzantinska imperiet\", \"Makedonernas Imperium\", \"Araberriket\", \"Vikingarnas allierade\", \"Fransk främjande av kulturell dominans\", \"Portugisierna och spanska kolonialismen\", \"Brittiska imperiet\"]",
+    "[\"Akkadiska riken\", \"Persiska riket under Cyrus den Store\", \"Romeiska riket\", \"Byzantinskt rike\", \"Kyrkliga riket under Karol Magnus\", \"Mongoliskt rike\", \"Ottoniskt rike\", \"Frankiska rike\", \"Ottomaanskt rike\", \"Brittiska imperiet\"]",
+    "[\"Romar\", \"Byzantinernas kejserri\", \"Makedonernas kejsardom\", \"Atlanten (förmodligt)\", \"Asiatiska riket i vikingartiden\", \"Karolingskejsardömet\", \"Abbaside kejsardöme\", \"Ottomaňska kejsardömet\", \"Byzantinska riket\", \"Kinesiska dynastier\"]",
+    "[\"Akadiska\", \"Assyriska\", \"Akkade\", \"Babyloniska\", \"Mitanni\", \"Hittite\", \"Neo-Assyriska\", \"Neo-Babyloniskt\", \"Medelhavsrike\", \"Persiska\"]",
+    "[\"Romersk rike\", \"Byzantinskt rike\", \"Arabiska kalifaten\", \"Mongoliska riken\", \"Islamskt rike (under Abbasiden)\", \"Ottomaftiernas rike\", \"Han-dynastierna i Kina\", \"Vikingarna\", \"Kartieriska riket\", \"Byzantinska imperiet\"]",
+    "[\"Romertidens Rom\", \"Byzantinska kejserriket\", \"Maanskriftsverksamma Egypten\", \"Akademiet i Alexandria\", \"Mongolriken under Chinggis Khan\", \"Arabisk Kalifat (Umayyad och Abbasid)\", \"Dyrandets Mellersta Asien\", \"Han-dynastier i Kinesiska riket\", \"Grekiska polisisteret\", \"Hittaskelet i Nord-Turkiet\"]",
+    "[\"Akkadernas rike\", \"Denna rike\", \"Röda riket i Mekanis\", \"Byzantinskt rike\", \"Vikingarnas rikedomar\", \"Romerska riket\", \"Han-dynastiet i Kina\", \"Arabiska kaliféerna\", \"Mongolernas rikedomar\", \"Hafsiska riket\"]",
+    "[\"Romar\", \"Byzantinska kejsardömet\", \"Kina under Qin- och Han-dynastier\", \"Inka-riket\", \"Makedonernas kejsardöme under Alexanders storbildning\", \"Faraoner i Egypten\", \"Assyriska riken\", \"Babylonien\", \"Mittepiret\", \"Grekiska polisstater och republiken Rom\"]",
+    "[\"Romertidens Rikdomar\", \"Byzantinsk Efterroman\", \"Araberriket\", \"Kronan av Mongoler\", \"Kriget för Konståren\", \"Dinastiet av Mawangdui\", \"Konungariket Qin Shihuangdi\", \"Indiska Vasa-riket\", \"Byzantinsk Efterroman (igen)\", \"Riket av Akademi\"]",
+    "[\"Romar\", \"Byzantinska kejserriket\", \"Förenta riket under Karl den Store\", \"Islamskt riket\", \"Mongoliska mongoler under Chinggis kan\", \"Kina under dinastier som Qin, Tang och Ming\", \"Grekiska rike\", \"Vikingar\", \"Hittiter\", \"Assyriska rike\"]",
+    "[\"Chińskan帝国\", \"玛雅文明\", \"波斯帝国\", \"古罗马帝国\", \"亚述帝国\", \"埃及新王国\", \"马其顿帝国\", \"奥斯曼帝国\", \"英国帝国\", \"西班牙帝国\"]",
+    "[\"Romertidens Rom\", \"Maoguqiyis Ming-dynastin\", \"Byzantinsk rike\", \"Arabiska kaliféerna\", \"Mössaparken\", \"Fransk Revolusion och Napoleon\", \"Brittiska imperiet\", \"USA:s dominans under 20:e århundradet\", \"Sovjetunionens kraft under det första och andra världskriget\", \"Han-dynastin\"]",
+    "[\"Asieniska riket\", \"Byzantinskt rike\", \"Romerskt rike (Västeuropiska)\", \"Arabiska kaliféret\", \"Mongoliskt mongolrike\", \"Ottomanskt rike\", \"Safawid-riket\", \"Mughalska riket\", \"Habsburgska riken\", \"Qing-dynastiet\"]",
+    "[\"Romersk rike\", \"Byzantinskt rike\", \"Aztekiska riket\", \"Inka-riket\", \"Makedonernas rike under Alexanders storlekonde\", \"Kinesiska dynastierna (t.ex. Qin, Tang)\", \"Arabiska kalifaterna\", \"Byzantinska riken\", \"Maurya-dynastiet i Indien\", \"Han-dynastiet i Kina\"]",
+    "[\"Imperiet av Alexanders Storhjul\", \"Romertidens Rom\", \"Byzantinsktt\", \"Arabiska Kalifaterna\", \"Han-dynastier i Kina\", \"Makedonien under Philippos och Alexander\", \"Asiatiska Mysterikönigtum\", \"Faraoner av Egipten\", \"Maurya-dynastiet i Indien\", \"Aztekiska Imperiet\"]",
+    "[\"Romersk rike\", \"Byzantinskt rike\", \"Vikingar\", \"Mongoliska eremen\", \"Akkadiska riken\", \"Hittiska riket\", \"Assyriska riken\", \"Faraonerna i Egypten\", \"Han-dynastier i Kina\", \"Persiska riket\"]",
+    "[\"Romersk rike\", \"Akkadiska riken\", \"Persiska riket (Achaemenid)\", \"Grekiska rike\", \"Byzantinska riket\", \"Arabisk kalifat\", \"Mongolskt mongolrike\", \"Ottomaansk rike\", \"Brittiska imperiet\", \"USA som supermakroekonomi\"]",
+    "[\"Romertidens Ryssland\", \"China\", \"Byzantinska kerouteParams\", \"Vikingartiden\", \"Makedonien under Alexanders Stora Campagne\", \"Osmaniskt rike\", \"Arabiska califéerna\", \"Persiska riket under Cyrus den Store\", \"Grekiska riken under Perikles\", \"Aztekiska riket\"]",
+    "[\"Mitanni\", \"Assyriska riket\", \"Babylonien\", \"Persiska riken (Achaemeniderna)\", \"Grekiska rike (Athenska världskriget)\", \"Romar (Från Republiken till Rysskans Tredje Imperium)\", \"Byzantinskt rike\", \"Arabiska kalifätten\", \"Sasanian Persia\", \"Krafterna i Hornafrikana under 1900-talet\"]",
+    "[\"Akkadiska riket\", \"Persiska riket under Cyrus den Store\", \"Byzantinskt rike\", \"Romersk rike\", \"Mongolskt rike\", \"Abbasid kalenderhet\", \"Osmaniskt rike\", \"Brittiska riket\", \"Kinesiska dynastierna\", \"Hellenistiska riken\"]",
+    "[\"Romertidens Rike\", \"Ming- och Qing-dynastier i Kina\", \"Byzantinskt Rike\", \"Azteckiska riket\", \"Inka-riget\", \"Faraonernas Egypten\", \"Maurya-dynastierna i Indien\", \"Seljukernas Turchiet\", \"Mongoliska riken\", \"Arabisk Kalifat\"]",
+    "[\"Romertidens Rike\", \"Byzantinskt Rike\", \"Arabiska Kaliféret\", \"Mongoliska Experingen\", \"Brittiska Rajan i Indien\", \"Dinastiet av Qing i Kina\", \"Spaniens Golden Age\", \"Nederländska Handelsregeringar\", \"Fransk Revolusion och Imperiet\", \"USAs globala inflytande under 20-talet och 30-talet\"]",
+    "[\"Akademien av Alexandria\", \"Riket Egyptes\", \"Makedonernas Ryttarskogar (Basileus Alexander)\", \"Romerska riket\", \"Byzantinska riket\", \"Arabisk califéer\", \"Mongoliska rike\", \"Mellersta Tyskland (Hanseatern)\", \"Svenska riket under Karl den Store\", \"Vasa-monarkiet i Sverige\"]",
+    "[\"Dödernes Civiliation\", \"Akkadiska Ryggmästerskapet\", \"Faraonernas Egypten\", \"Makassberga Grefterna\", \"Imperierna i Indien\", \"Han-dynastin i Kina\", \"Byzantinska Ryggmästerskapet\", \"Abbasid Kalifatet\", \"Ottomaanskans Ryggmästerskap\", \"Hegemoniavåren i Europa\"]",
+    "[\"Romar\", \"Byzantiner\", \"Kinaresurriddomaren\", \"Araber\", \"Frankiska riken\", \"Ottomanska riket\", \"Vikingarna\", \"Mössen\", \"Azteckerna\", \"Incana\"]",
+    "[\"Romersk rike\", \"Byzantinskt rike\", \"Akkadiska riket\", \"Makedoniska riken (under Alexanders Stora)\", \"Kina:s dinastier (Qin, Tang, Ming osv.)\", \"Faraons Egypten\", \"Persiska riket (Achaemeniderna, Selukiderna, Sassanidarerna)\", \"Byzantinskt rike\", \"Inka-riket\", \"Maurya-dinastiet i Indien\"]",
+    "[\"Romska Ryttarna\", \"Byzantinska Kejsarerna\", \"Maang dynasty\", \"Kinesiska keiseren\", \"Arabiska kaliferna\", \"Mongoliska horden\", \"Byzantinsk kejsarkrönika\", \"Ottomaniska sultanerna\", \"Mughal-dynastiet\", \"Brittiska riket\"]",
+    "[\"Akkadiska riket\", \"Faraokertidens Egypten\", \"Persiska riken (Achaemenide)\", \"Grekiska rike\", \"Romska riket\", \"Byzantinska riket\", \"Arabisk califére\", \"Mongoliska riket\", \"Ottomaanskans rike\", \"Safaviske riket\"]",
+    "[\"Akkadiska riken\", \"Djursarabiska riket\", \"Faraos Egypten\", \"Grekiska rike\", \"Roms rikedom\", \"Byzantinska riket\", \"Arabisk kalifat\", \"Mongoliska riket\", \"Ottomaniska riket\", \"Brittiska imperiet\"]",
+    "[\"Romersk rike\", \"Byzantinskt rike\", \"Maanskaliska riket\", \"Aztekiska riken\", \"Inka riken\", \"Faraoner i Egypten\", \"Makedonernas rike under Alexanders av Makedonien\", \"Han-dynastiet i Kina\", \"Arabisk kalifat\", \"Vikingar och nordiska stormakter\"]",
+    "[\"Akkadiska riket\", \"Faraoniska Egypten\", \"Assyriska riken\", \"Mitanni-riket\", \"Hittite riket\", \"Makedonien under Alexanders stjärna\", \"Röda Hansaraget\", \"Byzantinska kejserriet\", \"Africkaniska Maurya-dynastiet\", \"Romarnas resurser och inflytande\"]",
+    "[\"Azteken\", \"Byzantinern\", \"Kina under Ming-dynastin\", \"Romar (Bokstabbet R both for Roman and Republic)\", \"Mongolriket\", \"Grekarnes golden tid\", \"Vatikan och det römiska kyrkans inflytande\", \"Byzantinsk uppgiftsenhet\", \"Anglo-Saxoner\", \"Inka-riket\"]",
+    "[\"Azteckerna\", \"Romarenerna\", \"Byzantinska kejsardömetet\", \"Makedonernas slottyrarnas kejsarkrigen\", \"Mauren i Africa\", \"Araberaterna\", \"Kongedømmet Makedonia\", \"Osmanerna\", \"Spartanerna\", \"Första kaiserriket Tyskland\"]",
+    "[\"Akadiska\", \"Assyriska\", \"Babyloniska\", \"Akkadiska\", \"Mittelpyramidsperioden i Egypten\", \"Hellaske rike\", \"Romerska riket\", \"Byzantinska kejsardömet\", \"Araberiska kaliféerna\", \"Abrahamitiska monarchier i Mellanöstern\"]",
+    "[\"Chinomi av Afrika\", \"Akkadiska riket\", \"Persiska riket\", \"Grekiska riket\", \"Romerskt rike\", \"Byzantinska riken\", \"Arabiska kaliféerna\", \"Mongoliskt mongolerie\", \"Makedonernas byrsa\", \"Safavidiska riken\"]"
+  ]
+}

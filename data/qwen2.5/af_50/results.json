@@ -1,0 +1,175 @@
+{
+  "question": "Create one top 10 list for this question. Only respond with the list in JSON array format, with each entry on the list being a string.\n\nQuestion: Historically, what civilations have been the most dominant and influencial of all time?",
+  "model": "qwen2.5",
+  "destination_language": "af",
+  "source_language": "en",
+  "iterations": 50,
+  "average_rankings": {
+    "American Civil War": 1.0,
+    "Napoleonic Wars": 2.0,
+    "French Revolution": 2.6666666666666665,
+    "Russian Revolution": 3.0,
+    "Russian October Revolution": 3.0,
+    "World War II": 3.0,
+    "Chinese Civil War": 4.666666666666667,
+    "English Civil War": 5.0,
+    "Indian Independence Movement": 5.0,
+    "Russian Civil War": 5.0,
+    "American Revolutionary War": 6.5,
+    "Hundred Years' War": 7.0,
+    "Spanish Civil War": 7.666666666666667,
+    "Thirty Years' War": 8.0,
+    "Iranian Constitutional Revolution": 8.0,
+    "Hundred Years' War between England and France": 8.0,
+    "Mexican Mexican–American War": 9.0,
+    "German Peasant's War": 10.0,
+    "Anglo-Zulu War": 10.0,
+    "Boxer Rebellion": 10.0
+  },
+  "weighted_rankings": {
+    "American Civil War": 150.0,
+    "French Revolution": 62.5,
+    "Chinese Civil War": 33.333333333333336,
+    "Napoleonic Wars": 25.0,
+    "Spanish Civil War": 20.13888888888889,
+    "Russian Revolution": 16.666666666666668,
+    "Russian October Revolution": 16.666666666666668,
+    "World War II": 16.666666666666668,
+    "American Revolutionary War": 15.476190476190478,
+    "Iranian Constitutional Revolution": 12.6984126984127,
+    "English Civil War": 10.0,
+    "Indian Independence Movement": 10.0,
+    "Russian Civil War": 10.0,
+    "Hundred Years' War": 7.142857142857143,
+    "Thirty Years' War": 6.25,
+    "Hundred Years' War between England and France": 6.25,
+    "Mexican Mexican–American War": 5.555555555555555,
+    "German Peasant's War": 5.0,
+    "Anglo-Zulu War": 5.0,
+    "Boxer Rebellion": 5.0
+  },
+  "raw_rankings": {
+    "American Civil War": [
+      1,
+      1,
+      1
+    ],
+    "French Revolution": [
+      2,
+      2,
+      4
+    ],
+    "Russian Revolution": [
+      3
+    ],
+    "Chinese Civil War": [
+      4,
+      4,
+      6
+    ],
+    "English Civil War": [
+      5
+    ],
+    "American Revolutionary War": [
+      6,
+      7
+    ],
+    "Hundred Years' War": [
+      7
+    ],
+    "Thirty Years' War": [
+      8
+    ],
+    "Spanish Civil War": [
+      9,
+      6,
+      8
+    ],
+    "German Peasant's War": [
+      10
+    ],
+    "Russian October Revolution": [
+      3
+    ],
+    "Indian Independence Movement": [
+      5
+    ],
+    "Iranian Constitutional Revolution": [
+      7,
+      9
+    ],
+    "Hundred Years' War between England and France": [
+      8
+    ],
+    "Mexican Mexican–American War": [
+      9
+    ],
+    "Anglo-Zulu War": [
+      10
+    ],
+    "Napoleonic Wars": [
+      2
+    ],
+    "World War II": [
+      3
+    ],
+    "Russian Civil War": [
+      5
+    ],
+    "Boxer Rebellion": [
+      10
+    ]
+  },
+  "untranslated_responses": [
+    "```json\n[\n    \"American Civil War\",\n    \"World War II\",\n    \"French Revolution\",\n    \"Russian Revolution\",\n    \"Chinese Civil War\",\n    \"Indian Independence Movement (1947)\",\n    \"Spanish Civil War\",\n    \"Irish War of Independence\",\n    \"South African War\",\n    \"Vietnam War\"\n]\n```",
+    "```json\n[\n    \" Amerikaanse Burger Oorlog (1861-1865)\",\n    \"Tweede Wêreldoorlog (1939-1945)\",\n    \"Eerste Wêreldoorlog (1914-1918)\",\n    \"Franse Revolusie (1789-1799)\",\n    \"Brits Indiese Oorlog (1857-1858)\",\n    \"Russies Oktoberrevolusie en Grondslag van die Sovjet-Unie (1917-1922)\",\n    \"Spanjol Burgeroorlog (1936-1939)\",\n    \"Chinaanse Kommunistiese Oorlog (1927-1949)\",\n    \"Oorlog in Indië en Pakistan (1947-1948)\",\n    \"Tweede Italiensk-Afrikaanse Oorlog (1940-1943)\"\n]\n```",
+    "```json\n[\n    \"American Civil War\",\n    \"World War II\",\n    \"Russian Revolution\",\n    \"French Revolution\",\n    \"Chinese Civil War\",\n    \"Spanish Civil War\",\n    \"Indian Independence Movement\",\n    \"Iranian Constitutional Revolution\",\n    \"Anglo-Zulu War\",\n    \"Boxer Rebellion\"\n]\n```",
+    "```json\n[\n    \"American Civil War\",\n    \"French Revolutionary Wars\",\n    \"World War II\",\n    \"Russian Civil War\",\n    \"English Civil War\",\n    \"Taiping Rebellion\",\n    \"Hundred Years' War\",\n    \"Thirty Years' War\",\n    \"Chinese Taiping Rebellion\",\n    \"Indian Rebellion of 1857\"\n]\n```",
+    "```json\n[\n    \"American Civil War\",\n    \"Russian Civil War\",\n    \"Chinese Civil War\",\n    \"Spanish Civil War\",\n    \"Irish War of Independence\",\n    \"Anglo-Zulu War\",\n    \"Taiping Rebellion\",\n    \"French Revolution\",\n    \"War of the Spanish Succession\",\n    \"Peninsular War\"\n]\n```",
+    "```json\n[\n    \"Eerste Wêreldoorlog\",\n    \"Tweede Wêreldoorlog\",\n    \"Russiese Oktoberrevolusie (1917)\",\n    \"Chinese Burgeroorlog (1927-1949)\",\n    \"Spaniaanse Goue (1936-1939)\",\n    \"Iranse Regeringswisseling (1979)\",\n    \"Vereenigde Nasies' Opstand teen Britse Kolonialisme in Indië (1946-1948)\",\n    \"Ethiopiese Opstand teen Italië (1935-1941)\",\n    \"Kubane Goue (1953-1959)\",\n    \"Guatemales Wêreliksoesien (1960-1996)\"\n]\n```",
+    "```json\n[\n    \"American Civil War\",\n    \"Napoleonic Wars\",\n    \"World War II\",\n    \"English Civil War\",\n    \"French Revolution and subsequent Napoleonic Era\",\n    \"Russian Civil War\",\n    \"Chinese Civil War\",\n    \"Spanish Civil War\",\n    \"Turkish War of Independence\",\n    \"Iranian Constitutional Revolution\"\n]\n```",
+    "```json\n[\n    \"American Civil War\",\n    \"Russian Civil War\",\n    \"Chinese Civil War\",\n    \"Spanish Civil War\",\n    \"Irish War of Independence\",\n    \"Civil War in Yugoslavia\",\n    \"Anglo-Zulu War\",\n    \"Indian Rebellion of 1857\",\n    \"Hundred Days' War (Belgium, 1830)\",\n    \"War of the Pacific (Bolivia-Peru-Chile, 1879-1883)\"\n]\n```",
+    "```json\n[\n    \"Amersfoortse Vechtstrijd\",\n    \"Geluwigshuysopstand (1854-1856)\",\n    \"Suid-Afrikaanse Vryheidsoorlog (1899-1902)\",\n    \"Oorlog van Libanon (1975-1990)\",\n    \"Syrische Burgeroorlog\",\n    \"Iraakse Oorlog (1980-1988)\",\n    \"Soweto-opstand (1976)\",\n    \"Arabiese Israëliese Konflik\",\n    \"Britse Indië-Indiesloopbaan\",\n    \"Kosova-gedrag (1998-1999)\"\n]\n```",
+    "```json\n[\n    \"Eerste Welvaartswaar\",\n    \"Franse Revolusionêre Was (1789-1799)\",\n    \"Britse Indië Was (1857-1858)\",\n    \"Amerikaanse Burgeroorlog (1861-1865)\",\n    \"Tsaanuasiese Freesheidswar (1899-1902)\",\n    \"Russiese Oktoberrevolusie (1917)\",\n    \"Eerste Wêreldoorlog (1914-1918)\",\n    \"Tweede Wêreldoorlog (1939-1945)\",\n    \"Amerikaanse Vietnamwas (1955-1975)\",\n    \"Suid-Afrikaanse Befreiingsgeveg (1980-anneë)\"\n]\n```",
+    "[\"American Civil War\", \"French Revolution\", \"Russian Revolution\", \"Chinese Civil War\", \"English Civil War\", \"American Revolutionary War\", \"Hundred Years' War\", \"Thirty Years' War\", \"Spanish Civil War\", \"German Peasant's War\"]",
+    "```json\n[\n    \"Anglo-Boer Was (1880-1881, 1899-1902)\",\n    \"American Civil War (1861-1865)\",\n    \"French Revolution (1789-1799)\",\n    \"Russian Civil War (1917-1922)\",\n    \"Chinese Civil War (1927-1949)\",\n    \"Spanish Civil War (1936-1939)\",\n    \"Irish War of Independence (1919-1921)\",\n    \"Brazilian Civil War (1888-1894)\",\n    \"Iranian Constitutional Revolution (1905-1907)\",\n    \"Mexican Civil War (1910-1920)\"\n]\n```",
+    "```json\n[\n    \"American Civil War (1861-1865)\",\n    \"French Revolutionary Wars (1792-1802, 1803-1805, 1806-1807, 1809, 1812-1814, 1815)\",\n    \"World War I (1914-1918)\",\n    \"Russian Civil War (1917-1922)\",\n    \"Indian Rebellion of 1857\",\n    \"Taiping Rebellion (1850-1864)\",\n    \"War of the Spanish Succession (1701-1714)\",\n    \"Seven Years' War (1756-1763)\",\n    \"Anglo-Zulu War (1879)\",\n    \"Hundred Days Offensive and subsequent end of World War I (1918)\"\n]\n```",
+    "```json\n[\n    \"Anglo-Zulu Was (1879)\",\n    \"American Civil War (1861-1865)\",\n    \"French Revolution (1789-1799)\",\n    \"Russian Civil War (1917-1922)\",\n    \"Chinese Civil War (1927-1949)\",\n    \"Irish War of Independence (1919-1921)\",\n    \"Spanish Civil War (1936-1939)\",\n    \"Arab-Israeli Wars (1948-present)\",\n    \"Vietnam War (1955-1975)\",\n    \"Indian Partition and Kashmir Conflict (1947-present)\"\n]\n```",
+    "```json\n[\n    \"Amersfoortse Was (1672-1674)\",\n    \"War of the Spanish Succession (1701-1714)\",\n    \"American Revolutionary War (1775-1783)\",\n    \"Napoleonic Wars (1803-1815)\",\n    \"Crimean War (1853-1856)\",\n    \"Franco-Prussian War (1870-1871)\",\n    \"American Civil War (1861-1865)\",\n    \"Boer Wars (1880-1881; 1899-1902)\",\n    \"Mexican-American War (1846-1848)\",\n    \"War of the First Coalition (1792-1797)\"\n]\n```",
+    "```json\n[\n    \"Napoleonic Oorlog\",\n    \"Tweede Wêreldoorlog\",\n    \"Amerikaanse Burgeroorlog\",\n    \"Eerste Wêreldoorlog\",\n    \"Frans-Prantsse Oorlog (1870-1871)\",\n    \"Russiese Revolusie\",\n    \"Spaanse Guerra (1936-1939)\",\n    \"Koöperatiewe Soendaanse Oorlog\",\n    \"Amerikaanse Indische Oorlog\",\n    \"Anglo-Zuid-Afrikaanse Oorlog\"\n]\n```",
+    "```json\n[\n    \"Slavernydwas\",\n    \"Indiërs-Engelsewas\",\n    \"FranseRevolutie\",\n    \"AmerikaanseBurgeroorlog\",\n    \"Tsjifuwas\",\n    \"OorlogvanIndependensieinZuid-Afrika\",\n    \"RussieseRevolutie\",\n    \"Iran-keerskryswas\",\n    \"KoerierwastenegenApartheidinNieu-Seeland\",\n    \"SolidarnośćbeweginginPolen\"\n]\n```",
+    "```json\n[\n    \"American Civil War\",\n    \"French Revolution\",\n    \"Russian Revolution\",\n    \"Chinese Civil War\",\n    \"Irish War of Independence\",\n    \"Spanish Civil War\",\n    \"Iranian Constitutional Revolution\",\n    \"Mexican Revolution\",\n    \"Indian Rebellion of 1857\",\n    \"Hundred Days' Reform in China\"\n]\n```",
+    "```json\n[\n    \"American Civil War\",\n    \"French Revolution\",\n    \"Russian Revolution\",\n    \"Chinese Civil War\",\n    \"Irish War of Independence\",\n    \"Spanish Civil War\",\n    \"Vietnam War\",\n    \"Iranian Revolution\",\n    \"Gulf War\",\n    \"South African Anglo-Boer Wars\"\n]\n```",
+    "```json\n[\n    \"Ameryks Seunag\",\n    \"Franse Rewolusie\",\n    \"Britse Indië Was\",\n    \"Rusiese Rewolusie\",\n    \"China Soekhoese Was\",\n    \"Japanse Rewolusie\",\n    \"Indiese Indywiskoplike Was\",\n    \"Ethiopusiese Seunag\",\n    \"Suid-Afrikaanse Apartheid Was\",\n    \"Iraniese Revolutionêre Was\"\n]\n```",
+    "```json\n[\n    \"American Civil War\",\n    \"French Revolution\",\n    \"Russian Revolution\",\n    \"Chinese Civil War\",\n    \"Irish War of Independence\",\n    \"Spanish Civil War\",\n    \"Indian Rebellion of 1857\",\n    \"Anglo-Zulu War\",\n    \"Haitian Revolution\",\n    \"Boxer Rebellion\"\n]\n```",
+    "```json\n[\n    \"Eerste Engelse-Boereoorlog (1880-1881)\",\n    \"Franse Revolюція (1789-1799)\",\n    \"Amerykans Seisoenwysige Oorlog (1861-1865)\",\n    \"Tweede Engelse-Boereoorlog (1899-1902)\",\n    \"Rusiese Oorlog teen Napoleon (1812-1814)\",\n    \"Parys-opstand (1871)\",\n    \"Japannese-Indiase Oorlog (1899-1905)\",\n    \"Boerse-oorlog (1899-1902)\",\n    \"Eerste Wêreldoorlog (1914-1918)\",\n    \"Tweede Wêreldoorlog (1939-1945)\"\n]\n```",
+    "```json\n[\n    \"American Civil War\",\n    \"French Revolution\",\n    \"Russian Revolution\",\n    \"Chinese Civil War\",\n    \"Spanish Civil War\",\n    \"Indian Independence Movement (1947)\",\n    \"Iranian Constitutional Revolution\",\n    \"Mexican Revolution\",\n    \"Turkish War of Independence\",\n    \"Anglo-Zulu War\"\n]\n```",
+    "```json\n[\n    \"Napoleons Oorloë\",\n    \"Gelyksydse Reformatie\",\n    \"American Revolusie\",\n    \"Franse Revolusie\",\n    \"Britse Indië-oorlogte\",\n    \"Amerikaanse Burgeroorlog\",\n    \"Opstand van de Boers in die Suid-Afrikaanse Vryheidstaart (1899-1902)\",\n    \"Tweede Oplossingsoorlog\",\n    \"Kosovose Opstand (1998-1999)\",\n    \"Iranse Revolution (1979)\"\n]\n```",
+    "```json\n[\n    \"Waterloo (1815) - Napoleon's Defeat\",\n    \"American Civil War (1861-1865) - United States\",\n    \"Russian Civil War (1917-1922) - Russia\",\n    \"Spanish Civil War (1936-1939) - Spain\",\n    \"Chinese Civil War (1927-1949) - China\",\n    \"Irish War of Independence (1919-1921) - Ireland\",\n    \"Anglo-Zanzibar War (1896) - Zanzibar\",\n    \"Cuban Revolutionary Wars (1868-1878, 1879-1880, 1895-1898) - Cuba\",\n    \"Arab Revolt (1916-1918) - Arab Nations\",\n    \"Balkans Wars (1912-1913) - Balkan States\"\n]\n```",
+    "```json\n[\n    \"American Civil War\",\n    \"French Revolution\",\n    \"Russian Revolution\",\n    \"Chinese Civil War\",\n    \"Spanish Civil War\",\n    \"Irish War of Independence\",\n    \"Indian Rebellion of 1857\",\n    \"Taiping Rebellion\",\n    \"Hundred Years' War\",\n    \"Thirty Years' War\"\n]\n```",
+    "```json\n[\n    \"Eerste Wereldoorlog\",\n    \"Tweede Wereldoorlog\",\n    \"Slavernyewas in Noord-Amerika\",\n    \"Frans-Indiese Was (1754-1763)\",\n    \"Anglo-Zulu Was (1879)\",\n    \"Kriouelse Revolusie op Saint-Domingue (1791-1804)\",\n    \"Pausaal Was in Italië (1859-1860, 1866, 1870)\",\n    \"Balkan-Wars (1912-1913)\",\n    \"Vietnam-War\",\n    \"Iranische Revolusie (1979)\"\n]\n```",
+    "```json\n[\n    \"Napoleonic Wars\",\n    \"World War II\",\n    \"American Civil War\",\n    \"Russian Civil War\",\n    \"Thirty Years' War\",\n    \"English Civil War\",\n    \"War of the Spanish Succession\",\n    \"Hundred Years' War\",\n    \"Taiping Rebellion\",\n    \"French Revolution\"\n]\n```",
+    "```json\n[\n    \"Eerste Joodse-Romeinse Oorlog (66-73 n.Chr.)\",\n    \"Anglo-Saksiese Opstand (5th-10e eeu)\",\n    \"Franse Revolusie (1789-1799)\",\n    \"Tweede Maaiwentoeidagse Was (1914-1918)\",\n    \"Bolsjewisiese Opposisionele Vryheidsoorlog (1917-1923)\",\n    \"Nazi-Duitsland 'n Aanval op Polen (1939)\",\n    \"Tweede Maaiwentoeidagse Was: Afrikaniese Gebeure (verskeie lande, 1940-1945)\",\n    \"Indyase Onafhanklikheidsoorlog (1946-1948)\",\n    \"Vietnamoorlog (1955-1975)\",\n    \"Waterslag van 1953 in die Verenigde Koninkryk\"\n]\n```",
+    "```json\n[\n    \"Eerste Joodse-Waterstel Was\",\n    \"Frans-Prinsessalike Was\",\n    \"Nooke Was in de 20e Eeu\",\n    \"Anglo-Zuid Afrikaanse Oorlog (Tweede Boere Was)\",\n    \"Balgiese Oorlog\",\n    \"Spanje-Amerikaanse Was\",\n    \"Italië-Afrikaans Oorlog\",\n    \"Eerste Indiërs Was\",\n    \"Groot Brittanje-Boer Was\",\n    \"Koeweit-Iraakse Was\"\n]\n```",
+    "```json\n[\n    \"American Civil War\",\n    \"Russian Revolution\",\n    \"French Revolution\",\n    \"Chinese Civil War\",\n    \"Irish War of Independence\",\n    \"Spanish Civil War\",\n    \"Boxer Rebellion\",\n    \"Balkan Wars\",\n    \"Indian Rebellion of 1857\",\n    \"Taiping Rebellion\"\n]\n```",
+    "```json\n[\n    \"American Civil War\",\n    \"French Revolution\",\n    \"Russian Revolution\",\n    \"Chinese Civil War\",\n    \"Irish War of Independence\",\n    \"Indian Independence Movement (1947)\",\n    \"Spanish Civil War\",\n    \"Hundred Years' War between England and France\",\n    \"American Revolutionary War\",\n    \"World War I\"\n]\n```",
+    "```json\n[\n    \"American Civil War\",\n    \"French Revolutionary Wars\",\n    \"World War II\",\n    \"Russian Civil War\",\n    \"Chinese Civil War\",\n    \"Anglo-Zulu War\",\n    \"Spanish Civil War\",\n    \"Hundred Years' War\",\n    \"War of the Spanish Succession\",\n    \"Napoleonic Wars\"\n]\n```",
+    "```json\n[\n    \"American Civil War\",\n    \"French Revolution\",\n    \"Russian Revolution\",\n    \"Chinese Revolution\",\n    \"Irish War of Independence\",\n    \"Indian Rebellion of 1857\",\n    \"Soviet–Finland War\",\n    \"Spanish Civil War\",\n    \"American Revolutionary War\",\n    \"Worldwide Women's Suffrage Movement\"\n]\n```",
+    "```json\n[\n    \"American Civil War (1861-1865)\",\n    \"French Revolution (1789-1799)\",\n    \"Russian Revolution (1917)\",\n    \"Chinese Civil War (1927-1949)\",\n    \"Spanish Civil War (1936-1939)\",\n    \"Irish War of Independence (1919-1921)\",\n    \"Indian Rebellion of 1857\",\n    \"Hundred Years' War (1337-1453)\",\n    \"Thirty Years' War (1618-1648)\",\n    \"Napoleonic Wars (1803-1815)\"\n]\n```",
+    "[\"American Civil War\", \"French Revolution\", \"Russian October Revolution\", \"Chinese Civil War\", \"Indian Independence Movement\", \"Spanish Civil War\", \"Iranian Constitutional Revolution\", \"Hundred Years' War between England and France\", \"Mexican Mexican–American War\", \"Anglo-Zulu War\"]",
+    "```json\n[\n    \"Eerste Engelse-Boerenoorlog (1899-1902)\",\n    \"Franse Revolusionêre Oorlog (1789-1799)\",\n    \"Trentpapirstreeëls (1641-1653) in Engeland\",\n    \"Januari-rivewas in Verenigde State (1861-1865)\",\n    \"Vierde Italiens-was (1866) vir die unie van Oostenryk-Austria en Italië\",\n    \"Oorlog van Indië (1857-1859)\",\n    \"Duitse Uniteewas (1864-1871)\",\n    \"Tienjarawas in China (1899-1909)\",\n    \"Rusiese Revolusionêre Oorlog (1917)\",\n    \"Spanje-was (1936-1939)\"\n]\n```",
+    "```json\n[\n    \"Belgiës Onafhanklikheidsoorlog (1830-1831)\",\n    \"Frankryks Opstand (1859-1860)\",\n    \"Duitse Wêreldoorlog I (1914-1918)\",\n    \"Spanjeanse Burgeroorlog (1936-1939)\",\n    \"Indiense Onafhanklikheidsoorlog (1942-1945)\",\n    \"Argentynese Burgeroorlog (1852-1853, 1861-1865)\",\n    \"Russiese Tenementsoorloë (1905, 1917)\",\n    \"China Suidoergrensoorlog (1884-1885)\",\n    \"Argentynese Burgeroorlog (1852-1853, 1861-1865)\",\n    \"Hongariaanse Opstand (1848-1849)\"\n]\n```",
+    "```json\n[\n    \"American Civil War\",\n    \"World War II\",\n    \"French Revolution\",\n    \"Russian Revolution\",\n    \"Chinese Civil War\",\n    \"Indian Independence Movement (Nonviolent)\",\n    \"Vietnam War\",\n    \"Spanish Civil War\",\n    \"Iranian Revolution\",\n    \"South African Apartheid Conflict\"\n]\n```",
+    "```json\n[\n    \"American Civil War\",\n    \"World War II\",\n    \"French Revolution\",\n    \"Russian Revolution\",\n    \"Chinese Revolution\",\n    \"Indian Independence Movement\",\n    \"Spanish Civil War\",\n    \"Iranian Constitutional Revolution\",\n    \"Mexican Revolution\",\n    \"Ottoman Hamidian Massacres\"\n]\n```",
+    "```json\n[\n    \"Anglo-Boer Wasse\",\n    \"Franse Invasiëring van Suid-Afrika (Geenekraal)\",\n    \"Groot Moreense Opstand\",\n    \"Voortrekker-Wrans\",\n    \"Zulu-Rus Afsluiting (Pel腔战役)\",\n    \"Koraanse Burgeroorlog\",\n    \"Natal-Transvaal Was\",\n    \"Xhosa-Rus Oorloë\",\n    \"Groot Moreense Opstand (1850-1853)\",\n    \"Anglo-Zulu Was\"\n]\n```",
+    "```json\n[\n    \"Napoleons Oorlog (1803-1815)\",\n    \"Tweede Wêreldoorlog (1939-1945)\",\n    \"Eerste Wêreldoorlog (1914-1918)\",\n    \"Slag van Waterloo (1815)\",\n    \"Slag van Leipzig (1813)\",\n    \"Slag van Stalingrad (1942-1943)\",\n    \"Slag van Gettysburg (1863)\",\n    \"Slag van Waterloo (1815)\",\n    \"Slag van Trafalgar (1805)\",\n    \"Slag van Leipzig (1813)\"\n]\n```",
+    "```json\n[\n    \"American Civil War\",\n    \"French Revolution\",\n    \"Russian Revolution\",\n    \"Chinese Civil War\",\n    \"Irish War of Independence\",\n    \"South African Boer War\",\n    \"Spanish Civil War\",\n    \"Hundred Years' War\",\n    \"War of the Roses\",\n    \"Thirty Years' War\"\n]\n```",
+    "```json\n[\n    \"Eerste Wêreldoorlog\",\n    \"Tweede Wêreeldoorlog\",\n    \"Slavernys\",\n    \"Franse Revolusie\",\n    \"Russiese Revolusie\",\n    \"Britse Inspanning in Indië\",\n    \"Amerikaanse Burgeroorlog\",\n    \"Eerste Opstand van Zuid-Afrikaanse Vryheidsbeweging\",\n    \"Indyane Oorloë\",\n    \"Spannese Wêreldoorlog\"\n]\n```",
+    "[\"American Civil War\", \"Napoleonic Wars\", \"World War II\", \"French Revolution\", \"Russian Civil War\", \"Chinese Civil War\", \"American Revolutionary War\", \"Spanish Civil War\", \"Iranian Constitutional Revolution\", \"Boxer Rebellion\"]",
+    "```json\n[\n    \"American Civil War (1861-1865)\",\n    \"French Revolution (1789-1799)\",\n    \"Russian Civil War (1917-1922)\",\n    \"Chinese Civil War (1927-1949)\",\n    \"Spanish Civil War (1936-1939)\",\n    \"Irish War of Independence (1919-1921)\",\n    \"Indian Rebellion of 1857\",\n    \"German Peasant's War (1524-1526)\",\n    \"War of the Spanish Succession (1701-1714)\",\n    \"Hundred Years' War (1337-1453)\"\n]\n```",
+    "```json\n[\n    \"American Civil War\",\n    \"French Revolutionary Wars\",\n    \"World War II\",\n    \"Russian Civil War\",\n    \"Chinese Civil War\",\n    \"Napoleonic Wars\",\n    \"War of the Spanish Succession\",\n    \"Seven Years' War\",\n    \"English Civil War\",\n    \"Hundred Years' War\"\n]\n```",
+    "```json\n[\n    \"Napoleons Oorlog\",\n    \"Amerikaanse Burgeroorlog\",\n    \"Eerste Wêreldoorlog\",\n    \"Tweede Wêreldoorlog\",\n    \"Frans-Enuisiese Was\",\n    \"Spaniaalse-Enuisiese Was\",\n    \"Rusiese-Teitsiese Was\",\n    \"Indiëanse Unie Was\",\n    \"Iran-Afrikane Was (1978-1979)\",\n    \"Oorlog van 1812 (Verenigde Staten vs Ruslands)\"\n]\n```",
+    "```json\n[\n    \"Amerykske Burgeroorlog\",\n    \"Franse Revolusie\",\n    \"Oorlog van Indië (Britse Oorlogsbestuur van Indië)\",\n    \"Russiese Oktoberrevolusië\",\n    \"Chineese Opstand van 1850-1864\",\n    \"Japanse Meierist-opstand\",\n    \"Iranse Aufschwung\",\n    \"Argentynese Burgeroorlog\",\n    \"Griekse Oorlog van Onafhanklikheid\",\n    \"Amerikaanse Indigenes-opstand\"\n]\n```",
+    "```json\n[\n    \"Amersfoortse Vredesverdrag (1648)\",\n    \"Brits Indiese Oorlog (1857-1859)\",\n    \"Franse Revolusionêre Oorlogs (1792-1802)\",\n    \"Franse Groot Oorlog (1870-1871)\",\n    \"Eerste Wêreldoorlog (1914-1918)\",\n    \"Tweede Wêreldoorlog (1939-1945)\",\n    \"Kosova-Oorlog (1998-1999)\",\n    \"Iran-Irak Oorlog (1980-1988)\",\n    \"Yugoslavië-opstande en Koningriek Suid-Afrika (1960-1994)\",\n    \"Vietnamesiese Burgeroorlog (1955-1975)\"\n]\n```"
+  ]
+}
